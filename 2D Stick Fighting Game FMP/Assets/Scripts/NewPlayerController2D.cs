@@ -11,6 +11,10 @@ public class NewPlayerController2D : MonoBehaviour
 
     bool isGrounded;
 
+
+    [SerializeField]
+    GameObject attackHitbox;
+
     [SerializeField]
     Transform groundCheck;
 
@@ -26,7 +30,9 @@ public class NewPlayerController2D : MonoBehaviour
     private float runSpeed = 1.5f;
 
     [SerializeField]
-    private float jumpSpeed = 5;
+    private float jumpSpeed = 3;
+
+    bool isAttacking = false; 
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +40,7 @@ public class NewPlayerController2D : MonoBehaviour
         Newanimator = GetComponent<Animator>();
         Newrb2d = GetComponent<Rigidbody2D>();
         NewspriteRenderer = GetComponent<SpriteRenderer>();
+        attackHitbox.SetActive(false); 
 
 
 
@@ -42,7 +49,49 @@ public class NewPlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Fire1") && !isAttacking )
+        {
+            isAttacking = true;
+            float delay = .4f;
 
+            if(!isGrounded)
+            {
+                Newanimator.Play("NewPlayer_FlyKick");
+                delay = .5f;
+            }
+            else
+            {
+                //chose a random attack to play
+                int index = UnityEngine.Random.Range(1, 5);
+                Newanimator.Play("NewPlayer_Attack" + index);
+                delay = .4f;
+
+                //Invoke("ResetAttack", .4f);
+
+                
+            }
+
+
+            //chose a random attack to play
+            //int index = UnityEngine.Random.Range(1, 5);
+            //Newanimator.Play("NewPlayer_Attack" + index);
+
+            //Invoke("ResetAttack", .4f);
+
+            StartCoroutine(DoAttack(delay));
+        }
+    }
+
+    IEnumerator DoAttack(float delay)
+    {
+        attackHitbox.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitbox.SetActive(false);
+        isAttacking = false;
+    }
+    void ResetAttack()
+    {
+        isAttacking = false;
     }
 
     private void FixedUpdate()
@@ -60,31 +109,40 @@ public class NewPlayerController2D : MonoBehaviour
         else
         {
             isGrounded = false;
-            Newanimator.Play("NewPlayer_Jump");
+            if (!isAttacking)
+            {
+                Newanimator.Play("NewPlayer_Jump");
+            }
+            
         }
 
         if (Input.GetKey("d") || Input.GetKey("right"))
         {
             Newrb2d.velocity = new Vector2(runSpeed, Newrb2d.velocity.y);
-            if (isGrounded)
+            if (isGrounded && !isAttacking)
                 Newanimator.Play("NewPlayer_Run");
 
 
-            NewspriteRenderer.flipX = false;
+            //NewspriteRenderer.flipX = false;
+            transform.localScale = new Vector3(1, 1, 1);
         }
         else if (Input.GetKey("a") || Input.GetKey("left"))
         {
             Newrb2d.velocity = new Vector2(-runSpeed, Newrb2d.velocity.y);
-            if (isGrounded)
+            if (isGrounded && !isAttacking)
                 Newanimator.Play("NewPlayer_Run");
 
 
-            NewspriteRenderer.flipX = true;
+            //NewspriteRenderer.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
-        else
+        else if (isGrounded)
         {
-            if (isGrounded)
+            if (!isAttacking)
+            {
                 Newanimator.Play("NewPlayer_Idle");
+            }
+                
             Newrb2d.velocity = new Vector2(0, Newrb2d.velocity.y);
         }
 
