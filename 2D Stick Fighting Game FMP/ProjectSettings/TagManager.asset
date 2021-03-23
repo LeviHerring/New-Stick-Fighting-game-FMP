@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ground
   - shield
+  - Flame
+  - Spike
   layers:
   - Default
   - TransparentFX

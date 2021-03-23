@@ -5,13 +5,13 @@ using UnityEngine;
 public class ShieldScript : MonoBehaviour
 {
 
-    public GameObject shield;
+    public GameObject Shield;
     private bool activeShield;
     // Start is called before the first frame update
     void Start()
     {
         activeShield = false;
-        shield.SetActive(false);
+        Shield.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,7 +19,29 @@ public class ShieldScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            if(!activeShield)
+            {
+                Shield.SetActive(true);
+                activeShield = true; 
+            }
+            else
+            {
+                Shield.SetActive(false);
+                activeShield = false;
+            }
+        }
+    }
 
+
+    public bool ActiveShield
+    {
+        get
+        {
+            return activeShield;
+        }
+        set
+        {
+            activeShield = value;
         }
     }
 }
