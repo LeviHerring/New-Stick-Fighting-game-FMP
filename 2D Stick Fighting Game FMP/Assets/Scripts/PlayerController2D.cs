@@ -28,7 +28,8 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField]
     Transform groundCheckR;
 
-
+    [SerializeField]
+    GameObject Player2; 
 
     [SerializeField]
     private float runSpeed = 1.5f;
@@ -49,7 +50,7 @@ public class PlayerController2D : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSrc = GetComponent<AudioSource>();
-
+        Player2 = GetComponent<GameObject>();
 
     }
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AverageJoe_PlayerController2D : MonoBehaviour
+public class Player2Controller : MonoBehaviour
 {
     Animator Newanimator;
     Rigidbody2D Newrb2d;
@@ -28,7 +28,8 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     [SerializeField]
     Transform groundCheckR;
 
-
+    [SerializeField]
+    Transform ThrowPosition;
 
     [SerializeField]
     private float runSpeed = 1.5f;
@@ -39,6 +40,9 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
     [SerializeField]
     private float shootDelay = 0.5f;
+
+    [SerializeField]
+    float speed = 1f;
 
     bool isAttacking = false;
 
@@ -59,14 +63,14 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P) && !isAttacking)
+        if (Input.GetKeyDown(KeyCode.Keypad9) && !isAttacking)
         {
             isAttacking = true;
             float delay = .4f;
 
             if (!isGrounded)
             {
-                Newanimator.Play("AverageJoe_LightJump");
+                Newanimator.Play("Player2_LightJump");
                 delay = .5f;
             }
             else
@@ -75,29 +79,29 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_LightNeutral");
+                Newanimator.Play("Player2_LightNeutral");
 
                 //Invoke("ResetAttack", .4f);
 
 
             }
-            if (isGrounded == true &&  Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.W))
+            if (isGrounded == true &&  Input.GetKeyDown(KeyCode.Keypad9) && Input.GetKeyDown(KeyCode.UpArrow))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_LightHigh");
+                Newanimator.Play("Player2_LightHigh");
 
                 //Invoke("ResetAttack", .4f);
             }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.S))
+            else if (isGrounded == true && Input.GetKeyDown(KeyCode.Keypad9) && Input.GetKeyDown(KeyCode.DownArrow))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_LightLow");
+                Newanimator.Play("Player2_LightLow");
 
                 //Invoke("ResetAttack", .4f);
             }
@@ -111,7 +115,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             StartCoroutine(DoAttack(delay));
         }
-        else if (Input.GetKeyDown(KeyCode.O) && !isAttacking)
+        else if (Input.GetKeyDown(KeyCode.Keypad8) && !isAttacking)
         {
 
             isAttacking = true;
@@ -119,40 +123,40 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             if (!isGrounded)
             {
-                Newanimator.Play("AverageJoe_HeavyJump");
+                Newanimator.Play("Player2_HeavyJump");
                 delay = .5f;
             }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.O))
+            else if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) && Input.GetKeyDown(KeyCode.Keypad8))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_HeavyHigh");
+                Newanimator.Play("Player2_HeavyHigh");
 
                 //Invoke("ResetAttack", .4f);
 
 
             }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.O))
+            else if (isGrounded == true && Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.Keypad8))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_HeavyHigh");
+                Newanimator.Play("Player2_HeavyHigh");
 
                 //Invoke("ResetAttack", .4f);
 
 
             }
-            else if (isGrounded && Input.GetKeyDown(KeyCode.O))
+            else if (isGrounded && Input.GetKeyDown(KeyCode.Keypad8))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_HeavyNeutral");
+                Newanimator.Play("Player2_HeavyNeutral");
 
                 //Invoke("ResetAttack", .4f);
 
@@ -169,7 +173,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             StartCoroutine(DoAttack(delay));
         }
 
-        if (Input.GetKey(KeyCode.L))
+        if (Input.GetKeyDown("[6]"))
         {
             if (isShooting)
             {
@@ -178,25 +182,28 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             //audioSrc.Play();
             //shoot
-            Newanimator.Play("AverageJoe_Throw");
+            Newanimator.Play("Player2_Throw");
             isShooting = true;
 
             GameObject b = Instantiate(bouncyBall);
             //b.GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
-            b.GetComponent<BouncyBallScript>().StartShoot(isFacingLeft);
+            b.GetComponent<Player2BouncyBall>().StartShoot(isFacingLeft);
             b.transform.position = bulletSpawnPos.transform.position;
 
             Invoke("ResetShoot", shootDelay);
         }
 
 
-        
+        if (Input.GetKeyDown(KeyCode.K) && isGrounded == true)
+        {
+            Newrb2d.velocity = new Vector2(Newrb2d.velocity.x + 4, 7);
+        }
     }
 
     void ResetShoot()
     {
         isShooting = false;
-        Newanimator.Play("AverageJoe_Idle");
+        Newanimator.Play("Player2_Idle");
     }
 
 
@@ -234,49 +241,47 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             isGrounded = false;
             if (!isAttacking)
             {
-                Newanimator.Play("AverageJoe_Jump");
+                Newanimator.Play("Player2_Jump");
             }
 
         }
 
-        if (Input.GetKey("d"))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             Newrb2d.velocity = new Vector2(runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
-                Newanimator.Play("AverageJoe_Run");
+                Newanimator.Play("Player2_Run");
 
 
             //NewspriteRenderer.flipX = false;
             transform.localScale = new Vector3(1, 1, 1);
             isFacingLeft = false;
-
         }
-        else if (Input.GetKey("a"))
+        else if (Input.GetKey(KeyCode.LeftArrow))
         {
             Newrb2d.velocity = new Vector2(-runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
-                Newanimator.Play("AverageJoe_Run");
+                Newanimator.Play("Player2_Run");
 
 
             //NewspriteRenderer.flipX = true;
             transform.localScale = new Vector3(-1, 1, 1);
-
             isFacingLeft = true;
         }
         else if (isGrounded)
         {
             if (!isAttacking)
             {
-                Newanimator.Play("AverageJoe_Idle");
+                Newanimator.Play("Player2_Idle");
             }
 
             Newrb2d.velocity = new Vector2(0, Newrb2d.velocity.y);
         }
 
-        if (Input.GetKey("space") && isGrounded == true)
+        if (Input.GetKey("[0]") && isGrounded == true)
         {
             Newrb2d.velocity = new Vector2(Newrb2d.velocity.x, jumpSpeed);
-            Newanimator.Play("AverageJoe_Jump");
+            Newanimator.Play("Player2_Jump");
         }
     }
 }

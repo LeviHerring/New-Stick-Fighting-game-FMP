@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI; 
 
-public class HealthScript : MonoBehaviour
+public class Player2HealthScript : MonoBehaviour
 {
     public Image healthImage;
     public GameObject gameOver;
@@ -18,10 +18,10 @@ public class HealthScript : MonoBehaviour
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
         Shield = GetComponent<ShieldScript>();
-        
+
     }
 
-        void TakeDamage(float amount)
+    void TakeDamage(float amount)
     {
         health -= amount;
         healthImage.fillAmount = health;
@@ -49,21 +49,16 @@ public class HealthScript : MonoBehaviour
 
         //if (collision.CompareTag("Bullet)"))
         //{
-            //Destroy(collision.gameObject);
-            //health--;
+        //Destroy(collision.gameObject);
+        //health--;
 
-            //if (health <= 0)
-            //{
-                //Destroy(gameObject);
-            //}
+        //if (health <= 0)
+        //{
+        //Destroy(gameObject);
+        //}
         //} 
     }
 
-         
-            
-        
-    }
 
 
-   
-
+}
