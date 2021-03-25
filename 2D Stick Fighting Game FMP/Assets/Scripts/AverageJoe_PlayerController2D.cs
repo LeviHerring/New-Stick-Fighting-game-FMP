@@ -20,6 +20,42 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     GameObject attackHitbox;
 
     [SerializeField]
+    GameObject attackHitboxLightNeutralStart;
+
+    [SerializeField]
+    GameObject attackHitboxLightNeutralEnd;
+
+    [SerializeField]
+    GameObject attackHitboxLightLowStart;
+
+    [SerializeField]
+    GameObject attackHitboxLightLowMiddle;
+
+    [SerializeField]
+    GameObject attackHitboxLightLowEnd;
+
+    [SerializeField]
+    GameObject attackHitboxLightHigh;
+
+    [SerializeField]
+    GameObject attackHitboxLHEnd;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyNeutral;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyLow;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyHigh;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyJump;
+
+    [SerializeField]
+    GameObject attackHitboxLightJump;
+
+    [SerializeField]
     Transform groundCheck;
 
     [SerializeField]
