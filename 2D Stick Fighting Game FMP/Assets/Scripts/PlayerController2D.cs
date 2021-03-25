@@ -5,11 +5,19 @@ using UnityEngine;
 public class PlayerController2D : MonoBehaviour
 {
 
+
+    AudioSource audioSrc;
     Animator animator;
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
 
     bool isGrounded;
+
+    [SerializeField]
+    GameObject bullet;
+
+    [SerializeField]
+    Transform bulletSpawnPos;
 
     [SerializeField]
     Transform groundCheck;
@@ -27,6 +35,12 @@ public class PlayerController2D : MonoBehaviour
 
     [SerializeField]
     private float jumpSpeed = 5;
+    private bool isShooting;
+
+    [SerializeField]
+    private float shootDelay = 0.5f;
+
+    bool isFacingLeft;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +48,7 @@ public class PlayerController2D : MonoBehaviour
         animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-
+        audioSrc = GetComponent<AudioSource>();
 
 
     }
@@ -42,7 +56,31 @@ public class PlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            if (isShooting)
+            {
+                return;
+            }
+
+            //audioSrc.Play();
+            //shoot
+            animator.Play("Player_Shoot");
+            isShooting = true;
+
+            GameObject b = Instantiate(bullet);
+            //b.GetComponent<Rigidbody2D>().velocity = new Vector2(3, 0);
+            b.GetComponent<NewBulletScript>().StartShoot(isFacingLeft);
+            b.transform.position = bulletSpawnPos.transform.position;
+
+            Invoke("ResetShoot", shootDelay);
+        }
+    }
+
+    void ResetShoot()
+    {
+        isShooting = false;
+        animator.Play("Player_Idle");
     }
 
     private void FixedUpdate()
@@ -71,6 +109,8 @@ public class PlayerController2D : MonoBehaviour
 
 
             spriteRenderer.flipX = false;
+
+            isFacingLeft = false;
         }
         else if(Input.GetKey("a") || Input.GetKey("left"))
         {
@@ -80,6 +120,8 @@ public class PlayerController2D : MonoBehaviour
             
             
             spriteRenderer.flipX = true;
+
+            isFacingLeft = true;
         }
         else
         {
@@ -93,6 +135,12 @@ public class PlayerController2D : MonoBehaviour
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
             animator.Play("Player_Jump");
         }
+
+
     }
+
+   
+
+
 
 }

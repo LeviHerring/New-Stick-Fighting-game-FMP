@@ -46,6 +46,24 @@ public class HealthScript : MonoBehaviour
                 gameOver.SetActive(true);
             }
         }
+
+        if (collision.CompareTag("Bullet)"))
+        {
+            Destroy(collision.gameObject);
+            health--;
+
+            if (health <= 0)
+            {
+                Destroy(gameObject);
+            }
+        } 
     }
 
-}
+         
+            
+        
+    }
+
+
+   
+
