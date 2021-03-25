@@ -169,6 +169,62 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             StartCoroutine(DoAttack(delay));
         }
 
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            if(Input.GetKeyDown(KeyCode.O))
+            {
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                //delay = .4f;
+                Newanimator.Play("AverageJoe_HeavyHigh");
+
+                //Invoke("ResetAttack", .4f);
+            }
+            else if(Input.GetKeyDown(KeyCode.P))
+            {
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                //delay = .4f;
+                Newanimator.Play("AverageJoe_LightHigh");
+
+                //Invoke("ResetAttack", .4f);
+            }
+            else
+            {
+                return; 
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            if (Input.GetKeyDown(KeyCode.O))
+            {
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                //delay = .4f;
+                Newanimator.Play("AverageJoe_HeavyLow");
+
+                //Invoke("ResetAttack", .4f);
+            }
+            else if (Input.GetKeyDown(KeyCode.P))
+            {
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                //delay = .4f;
+                Newanimator.Play("AverageJoe_LightLow");
+
+                //Invoke("ResetAttack", .4f);
+            }
+            else
+            {
+                return;
+            }
+        }
+
         if (Input.GetKey(KeyCode.L))
         {
             if (isShooting)
@@ -189,8 +245,17 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             Invoke("ResetShoot", shootDelay);
         }
 
+        if(Input.GetKey(KeyCode.Keypad4) && isGrounded == true)
+        {
+            Newrb2d.velocity = new Vector2(Newrb2d.velocity.x + 4, 7);
+        }
 
-        
+        if (Input.GetKey(KeyCode.K) && isGrounded == true)
+        {
+
+            Newanimator.Play("Player2_Grab");
+        }
+
     }
 
     void ResetShoot()

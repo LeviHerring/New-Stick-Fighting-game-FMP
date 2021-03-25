@@ -194,9 +194,15 @@ public class Player2Controller : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.K) && isGrounded == true)
+        if (Input.GetKey(KeyCode.K) && isGrounded == true)
         {
-            Newrb2d.velocity = new Vector2(Newrb2d.velocity.x + 4, 7);
+            
+           Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+        }
+
+        if (Input.GetKey(KeyCode.Keypad4) && isGrounded == true)
+        {
+            Newanimator.Play("Player2_Grab");
         }
     }
 
