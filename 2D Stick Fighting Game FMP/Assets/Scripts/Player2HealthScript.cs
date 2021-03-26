@@ -39,7 +39,42 @@ public class Player2HealthScript : MonoBehaviour
             {
                 TakeDamage(0.5f);
             }
-
+            else if (collision.tag == "LightNeutral")
+            {
+                TakeDamage(0.02f);
+            }
+            else if (collision.tag == "LightLow")
+            {
+                TakeDamage(0.025f);
+            }
+            else if (collision.tag == "LightHigh")
+            {
+                TakeDamage(0.025f);
+            }
+            else if (collision.tag == "LightJump")
+            {
+                TakeDamage(0.03f);
+            }
+            else if(collision.tag == "HeavyNeutral")
+            {
+                TakeDamage(0.05f);
+            }
+            else if (collision.tag == "HeavyHigh")
+            {
+                TakeDamage(0.06f);
+            }
+            else if (collision.tag == "HeavyLow")
+            {
+                TakeDamage(0.06f);
+            }
+            else if (collision.tag == "HeavyJump")
+            {
+                TakeDamage(0.075f);
+            }
+            else if (collision.tag == "Grab")
+            {
+                TakeDamage(0.07f);
+            }
             if (health <= 0)
             {
                 Time.timeScale = 0;

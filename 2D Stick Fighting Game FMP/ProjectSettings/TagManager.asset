@@ -10,6 +10,24 @@ TagManager:
   - Spike
   - Bullet
   - Bullet2
+  - LightNeutral
+  - LightLow
+  - LightJump
+  - HeavyLow
+  - HeavyNeutral
+  - HeavyHigh
+  - LightHigh
+  - HeavyJump
+  - Grab
+  - Player2 _LightNeutral
+  - Player2_LightHigh
+  - Player2_LightLow
+  - Player2_LightJump
+  - Player2 _HeavyNeutral
+  - Player2 _HeavyHigh
+  - Player2 _HeavyLow
+  - Player2 _HeavyJump
+  - Player2 _Grab
   layers:
   - Default
   - TransparentFX
