@@ -8371,9 +8371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 505
-        y: 1203
+        y: 1204
         width: 90
-        height: 95
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8392,9 +8392,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 604
-        y: 1203
+        y: 1204
         width: 91
-        height: 95
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8413,9 +8413,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 704
-        y: 1203
+        y: 1204
         width: 91
-        height: 93
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8434,9 +8434,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 804
-        y: 1206
+        y: 1204
         width: 92
-        height: 91
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8455,9 +8455,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 902
-        y: 1203
+        y: 1204
         width: 93
-        height: 94
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9252,10 +9252,10 @@ TextureImporter:
       name: AverageJoe_310
       rect:
         serializedVersion: 2
-        x: 927
+        x: 903
         y: 1103
-        width: 67
-        height: 89
+        width: 91
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9276,7 +9276,7 @@ TextureImporter:
         x: 1003
         y: 1104
         width: 92
-        height: 88
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9295,9 +9295,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1106
-        y: 1103
+        y: 1104
         width: 85
-        height: 94
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
