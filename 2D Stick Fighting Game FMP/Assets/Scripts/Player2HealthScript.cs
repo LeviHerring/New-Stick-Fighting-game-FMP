@@ -8,7 +8,7 @@ public class Player2HealthScript : MonoBehaviour
     public Image healthImage;
     public GameObject gameOver;
 
-    private ShieldScript Shield;
+    private Player2ShieldScript Shield;
     public float health = 1f;
 
     // Start is called before the first frame update
@@ -17,7 +17,7 @@ public class Player2HealthScript : MonoBehaviour
         health = 1f;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        Shield = GetComponent<ShieldScript>();
+        Shield = GetComponent<Player2ShieldScript>();
 
     }
 
@@ -39,42 +39,49 @@ public class Player2HealthScript : MonoBehaviour
             {
                 TakeDamage(0.5f);
             }
-            else if (collision.tag == "LightNeutral")
+            else if (collision.tag == "Player2_LightNeutral")
             {
                 TakeDamage(0.02f);
             }
-            else if (collision.tag == "LightLow")
+            else if (collision.tag == "Player2_LightLow")
             {
                 TakeDamage(0.025f);
             }
-            else if (collision.tag == "LightHigh")
+            else if (collision.tag == "Player2_LightHigh")
             {
                 TakeDamage(0.025f);
             }
-            else if (collision.tag == "LightJump")
+            else if (collision.tag == "Player2_LightJump")
             {
                 TakeDamage(0.03f);
             }
-            else if(collision.tag == "HeavyNeutral")
+            else if(collision.tag == "Player2_HeavyNeutral")
             {
                 TakeDamage(0.05f);
             }
-            else if (collision.tag == "HeavyHigh")
+            else if (collision.tag == "Player2_HeavyHigh")
             {
                 TakeDamage(0.06f);
             }
-            else if (collision.tag == "HeavyLow")
+            else if (collision.tag == "Player2_HeavyLow")
             {
                 TakeDamage(0.06f);
             }
-            else if (collision.tag == "HeavyJump")
+            else if (collision.tag == "Player2_HeavyJump")
             {
                 TakeDamage(0.075f);
             }
-            else if (collision.tag == "Grab")
+            //else if (collision.tag == "Player2_Grab")
+            //{
+                //TakeDamage(0.07f);
+            //}
+
+            else if (collision.tag == "Bullet")
             {
-                TakeDamage(0.07f);
+                Destroy(collision.gameObject);
+                TakeDamage(0.05f);
             }
+
             if (health <= 0)
             {
                 Time.timeScale = 0;
@@ -82,16 +89,7 @@ public class Player2HealthScript : MonoBehaviour
             }
         }
 
-        //if (collision.CompareTag("Bullet)"))
-        //{
-        //Destroy(collision.gameObject);
-        //health--;
-
-        //if (health <= 0)
-        //{
-        //Destroy(gameObject);
-        //}
-        //} 
+        
     }
 
 

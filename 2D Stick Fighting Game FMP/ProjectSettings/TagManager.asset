@@ -6,8 +6,6 @@ TagManager:
   tags:
   - ground
   - shield
-  - Flame
-  - Spike
   - Bullet
   - Bullet2
   - LightNeutral
@@ -23,11 +21,11 @@ TagManager:
   - Player2_LightHigh
   - Player2_LightLow
   - Player2_LightJump
-  - Player2 _HeavyNeutral
-  - Player2 _HeavyHigh
-  - Player2 _HeavyLow
-  - Player2 _HeavyJump
-  - Player2 _Grab
+  - Player2_HeavyNeutral
+  - Player2_HeavyLow
+  - Player2_HeavyHigh
+  - Player2_HeavyJump
+  - Player2_Grab
   layers:
   - Default
   - TransparentFX
