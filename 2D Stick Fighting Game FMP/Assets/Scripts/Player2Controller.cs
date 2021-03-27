@@ -20,6 +20,42 @@ public class Player2Controller : MonoBehaviour
     GameObject attackHitbox;
 
     [SerializeField]
+    GameObject attackHitboxLightNeutralStart;
+
+    [SerializeField]
+    GameObject attackHitboxLightNeutralEnd;
+
+    [SerializeField]
+    GameObject attackHitboxLightLowStart;
+
+    [SerializeField]
+    GameObject attackHitboxLightLowMiddle;
+
+    [SerializeField]
+    GameObject attackHitboxLightLowEnd;
+
+    [SerializeField]
+    GameObject attackHitboxLightHigh;
+
+    [SerializeField]
+    GameObject attackHitboxLHEnd;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyNeutral;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyLow;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyHigh;
+
+    [SerializeField]
+    GameObject attackHitboxHeavyJump;
+
+    [SerializeField]
+    GameObject attackHitboxLightJump;
+
+    [SerializeField]
     Transform groundCheck;
 
     [SerializeField]
@@ -72,6 +108,7 @@ public class Player2Controller : MonoBehaviour
             {
                 Newanimator.Play("Player2_LightJump");
                 delay = .5f;
+                StartCoroutine(DoLightJumpAttack(delay));
             }
             else
             {
@@ -82,7 +119,7 @@ public class Player2Controller : MonoBehaviour
                 Newanimator.Play("Player2_LightNeutral");
 
                 //Invoke("ResetAttack", .4f);
-
+                StartCoroutine(DoAttack(delay));
 
             }
             if (isGrounded == true &&  Input.GetKeyDown(KeyCode.Keypad9) && Input.GetKeyDown(KeyCode.UpArrow))
@@ -94,6 +131,8 @@ public class Player2Controller : MonoBehaviour
                 Newanimator.Play("Player2_LightHigh");
 
                 //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoLightHighAttack(delay));
             }
             else if (isGrounded == true && Input.GetKeyDown(KeyCode.Keypad9) && Input.GetKeyDown(KeyCode.DownArrow))
             {
@@ -102,6 +141,8 @@ public class Player2Controller : MonoBehaviour
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
                 Newanimator.Play("Player2_LightLow");
+
+                StartCoroutine(DoLightLowAttack(delay));
 
                 //Invoke("ResetAttack", .4f);
             }
@@ -113,7 +154,7 @@ public class Player2Controller : MonoBehaviour
 
             //Invoke("ResetAttack", .4f);
 
-            StartCoroutine(DoAttack(delay));
+            //StartCoroutine(DoAttack(delay));
         }
         else if (Input.GetKeyDown(KeyCode.Keypad8) && !isAttacking)
         {
@@ -125,6 +166,8 @@ public class Player2Controller : MonoBehaviour
             {
                 Newanimator.Play("Player2_HeavyJump");
                 delay = .5f;
+
+                StartCoroutine(DoHeavyJumpAttack(delay));
             }
             else if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) && Input.GetKeyDown(KeyCode.Keypad8))
             {
@@ -133,6 +176,8 @@ public class Player2Controller : MonoBehaviour
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
                 Newanimator.Play("Player2_HeavyHigh");
+
+                StartCoroutine(DoHeavyHighAttack(delay));
 
                 //Invoke("ResetAttack", .4f);
 
@@ -148,6 +193,8 @@ public class Player2Controller : MonoBehaviour
 
                 //Invoke("ResetAttack", .4f);
 
+                StartCoroutine(DoHeavyLowAttack(delay));
+
 
             }
             else if (isGrounded && Input.GetKeyDown(KeyCode.Keypad8))
@@ -160,6 +207,8 @@ public class Player2Controller : MonoBehaviour
 
                 //Invoke("ResetAttack", .4f);
 
+                StartCoroutine(DoHeavyNeutralAttack(delay));
+
 
             }
 
@@ -170,7 +219,7 @@ public class Player2Controller : MonoBehaviour
 
             //Invoke("ResetAttack", .4f);
 
-            StartCoroutine(DoAttack(delay));
+            //StartCoroutine(DoAttack(delay));
         }
 
         if (Input.GetKeyDown("[6]"))
@@ -203,6 +252,7 @@ public class Player2Controller : MonoBehaviour
         if (Input.GetKey(KeyCode.Keypad4) && isGrounded == true)
         {
             Newanimator.Play("Player2_Grab");
+            
         }
     }
 
@@ -219,6 +269,81 @@ public class Player2Controller : MonoBehaviour
 
 
     IEnumerator DoAttack(float delay)
+    {
+        //attackHitbox.SetActive(true);
+        attackHitboxLightNeutralStart.SetActive(true);
+        attackHitboxLightNeutralEnd.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitbox.SetActive(false);
+        attackHitboxLightNeutralStart.SetActive(false);
+        attackHitboxLightNeutralEnd.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoLightHighAttack(float delay)
+    {
+        attackHitboxLightHigh.SetActive(true);
+        attackHitboxLHEnd.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxLightHigh.SetActive(true);
+        attackHitboxLHEnd.SetActive(true);
+        isAttacking = false;
+    }
+
+    IEnumerator DoLightLowAttack(float delay)
+    {
+        attackHitboxLightLowStart.SetActive(true);
+        attackHitboxLightLowMiddle.SetActive(true);
+        attackHitboxLightLowEnd.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxLightLowStart.SetActive(false);
+        attackHitboxLightLowMiddle.SetActive(false);
+        attackHitboxLightLowEnd.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoLightJumpAttack(float delay)
+    {
+        attackHitboxLightJump.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxLightJump.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyNeutralAttack(float delay)
+    {
+        attackHitboxHeavyNeutral.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyNeutral.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyHighAttack(float delay)
+    {
+        attackHitboxHeavyHigh.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyHigh.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyLowAttack(float delay)
+    {
+        attackHitboxHeavyLow.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyLow.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyJumpAttack(float delay)
+    {
+        attackHitboxHeavyJump.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyJump.SetActive(false);
+        isAttacking = false;
+    }
+
+
+    IEnumerator DoGrabAttack(float delay)
     {
         attackHitbox.SetActive(true);
         yield return new WaitForSeconds(.4f);

@@ -104,18 +104,19 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             {
                 Newanimator.Play("AverageJoe_LightJump");
                 delay = .5f;
+                StartCoroutine(DoLightJumpAttack(delay));
             }
             else
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
-                //delay = .4f;
+                delay = .4f;
                 Newanimator.Play("AverageJoe_LightNeutral");
 
                 //Invoke("ResetAttack", .4f);
 
-
+                StartCoroutine(DoAttack(delay));
             }
             if (isGrounded == true &&  Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.W))
             {
@@ -126,6 +127,8 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
                 Newanimator.Play("AverageJoe_LightHigh");
 
                 //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoLightHighAttack(delay));
             }
             else if (isGrounded == true && Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.S))
             {
@@ -136,6 +139,8 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
                 Newanimator.Play("AverageJoe_LightLow");
 
                 //Invoke("ResetAttack", .4f);
+                StartCoroutine(DoLightLowAttack(delay));
+
             }
 
 
@@ -145,7 +150,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             //Invoke("ResetAttack", .4f);
 
-            StartCoroutine(DoAttack(delay));
+            //StartCoroutine(DoAttack(delay));
         }
         else if (Input.GetKeyDown(KeyCode.O) && !isAttacking)
         {
@@ -157,8 +162,9 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             {
                 Newanimator.Play("AverageJoe_HeavyJump");
                 delay = .5f;
+                StartCoroutine(DoHeavyJumpAttack(delay));
             }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.O))
+            if (isGrounded == true && Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.O))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
@@ -168,7 +174,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
                 //Invoke("ResetAttack", .4f);
 
-
+                StartCoroutine(DoLightHighAttack(delay));
             }
             else if (isGrounded == true && Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.O))
             {
@@ -176,10 +182,11 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_HeavyHigh");
+                Newanimator.Play("AverageJoe_HeavyLow");
 
                 //Invoke("ResetAttack", .4f);
 
+                StartCoroutine(DoHeavyLowAttack(delay));
 
             }
             else if (isGrounded && Input.GetKeyDown(KeyCode.O))
@@ -192,6 +199,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
                 //Invoke("ResetAttack", .4f);
 
+                StartCoroutine(DoHeavyNeutralAttack(delay));
 
             }
 
@@ -202,7 +210,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             //Invoke("ResetAttack", .4f);
 
-            StartCoroutine(DoAttack(delay));
+            //StartCoroutine(DoAttack(delay));
         }
 
         if(Input.GetKeyDown(KeyCode.W))
@@ -309,10 +317,89 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     IEnumerator DoAttack(float delay)
     {
         attackHitbox.SetActive(true);
+        attackHitboxLightNeutralStart.SetActive(true);
+        attackHitboxLightNeutralEnd.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitbox.SetActive(false);
+        attackHitboxLightNeutralStart.SetActive(false);
+        attackHitboxLightNeutralEnd.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoLightHighAttack(float delay)
+    {
+        attackHitboxLightHigh.SetActive(true);
+        attackHitboxLHEnd.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxLightHigh.SetActive(true);
+        attackHitboxLHEnd.SetActive(true);
+        isAttacking = false;
+    }
+
+    IEnumerator DoLightLowAttack(float delay)
+    {
+        attackHitboxLightLowStart.SetActive(true);
+        attackHitboxLightLowMiddle.SetActive(true);
+        attackHitboxLightLowEnd.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxLightLowStart.SetActive(false);
+        attackHitboxLightLowMiddle.SetActive(false);
+        attackHitboxLightLowEnd.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoLightJumpAttack(float delay)
+    {
+        attackHitboxLightJump.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxLightJump.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyNeutralAttack(float delay)
+    {
+        attackHitboxHeavyNeutral.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyNeutral.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyHighAttack(float delay)
+    {
+        attackHitboxHeavyHigh.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyHigh.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyLowAttack(float delay)
+    {
+        attackHitboxHeavyLow.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyLow.SetActive(false);
+        isAttacking = false;
+    }
+
+    IEnumerator DoHeavyJumpAttack(float delay)
+    {
+        attackHitboxHeavyJump.SetActive(true);
+        yield return new WaitForSeconds(.4f);
+        attackHitboxHeavyJump.SetActive(false);
+        isAttacking = false;
+    }
+
+
+    IEnumerator DoGrabAttack(float delay)
+    {
+        attackHitbox.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitbox.SetActive(false);
         isAttacking = false;
     }
+
+
+
+
     void ResetAttack()
     {
         isAttacking = false;
