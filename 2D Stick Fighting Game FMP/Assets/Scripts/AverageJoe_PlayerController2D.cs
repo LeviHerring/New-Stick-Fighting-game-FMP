@@ -95,7 +95,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P) && !isAttacking)
+        if (Input.GetKey(KeyCode.P) && !isAttacking)
         {
             isAttacking = true;
             float delay = .4f;
@@ -118,30 +118,30 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
                 StartCoroutine(DoAttack(delay));
             }
-            if (isGrounded == true &&  Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.W))
-            {
+            //if (isGrounded == true &&  Input.GetKey(KeyCode.P) && Input.GetKey(KeyCode.W))
+           // {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_LightHigh");
+                //Newanimator.Play("AverageJoe_LightHigh");
 
                 //Invoke("ResetAttack", .4f);
 
-                StartCoroutine(DoLightHighAttack(delay));
-            }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.P) && Input.GetKeyDown(KeyCode.S))
-            {
+                //StartCoroutine(DoLightHighAttack(delay));
+            //}
+            //else if (isGrounded == true && Input.GetKey(KeyCode.P) && Input.GetKey(KeyCode.S))
+           // {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_LightLow");
+                //Newanimator.Play("AverageJoe_LightLow");
 
                 //Invoke("ResetAttack", .4f);
-                StartCoroutine(DoLightLowAttack(delay));
+                //StartCoroutine(DoLightLowAttack(delay));
 
-            }
+            //}
 
 
             //chose a random attack to play
@@ -152,7 +152,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             //StartCoroutine(DoAttack(delay));
         }
-        else if (Input.GetKeyDown(KeyCode.O) && !isAttacking)
+        else if (Input.GetKey(KeyCode.O) && !isAttacking)
         {
 
             isAttacking = true;
@@ -164,32 +164,49 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
                 delay = .5f;
                 StartCoroutine(DoHeavyJumpAttack(delay));
             }
-            if (isGrounded == true && Input.GetKeyDown(KeyCode.W) && Input.GetKeyDown(KeyCode.O))
-            {
+
+
+
+            //var test1 = 5 - 6;
+            //var test2 = +3;
+
+            //var totalTest = test1 + test2;
+            //var x = 5 - 6 + 3;
+
+
+
+            //bool test1 = isGrounded == true;
+            //bool test2 = Input.GetKey(KeyCode.S);
+            //bool test3 = Input.GetKey(KeyCode.O);
+
+            //if (isGrounded == true && Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.O))
+            //{
+               // Debug.Log("this worked");
+
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_HeavyHigh");
+                //Newanimator.Play("AverageJoe_HeavyHigh");
 
                 //Invoke("ResetAttack", .4f);
 
-                StartCoroutine(DoLightHighAttack(delay));
-            }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.O))
-            {
+                //StartCoroutine(DoLightHighAttack(delay));
+            //}
+            //else if (isGrounded == true && Input.GetKey(KeyCode.S) && Input.GetKey(KeyCode.O))
+            //{
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("AverageJoe_HeavyLow");
+                //Newanimator.Play("AverageJoe_HeavyLow");
 
                 //Invoke("ResetAttack", .4f);
 
-                StartCoroutine(DoHeavyLowAttack(delay));
+               // StartCoroutine(DoHeavyLowAttack(delay));
 
-            }
-            else if (isGrounded && Input.GetKeyDown(KeyCode.O))
+            //}
+            else if (isGrounded && Input.GetKey(KeyCode.O))
             {
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
@@ -213,27 +230,35 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             //StartCoroutine(DoAttack(delay));
         }
 
-        if(Input.GetKeyDown(KeyCode.W))
+        if(Input.GetKey(KeyCode.W))
         {
-            if(Input.GetKeyDown(KeyCode.O))
+            if(Input.GetKey(KeyCode.O))
             {
+
+                float wodelay = 3.4f;
+                //Debug.Log("this worked 2");
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
-                //delay = .4f;
+                wodelay = 3.4f;
                 Newanimator.Play("AverageJoe_HeavyHigh");
 
                 //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoHeavyHighAttack(wodelay));
             }
-            else if(Input.GetKeyDown(KeyCode.P))
+            else if(Input.GetKey(KeyCode.P))
             {
+                float wpdelay;
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
-                //delay = .4f;
+                wpdelay = 1.4f;
                 Newanimator.Play("AverageJoe_LightHigh");
 
                 //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoLightHighAttack(wpdelay));
             }
             else
             {
@@ -241,27 +266,33 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKey(KeyCode.S))
         {
-            if (Input.GetKeyDown(KeyCode.O))
+            if (Input.GetKey(KeyCode.O))
             {
+                float sodelay; 
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
-                //delay = .4f;
+                sodelay = 1.5f;
                 Newanimator.Play("AverageJoe_HeavyLow");
 
                 //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoHeavyLowAttack(sodelay));
             }
-            else if (Input.GetKeyDown(KeyCode.P))
+            else if (Input.GetKey(KeyCode.P))
             {
+                float spdelay;
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
-                //delay = .4f;
+                spdelay = 1f;
                 Newanimator.Play("AverageJoe_LightLow");
 
                 //Invoke("ResetAttack", .4f);
+                StartCoroutine(DoLightLowAttack(spdelay));
+
             }
             else
             {
@@ -326,7 +357,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         isAttacking = false;
     }
 
-    IEnumerator DoLightHighAttack(float delay)
+    IEnumerator DoLightHighAttack(float wpdelay)
     {
         attackHitboxLightHigh.SetActive(true);
         attackHitboxLHEnd.SetActive(true);
@@ -336,7 +367,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         isAttacking = false;
     }
 
-    IEnumerator DoLightLowAttack(float delay)
+    IEnumerator DoLightLowAttack(float spdelay)
     {
         attackHitboxLightLowStart.SetActive(true);
         attackHitboxLightLowMiddle.SetActive(true);
@@ -364,7 +395,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         isAttacking = false;
     }
 
-    IEnumerator DoHeavyHighAttack(float delay)
+    IEnumerator DoHeavyHighAttack(float wodelay)
     {
         attackHitboxHeavyHigh.SetActive(true);
         yield return new WaitForSeconds(.4f);
@@ -372,7 +403,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         isAttacking = false;
     }
 
-    IEnumerator DoHeavyLowAttack(float delay)
+    IEnumerator DoHeavyLowAttack(float sodelay)
     {
         attackHitboxHeavyLow.SetActive(true);
         yield return new WaitForSeconds(.4f);

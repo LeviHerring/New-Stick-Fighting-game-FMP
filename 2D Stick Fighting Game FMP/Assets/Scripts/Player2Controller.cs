@@ -169,34 +169,34 @@ public class Player2Controller : MonoBehaviour
 
                 StartCoroutine(DoHeavyJumpAttack(delay));
             }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) && Input.GetKeyDown(KeyCode.Keypad8))
-            {
+            //else if (isGrounded == true && Input.GetKeyDown(KeyCode.UpArrow) && Input.GetKeyDown(KeyCode.Keypad8))
+            //{
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("Player2_HeavyHigh");
+                //Newanimator.Play("Player2_HeavyHigh");
 
-                StartCoroutine(DoHeavyHighAttack(delay));
+                //StartCoroutine(DoHeavyHighAttack(delay));
 
                 //Invoke("ResetAttack", .4f);
 
 
-            }
-            else if (isGrounded == true && Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.Keypad8))
-            {
+            //}
+           // else if (isGrounded == true && Input.GetKeyDown(KeyCode.DownArrow) && Input.GetKeyDown(KeyCode.Keypad8))
+            //{
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
                 //delay = .4f;
-                Newanimator.Play("Player2_HeavyHigh");
+               // Newanimator.Play("Player2_HeavyHigh");
 
                 //Invoke("ResetAttack", .4f);
 
-                StartCoroutine(DoHeavyLowAttack(delay));
+               // StartCoroutine(DoHeavyLowAttack(delay));
 
 
-            }
+            //}
             else if (isGrounded && Input.GetKeyDown(KeyCode.Keypad8))
             {
                 //chose a random attack to play
@@ -220,6 +220,76 @@ public class Player2Controller : MonoBehaviour
             //Invoke("ResetAttack", .4f);
 
             //StartCoroutine(DoAttack(delay));
+        }
+
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (Input.GetKey(KeyCode.Keypad8))
+            {
+
+                float wodelay;
+                //Debug.Log("this worked 2");
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                wodelay = 1.4f;
+                Newanimator.Play("Player2_HeavyHigh");
+
+                //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoHeavyHighAttack(wodelay));
+            }
+            else if (Input.GetKey(KeyCode.Keypad9))
+            {
+                float wpdelay;
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                wpdelay = 1.4f;
+                Newanimator.Play("Player2_LightHigh");
+
+                //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoLightHighAttack(wpdelay));
+            }
+            else
+            {
+                return;
+            }
+        }
+
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            if (Input.GetKey(KeyCode.Keypad8))
+            {
+                float sodelay;
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                sodelay = 1.5f;
+                Newanimator.Play("Player2_HeavyLow");
+
+                //Invoke("ResetAttack", .4f);
+
+                StartCoroutine(DoHeavyLowAttack(sodelay));
+            }
+            else if (Input.GetKey(KeyCode.Keypad9))
+            {
+                float spdelay;
+                //chose a random attack to play
+                //int index = UnityEngine.Random.Range(1, 5);
+                //Newanimator.Play("NewPlayer_Attack" + index);
+                spdelay = 1f;
+                Newanimator.Play("Player2_LightLow");
+
+                //Invoke("ResetAttack", .4f);
+                StartCoroutine(DoLightLowAttack(spdelay));
+
+            }
+            else
+            {
+                return;
+            }
         }
 
         if (Input.GetKeyDown("[6]"))
@@ -254,6 +324,9 @@ public class Player2Controller : MonoBehaviour
             Newanimator.Play("Player2_Grab");
             
         }
+
+
+
     }
 
     void ResetShoot()
