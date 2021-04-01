@@ -66,15 +66,19 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
 
 
+
     [SerializeField]
     private float runSpeed = 1.5f;
 
     [SerializeField]
-    private float jumpSpeed = 3;
+    private float jumpSpeed = 3f;
     private bool isShooting;
 
     [SerializeField]
     private float shootDelay = 0.5f;
+
+    [SerializeField]
+    GameObject player2; 
 
     bool isAttacking = false;
 
@@ -161,7 +165,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             if (!isGrounded)
             {
                 Newanimator.Play("AverageJoe_HeavyJump");
-                delay = .5f;
+                delay = 7.5f;
                 StartCoroutine(DoHeavyJumpAttack(delay));
             }
 
@@ -230,12 +234,14 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             //StartCoroutine(DoAttack(delay));
         }
 
-        if(Input.GetKey(KeyCode.W))
+        if(Input.GetKey(KeyCode.W) && isGrounded)
         {
-            if(Input.GetKey(KeyCode.O))
+            float wodelay = 3.4f;
+            float wpdelay = 3.5f;
+            if (Input.GetKey(KeyCode.O))
             {
 
-                float wodelay = 3.4f;
+                
                 //Debug.Log("this worked 2");
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
@@ -249,7 +255,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             }
             else if(Input.GetKey(KeyCode.P))
             {
-                float wpdelay;
+                
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
@@ -266,15 +272,17 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) && isGrounded)
         {
+            float sodelay = 4.5f;
+            float spdelay = 5.6f;
             if (Input.GetKey(KeyCode.O))
             {
-                float sodelay; 
+                
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
-                sodelay = 1.5f;
+                sodelay = 4.5f;
                 Newanimator.Play("AverageJoe_HeavyLow");
 
                 //Invoke("ResetAttack", .4f);
@@ -283,7 +291,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.P))
             {
-                float spdelay;
+                
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
@@ -322,13 +330,17 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
         if(Input.GetKey(KeyCode.Keypad4) && isGrounded == true)
         {
-            Newrb2d.velocity = new Vector2(Newrb2d.velocity.x + 4, 7);
+            Vector3 difference = player2.transform.position - this.transform.position;
+            if (difference.sqrMagnitude <= 1)
+            {
+                Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+            }
         }
 
         if (Input.GetKey(KeyCode.K) && isGrounded == true)
         {
 
-            Newanimator.Play("Player2_Grab");
+            Newanimator.Play("AverageJoe_Grab");
         }
 
     }
@@ -486,7 +498,8 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         {
             if (!isAttacking)
             {
-                Newanimator.Play("AverageJoe_Idle");
+               
+                //Newanimator.Play("AverageJoe_Idle");
             }
 
             Newrb2d.velocity = new Vector2(0, Newrb2d.velocity.y);

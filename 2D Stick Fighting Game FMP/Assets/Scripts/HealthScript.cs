@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class HealthScript : MonoBehaviour
 {
     Animator Newanimator; 
@@ -39,6 +39,7 @@ public class HealthScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         Newanimator = GetComponent<Animator>();
         health = 1f;
         superMetreCharge = 1f;
@@ -80,7 +81,7 @@ public class HealthScript : MonoBehaviour
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _LightLow")
+            else if (collision.tag == "Player2_LightLow")
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
@@ -95,22 +96,22 @@ public class HealthScript : MonoBehaviour
                 TakeDamage(0.03f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _HeavyNeutral")
+            else if (collision.tag == "Player2_HeavyNeutral")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _HeavyHigh")
+            else if (collision.tag == "Player2_HeavyHigh")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _HeavyLow")
+            else if (collision.tag == "Player2_HeavyLow")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _HeavyJump")
+            else if (collision.tag == "Player2_HeavyJump")
             {
                 TakeDamage(0.075f);
                 SuperMeter(0.1f);
@@ -120,11 +121,18 @@ public class HealthScript : MonoBehaviour
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
             }
+            else if (collision.tag == "Bullet2")
+            {
+                Destroy(collision.gameObject);
+                TakeDamage(0.05f);
+            }
 
             if (health <= 0)
             {
                 Time.timeScale = 0;
                 gameOver.SetActive(true);
+                SceneManager.LoadScene(4);
+                health = 1f;
             }
         }
 

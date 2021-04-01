@@ -27,6 +27,7 @@ TagManager:
   - Player2_HeavyJump
   - Player2_Grab
   - Special
+  - Wall
   layers:
   - Default
   - TransparentFX

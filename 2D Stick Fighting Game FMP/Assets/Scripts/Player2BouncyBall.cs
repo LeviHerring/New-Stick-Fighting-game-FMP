@@ -32,4 +32,11 @@ public class Player2BouncyBall : MonoBehaviour
         Destroy(gameObject, timeToDestroy);
 
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
+    }
 }

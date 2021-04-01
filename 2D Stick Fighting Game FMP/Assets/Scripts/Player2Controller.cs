@@ -80,6 +80,9 @@ public class Player2Controller : MonoBehaviour
     [SerializeField]
     float speed = 1f;
 
+    [SerializeField]
+    GameObject player1;
+
     bool isAttacking = false;
 
     bool isFacingLeft;
@@ -165,7 +168,7 @@ public class Player2Controller : MonoBehaviour
             if (!isGrounded)
             {
                 Newanimator.Play("Player2_HeavyJump");
-                delay = .5f;
+                delay = 4.5f;
 
                 StartCoroutine(DoHeavyJumpAttack(delay));
             }
@@ -222,12 +225,14 @@ public class Player2Controller : MonoBehaviour
             //StartCoroutine(DoAttack(delay));
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded)
         {
+            float wodelay = 3.4f;
+            float wpdelay = 1.4f;
             if (Input.GetKey(KeyCode.Keypad8))
             {
 
-                float wodelay;
+                
                 //Debug.Log("this worked 2");
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
@@ -241,7 +246,7 @@ public class Player2Controller : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.Keypad9))
             {
-                float wpdelay;
+               
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
@@ -258,11 +263,13 @@ public class Player2Controller : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow) && isGrounded)
         {
+            float sodelay = 3.4f;
+            float spdelay = 2.5f;
             if (Input.GetKey(KeyCode.Keypad8))
             {
-                float sodelay;
+                
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
@@ -275,7 +282,7 @@ public class Player2Controller : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.Keypad9))
             {
-                float spdelay;
+               
                 //chose a random attack to play
                 //int index = UnityEngine.Random.Range(1, 5);
                 //Newanimator.Play("NewPlayer_Attack" + index);
@@ -316,7 +323,12 @@ public class Player2Controller : MonoBehaviour
         if (Input.GetKey(KeyCode.K) && isGrounded == true)
         {
             
-           Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+          
+            Vector3 difference = player1.transform.position - this.transform.position; 
+            if (difference.sqrMagnitude <= 1)
+            {
+                Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+            }
         }
 
         if (Input.GetKey(KeyCode.Keypad4) && isGrounded == true)
@@ -386,7 +398,7 @@ public class Player2Controller : MonoBehaviour
     IEnumerator DoHeavyNeutralAttack(float delay)
     {
         attackHitboxHeavyNeutral.SetActive(true);
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(1.4f);
         attackHitboxHeavyNeutral.SetActive(false);
         isAttacking = false;
     }
@@ -394,7 +406,7 @@ public class Player2Controller : MonoBehaviour
     IEnumerator DoHeavyHighAttack(float delay)
     {
         attackHitboxHeavyHigh.SetActive(true);
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyHigh.SetActive(false);
         isAttacking = false;
     }
@@ -402,7 +414,7 @@ public class Player2Controller : MonoBehaviour
     IEnumerator DoHeavyLowAttack(float delay)
     {
         attackHitboxHeavyLow.SetActive(true);
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyLow.SetActive(false);
         isAttacking = false;
     }
@@ -410,7 +422,7 @@ public class Player2Controller : MonoBehaviour
     IEnumerator DoHeavyJumpAttack(float delay)
     {
         attackHitboxHeavyJump.SetActive(true);
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyJump.SetActive(false);
         isAttacking = false;
     }
@@ -476,7 +488,7 @@ public class Player2Controller : MonoBehaviour
         {
             if (!isAttacking)
             {
-                Newanimator.Play("Player2_Idle");
+                //Newanimator.Play("Player2_Idle");
             }
 
             Newrb2d.velocity = new Vector2(0, Newrb2d.velocity.y);

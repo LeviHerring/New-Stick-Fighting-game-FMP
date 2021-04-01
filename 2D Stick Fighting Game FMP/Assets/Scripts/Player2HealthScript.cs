@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player2HealthScript : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public class Player2HealthScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1;
         Newanimator = GetComponent<Animator>();
         health = 1f;
         superMetreCharge = 1f;
@@ -129,6 +131,9 @@ public class Player2HealthScript : MonoBehaviour
             {
                 Time.timeScale = 0;
                 gameOver.SetActive(true);
+                SceneManager.LoadScene(3);
+                health = 1f; 
+
             }
         }
 
