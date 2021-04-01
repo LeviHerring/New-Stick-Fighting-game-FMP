@@ -39,5 +39,14 @@ public class BouncyBallScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.gameObject.CompareTag("shield"))
+        {
+            Destroy(gameObject);
+        }
+        
+        if (collision.gameObject.CompareTag("Bullet2"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

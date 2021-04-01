@@ -9,11 +9,17 @@ public class HealthScript : MonoBehaviour
 
     public Image healthImage;
     public GameObject gameOver;
-    public Image superMetreImage; 
+    public Image superMetreImage;
+    public Image roundOne;
+    public Image roundTwo;
+    public Image roundThree; 
 
     private ShieldScript Shield;
     public float health = 1f;
     public float superMetreCharge = 1f;
+    public float roundOneFill = 0;
+    public float roundTwoFill = 0;
+    public float roundThreeFill = 0;
 
     [SerializeField]
     GameObject attackHitboxSpecial;
@@ -35,6 +41,10 @@ public class HealthScript : MonoBehaviour
 
     [SerializeField]
     GameObject attackHitboxSpecial7;
+
+    [SerializeField]
+    Collider2D BigHitbox;     
+    
 
     // Start is called before the first frame update
     void Start()

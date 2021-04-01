@@ -37,6 +37,15 @@ public class Player2BouncyBall : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall"))
         {
             Destroy(gameObject);
+
+        }
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(gameObject);
+        }
+        if (collision.gameObject.CompareTag("shield"))
+        {
+            Destroy(gameObject);
         }
     }
 }
