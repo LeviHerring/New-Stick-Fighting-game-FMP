@@ -48,5 +48,9 @@ public class BouncyBallScript : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+           // Destroy(gameObject);
+        }
     }
 }

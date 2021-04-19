@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class HealthScript : MonoBehaviour
+public class SpeedyQuickHealthScript : MonoBehaviour
 {
-    Animator Newanimator; 
+    Animator Newanimator;
 
     public Image healthImage;
     public GameObject gameOver;
     public Image superMetreImage;
     public Image roundOne;
     public Image roundTwo;
-    public Image roundThree; 
+    public Image roundThree;
 
     private ShieldScript Shield;
     public float health = 1f;
@@ -44,8 +44,8 @@ public class HealthScript : MonoBehaviour
     GameObject attackHitboxSpecial7;
 
     [SerializeField]
-    Collider2D BigHitbox;     
-    
+    Collider2D BigHitbox;
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,18 +57,18 @@ public class HealthScript : MonoBehaviour
         roundsWon = 0;
         roundOneFill = 0;
         roundTwoFill = 0;
-         roundThreeFill = 0;
-         healthImage.fillAmount = health;
+        roundThreeFill = 0;
+        healthImage.fillAmount = health;
         gameOver.SetActive(false);
         Shield = GetComponent<ShieldScript>();
-        
+
     }
 
-        void TakeDamage(float amount)
+    void TakeDamage(float amount)
     {
         health -= amount;
         healthImage.fillAmount = health;
-        
+
     }
 
     void SuperMeter(float superAmount)
@@ -104,52 +104,52 @@ public class HealthScript : MonoBehaviour
                 TakeDamage(0.5f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _LightNeutral")
+            else if (collision.tag == "LightNeutral")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2_LightLow")
+            else if (collision.tag == "LightLow")
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _LightHigh")
+            else if (collision.tag == "LightHigh")
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _LightJump")
+            else if (collision.tag == "LightJump")
             {
                 TakeDamage(0.03f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2_HeavyNeutral")
+            else if (collision.tag == "HeavyNeutral")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2_HeavyHigh")
+            else if (collision.tag == "HeavyHigh")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2_HeavyLow")
+            else if (collision.tag == "HeavyLow")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2_HeavyJump")
+            else if (collision.tag == "HeavyJump")
             {
                 TakeDamage(0.075f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Player2 _Grab")
-            {
-                TakeDamage(0.07f);
-                SuperMeter(0.1f);
-            }
-            else if (collision.tag == "Bullet2")
+            //else if (collision.tag == "Player2_Grab")
+            //{
+            //TakeDamage(0.07f);
+            //}
+
+            else if (collision.tag == "Bullet")
             {
                 Destroy(collision.gameObject);
                 TakeDamage(0.05f);
@@ -159,39 +159,40 @@ public class HealthScript : MonoBehaviour
             {
                 Time.timeScale = 0;
                 gameOver.SetActive(true);
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(3);
                 health = 1f;
+
             }
         }
 
         //if (collision.CompareTag("Bullet)"))
         //{
-            //Destroy(collision.gameObject);
-            //health--;
+        //Destroy(collision.gameObject);
+        //health--;
 
-            //if (health <= 0)
-            //{
-                //Destroy(gameObject);
-            //}
+        //if (health <= 0)
+        //{
+        //Destroy(gameObject);
+        //}
         //} 
     }
 
     void Update()
     {
-     if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.Keypad6))
         {
             float delay = .4f;
 
             if (superMetreCharge == 0)
             {
-                Newanimator.Play("AverageJoe_Super");
+                Newanimator.Play("SpeedyQuick_Super");
                 delay = .7f;
                 StartCoroutine(DoSpecialAttack(delay));
-                superMetreCharge = 1f; 
+                superMetreCharge = 1f;
             }
-            else 
-            { 
-                return; 
+            else
+            {
+                return;
             }
         }
     }
@@ -222,5 +223,6 @@ public class HealthScript : MonoBehaviour
 }
 
 
-   
+
+
 

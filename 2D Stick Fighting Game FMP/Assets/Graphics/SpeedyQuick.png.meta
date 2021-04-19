@@ -1,0 +1,1217 @@
+fileFormatVersion: 2
+guid: aba69079ecb76e34190c6890fda32543
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1055793119603243669
+    second: SpeedyQuick_0
+  - first:
+      213: 4142754450209251396
+    second: SpeedyQuick_1
+  - first:
+      213: 6310223893699233235
+    second: SpeedyQuick_2
+  - first:
+      213: -2254886156721598279
+    second: SpeedyQuick_3
+  - first:
+      213: 3253013737832552382
+    second: SpeedyQuick_4
+  - first:
+      213: 721287007771854318
+    second: SpeedyQuick_5
+  - first:
+      213: -521295562506510607
+    second: SpeedyQuick_6
+  - first:
+      213: -1809400084103487559
+    second: SpeedyQuick_7
+  - first:
+      213: -6842397878870945266
+    second: SpeedyQuick_8
+  - first:
+      213: 6855725042165366404
+    second: SpeedyQuick_9
+  - first:
+      213: 5075115521913352402
+    second: SpeedyQuick_10
+  - first:
+      213: -7454056689448289516
+    second: SpeedyQuick_11
+  - first:
+      213: 9076077140134237939
+    second: SpeedyQuick_12
+  - first:
+      213: -5479926037285973697
+    second: SpeedyQuick_13
+  - first:
+      213: -5836749622337274337
+    second: SpeedyQuick_14
+  - first:
+      213: 5729362197813817943
+    second: SpeedyQuick_15
+  - first:
+      213: -6276740174898857323
+    second: SpeedyQuick_16
+  - first:
+      213: -6801325980847990671
+    second: SpeedyQuick_17
+  - first:
+      213: 8420271200830858176
+    second: SpeedyQuick_18
+  - first:
+      213: 3260259838110462852
+    second: SpeedyQuick_19
+  - first:
+      213: 2575207627550253601
+    second: SpeedyQuick_20
+  - first:
+      213: 6204895563665462359
+    second: SpeedyQuick_21
+  - first:
+      213: 6989088869298065255
+    second: SpeedyQuick_22
+  - first:
+      213: 6476445716958786344
+    second: SpeedyQuick_23
+  - first:
+      213: -3114353800202655577
+    second: SpeedyQuick_24
+  - first:
+      213: -6225901550750766903
+    second: SpeedyQuick_25
+  - first:
+      213: 3461377842858260569
+    second: SpeedyQuick_26
+  - first:
+      213: 998038425681420454
+    second: SpeedyQuick_27
+  - first:
+      213: 5197276057690556895
+    second: SpeedyQuick_28
+  - first:
+      213: -7128659189460315149
+    second: SpeedyQuick_29
+  - first:
+      213: -684641569720217123
+    second: SpeedyQuick_30
+  - first:
+      213: -1015108659291035921
+    second: SpeedyQuick_31
+  - first:
+      213: -7124942311394472370
+    second: SpeedyQuick_32
+  - first:
+      213: -7089852761378616289
+    second: SpeedyQuick_33
+  - first:
+      213: 559666586879479356
+    second: SpeedyQuick_34
+  - first:
+      213: -1118474161946006261
+    second: SpeedyQuick_35
+  - first:
+      213: 8609185830355681275
+    second: SpeedyQuick_36
+  - first:
+      213: 6673514046360105175
+    second: SpeedyQuick_37
+  - first:
+      213: 6720314464887181005
+    second: SpeedyQuick_8
+  - first:
+      213: 7702973650405583883
+    second: SpeedyQuick_17
+  - first:
+      213: 3596726294112137746
+    second: SpeedyQuick_20
+  - first:
+      213: -8769446620028547622
+    second: SpeedyQuick_38
+  - first:
+      213: -2076080748922630245
+    second: SpeedyQuick_39
+  - first:
+      213: -6883552501229584029
+    second: SpeedyQuick_40
+  - first:
+      213: -8925214711567346287
+    second: SpeedyQuick_41
+  - first:
+      213: -6195020527130383390
+    second: SpeedyQuick_42
+  - first:
+      213: 6144266350117398135
+    second: SpeedyQuick_43
+  - first:
+      213: -3078192414843446078
+    second: SpeedyQuick_44
+  - first:
+      213: 7800998471170698764
+    second: SpeedyQuick_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpeedyQuick_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1902
+        width: 43
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ab04a9f3ee6ae00800000000000000
+      internalID: 1055793119603243669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1703
+        width: 43
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440246429350e7930800000000000000
+      internalID: 4142754450209251396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1703
+        width: 72
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d50025c23b629750800000000000000
+      internalID: 6310223893699233235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1703
+        width: 43
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0d9a3ccf805b0e0800000000000000
+      internalID: -2254886156721598279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_4
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 1760
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb799f462c6052d20800000000000000
+      internalID: 3253013737832552382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1603
+        width: 44
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5885746b6820a00800000000000000
+      internalID: 721287007771854318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1603
+        width: 61
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fedfc5a27cf3c8f0800000000000000
+      internalID: -521295562506510607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1602
+        width: 43
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf137ac538b3e6e0800000000000000
+      internalID: -1809400084103487559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1303
+        width: 43
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e34084a9d642f50800000000000000
+      internalID: 6855725042165366404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1303
+        width: 72
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d077b59dae6e6640800000000000000
+      internalID: 5075115521913352402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_11
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1303
+        width: 64
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b7fc92feedd8890800000000000000
+      internalID: -7454056689448289516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1303
+        width: 73
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f69eb36214b4fd70800000000000000
+      internalID: 9076077140134237939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1303
+        width: 64
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31d7209d4463f3b0800000000000000
+      internalID: -5479926037285973697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1203
+        width: 43
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ef0b59423bffea0800000000000000
+      internalID: -5836749622337274337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_15
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1203
+        width: 55
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7527e3e3098c28f40800000000000000
+      internalID: 5729362197813817943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1203
+        width: 47
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59afab7011a84e8a0800000000000000
+      internalID: -6276740174898857323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_18
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1203
+        width: 57
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3a9fd6b00dad470800000000000000
+      internalID: 8420271200830858176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_19
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1203
+        width: 49
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483fb069c05ce3d20800000000000000
+      internalID: 3260259838110462852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_21
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1203
+        width: 43
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7545da4e3a73c1650800000000000000
+      internalID: 6204895563665462359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1103
+        width: 43
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fc52efb4b3ef060800000000000000
+      internalID: 6989088869298065255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1103
+        width: 47
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823bd6ed015f0e950800000000000000
+      internalID: 6476445716958786344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1102
+        width: 47
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8680228b797c4d0800000000000000
+      internalID: -3114353800202655577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_25
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1103
+        width: 53
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c862fc96872999a0800000000000000
+      internalID: -6225901550750766903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_26
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1103
+        width: 53
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95879f41fc8490030800000000000000
+      internalID: 3461377842858260569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_27
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1102
+        width: 43
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a06eea09aeb9dd00800000000000000
+      internalID: 998038425681420454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 902
+        width: 62
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9c942c90f602840800000000000000
+      internalID: 5197276057690556895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 803
+        width: 43
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3d4678c3ae11d90800000000000000
+      internalID: -7128659189460315149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 803
+        width: 62
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd15c56ae1aaf76f0800000000000000
+      internalID: -684641569720217123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_31
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 803
+        width: 65
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6e88a7d0c99e1f0800000000000000
+      internalID: -1015108659291035921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 803
+        width: 65
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e8e24a7be1f1d90800000000000000
+      internalID: -7124942311394472370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 701
+        width: 43
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c84382a78cb9d90800000000000000
+      internalID: -7089852761378616289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 701
+        width: 60
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e4b97abc554c700800000000000000
+      internalID: 559666586879479356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 604
+        width: 43
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d61c6fca16a70f0800000000000000
+      internalID: -1118474161946006261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 104
+        width: 46
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff3da736e8f97770800000000000000
+      internalID: 8609185830355681275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 102
+        width: 45
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0bfd8daa51d9c50800000000000000
+      internalID: 6673514046360105175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1503
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce058a666a534d50800000000000000
+      internalID: 6720314464887181005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_17
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1406
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c6e9219b576ea60800000000000000
+      internalID: 7702973650405583883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1502
+        width: 45
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2127cda12832ae130800000000000000
+      internalID: 3596726294112137746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_38
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1403
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addc278f2caac4680800000000000000
+      internalID: -8769446620028547622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1002
+        width: 40
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f8073fe874033e0800000000000000
+      internalID: -2076080748922630245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_40
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1003
+        width: 49
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36185738875b870a0800000000000000
+      internalID: -6883552501229584029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_41
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1000
+        width: 52
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19510f4f184432480800000000000000
+      internalID: -8925214711567346287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_42
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1001
+        width: 49
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebe32837add60aa0800000000000000
+      internalID: -6195020527130383390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_43
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1000
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776222411b1d44550800000000000000
+      internalID: 6144266350117398135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_44
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1002
+        width: 46
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc54f2ce401845d0800000000000000
+      internalID: -3078192414843446078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_45
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 902
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0eae7f27c6b24c60800000000000000
+      internalID: 7800998471170698764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player2BouncyBall : MonoBehaviour
+public class SpeedyQuickLightningBolt : MonoBehaviour
 {
     [SerializeField]
     float speed;
@@ -32,14 +32,10 @@ public class Player2BouncyBall : MonoBehaviour
         Destroy(gameObject, timeToDestroy);
 
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Wall"))
-        {
-            Destroy(gameObject);
-
-        }
-        if (collision.gameObject.CompareTag("Bullet"))
         {
             Destroy(gameObject);
         }
@@ -47,9 +43,14 @@ public class Player2BouncyBall : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.CompareTag("Bullet2"))
+        {
+            Destroy(gameObject);
+        }
         if (collision.gameObject.CompareTag("Player"))
         {
-            //Destroy(gameObject);
+            // Destroy(gameObject);
         }
     }
 }
