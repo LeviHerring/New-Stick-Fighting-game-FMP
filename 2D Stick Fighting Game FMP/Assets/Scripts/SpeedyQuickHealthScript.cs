@@ -14,7 +14,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
     public Image roundTwo;
     public Image roundThree;
 
-    private ShieldScript Shield;
+    private SpeedyQuickShieldScript Shield;
     public float health = 1f;
     public float superMetreCharge = 1f;
     public float roundOneFill = 0;
@@ -22,7 +22,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
     public float roundThreeFill = 0;
     public float roundsWon = 0;
 
-    [SerializeField]
+    /*[SerializeField]
     GameObject attackHitboxSpecial;
 
     [SerializeField]
@@ -44,7 +44,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
     GameObject attackHitboxSpecial7;
 
     [SerializeField]
-    Collider2D BigHitbox;
+    Collider2D BigHitbox;*/
 
 
     // Start is called before the first frame update
@@ -60,7 +60,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         roundThreeFill = 0;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        Shield = GetComponent<ShieldScript>();
+        Shield = GetComponent<SpeedyQuickShieldScript>();
 
     }
 
@@ -187,7 +187,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 Newanimator.Play("SpeedyQuick_Super");
                 delay = .7f;
-                StartCoroutine(DoSpecialAttack(delay));
+                //StartCoroutine(DoSpecialAttack(delay));
                 superMetreCharge = 1f;
             }
             else
@@ -197,7 +197,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         }
     }
 
-    IEnumerator DoSpecialAttack(float delay)
+    /*IEnumerator DoSpecialAttack(float delay)
     {
         //attackHitbox.SetActive(true);
         attackHitboxSpecial.SetActive(true);
@@ -217,7 +217,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         attackHitboxSpecial6.SetActive(false);
         attackHitboxSpecial7.SetActive(false);
         //isAttacking = false;
-    }
+    }*/
 
 
 }

@@ -144,15 +144,65 @@ public class HealthScript : MonoBehaviour
                 TakeDamage(0.075f);
                 SuperMeter(0.1f);
             }
+            if (collision.tag == "Spike")
+            {
+                TakeDamage(0.1f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Flame")
+            {
+                TakeDamage(0.5f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightNeutral")
+            {
+                TakeDamage(0.01f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightLow")
+            {
+                TakeDamage(0.015f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightHigh")
+            {
+                TakeDamage(0.015f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_HeavyNeutral")
+            {
+                TakeDamage(0.04f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_HeavyHigh")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_HeavyLow")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_HeavyJump")
+            {
+                TakeDamage(0.065f);
+                SuperMeter(0.1f);
+            }
             else if (collision.tag == "Player2 _Grab")
             {
-                TakeDamage(0.07f);
+                TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
             else if (collision.tag == "Bullet2")
             {
                 Destroy(collision.gameObject);
-                TakeDamage(0.05f);
+                TakeDamage(0.04f);
             }
 
             if (health <= 0)

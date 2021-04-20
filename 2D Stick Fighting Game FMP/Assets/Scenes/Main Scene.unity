@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 111075593}
   m_Layer: 0
   m_Name: LightJump
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_LightJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 150131713}
   m_Layer: 0
   m_Name: LightLow
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_LightLow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1230,7 +1230,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 367057615}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b5f2b3526bd76b94ea8bbfcef26ab08f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1257,8 +1257,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0068969727, y: 0.49000025}
   m_SpriteTilingProperty:
@@ -1288,23 +1288,15 @@ MonoBehaviour:
   healthImage: {fileID: 1073609925}
   gameOver: {fileID: 4663789}
   superMetreImage: {fileID: 1635769065}
-  roundOne: {fileID: 0}
-  roundTwo: {fileID: 0}
-  roundThree: {fileID: 0}
+  roundOne: {fileID: 1811305607}
+  roundTwo: {fileID: 541140210}
+  roundThree: {fileID: 901182929}
   health: 1
   superMetreCharge: 1
   roundOneFill: 0
   roundTwoFill: 0
   roundThreeFill: 0
   roundsWon: 0
-  attackHitboxSpecial: {fileID: 0}
-  attackHitboxSpecial2: {fileID: 0}
-  attackHitboxSpecial3: {fileID: 0}
-  attackHitboxSpecial4: {fileID: 0}
-  attackHitboxSpecial5: {fileID: 0}
-  attackHitboxSpecial6: {fileID: 0}
-  attackHitboxSpecial7: {fileID: 0}
-  BigHitbox: {fileID: 0}
 --- !u!114 &367057624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1984,7 +1976,7 @@ GameObject:
   - component: {fileID: 651382417}
   m_Layer: 0
   m_Name: HeavyJump
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_HeavyJump
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2229,7 +2221,7 @@ GameObject:
   - component: {fileID: 679691778}
   m_Layer: 0
   m_Name: HeavyHigh
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_HeavyHigh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3064,7 +3056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960684060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.055, y: -0.757, z: 0}
+  m_LocalPosition: {x: 0.055, y: -0.572, z: 0}
   m_LocalScale: {x: 4.7124, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 970562242}
@@ -3804,7 +3796,7 @@ GameObject:
   - component: {fileID: 1124735493}
   m_Layer: 0
   m_Name: LightNeutral
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_LightNeutral
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4517,7 +4509,7 @@ GameObject:
   - component: {fileID: 1437158043}
   - component: {fileID: 1437158044}
   m_Layer: 0
-  m_Name: SpeedyQuickShield
+  m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4611,7 +4603,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439283772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.757, z: 0}
+  m_LocalPosition: {x: -0.05, y: -0.57199866, z: 0}
   m_LocalScale: {x: 4.7124, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 970562242}
@@ -4840,7 +4832,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1446011128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 715.824, y: 39.77, z: 0}
+  m_LocalPosition: {x: 717.43, y: 39.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1669590751}
@@ -5184,7 +5176,7 @@ GameObject:
   - component: {fileID: 1529483996}
   m_Layer: 0
   m_Name: LightHigh
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_LightHigh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5271,7 +5263,7 @@ GameObject:
   - component: {fileID: 1553610653}
   m_Layer: 0
   m_Name: HeavyLow
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_HeavyLow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5839,7 +5831,7 @@ GameObject:
   - component: {fileID: 1711853518}
   m_Layer: 0
   m_Name: HeavyNeutral
-  m_TagString: Untagged
+  m_TagString: SpeedyQuick_HeavyNeutral
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6825,7 +6817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962592110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.158, y: -0.757, z: 0}
+  m_LocalPosition: {x: -0.158, y: -0.57199866, z: 0}
   m_LocalScale: {x: 4.7124, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 970562242}

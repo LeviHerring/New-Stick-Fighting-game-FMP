@@ -29,6 +29,14 @@ TagManager:
   - Special
   - Wall
   - Player2
+  - SpeedyQuick_LightNeutral
+  - SpeedyQuick_LightLow
+  - SpeedyQuick_LightHigh
+  - SpeedyQuick_HeavyNeutral
+  - SpeedyQuick_LightJump
+  - SpeedyQuick_HeavyLow
+  - SpeedyQuick_HeavyHigh
+  - SpeedyQuick_HeavyJump
   layers:
   - Default
   - TransparentFX
