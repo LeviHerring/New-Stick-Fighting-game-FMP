@@ -2047,7 +2047,7 @@ TextureImporter:
     second: AverageJoe_680
   - first:
       213: 6204275181019572524
-    second: AverageJoe_681
+    second: AverageJoe_1000
   - first:
       213: -1013014414864421446
     second: AverageJoe_682
@@ -17040,13 +17040,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AverageJoe_681
+      name: AverageJoe_1000
       rect:
         serializedVersion: 2
         x: 0
-        y: 86
-        width: 91
-        height: 96
+        y: 4
+        width: 86
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

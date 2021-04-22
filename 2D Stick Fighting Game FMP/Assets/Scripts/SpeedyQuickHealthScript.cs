@@ -108,6 +108,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
+                Newanimator.Play("SpeedyQuick_LightHigh");
             }
             else if (collision.tag == "LightLow")
             {

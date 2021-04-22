@@ -1,157 +1,160 @@
 fileFormatVersion: 2
-guid: aba69079ecb76e34190c6890fda32543
+guid: dec3e998ab5a21f42830e10a4f2b3b8c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1055793119603243669
-    second: SpeedyQuick_0
+      213: 2587110595014669830
+    second: GokuMan_Idle
   - first:
-      213: 4142754450209251396
-    second: SpeedyQuick_1
+      213: 5087356502382651119
+    second: GokuMan_LightNeutral1
   - first:
-      213: 6310223893699233235
-    second: SpeedyQuick_2
+      213: 3024173939950099298
+    second: GokuMan_LightNeutral2
   - first:
-      213: -2254886156721598279
-    second: SpeedyQuick_3
+      213: -1960918286405350916
+    second: GokuMan_LightLow3
   - first:
-      213: 3253013737832552382
-    second: SpeedyQuick_4
+      213: -8462729340692979126
+    second: GokuMan_LightNeutral3
   - first:
-      213: 721287007771854318
-    second: SpeedyQuick_5
+      213: -9166448890140678296
+    second: GokuMan_LightLow1
   - first:
-      213: -521295562506510607
-    second: SpeedyQuick_6
+      213: 257361378781537937
+    second: GokuMan_LightLow2
   - first:
-      213: -1809400084103487559
-    second: SpeedyQuick_7
+      213: 7193734202719813291
+    second: GokuMan_LightLow4
   - first:
-      213: -6842397878870945266
-    second: SpeedyQuick_8
+      213: 2713956261092294811
+    second: GokuMan_LightHigh1
   - first:
-      213: 6855725042165366404
-    second: SpeedyQuick_9
+      213: -6917531610063716649
+    second: GokuMan_LightHigh2
   - first:
-      213: 5075115521913352402
-    second: SpeedyQuick_10
+      213: 2124907968684768898
+    second: GokuMan_HeavyNeutral2
   - first:
-      213: -7454056689448289516
-    second: SpeedyQuick_11
+      213: -2151296458855902329
+    second: GokuMan_HeavyNeutral3
   - first:
-      213: 9076077140134237939
-    second: SpeedyQuick_12
+      213: -4509552831527450896
+    second: GokuMan_HeavyNeutral4
   - first:
-      213: -5479926037285973697
-    second: SpeedyQuick_13
+      213: 185224970736354676
+    second: GokuMan_HeavyLow4
   - first:
-      213: -5836749622337274337
-    second: SpeedyQuick_14
+      213: 5579652607883213536
+    second: GokuMan_LightJump
   - first:
-      213: 5729362197813817943
-    second: SpeedyQuick_15
+      213: -6971345820800186831
+    second: GokuMan_HeavyLow1
   - first:
-      213: -6276740174898857323
-    second: SpeedyQuick_16
+      213: 7116724454841266592
+    second: GokuMan_HeavyNeutral1
   - first:
-      213: -6801325980847990671
-    second: SpeedyQuick_17
+      213: -9053313171144940277
+    second: GokuMan_HeavyLow5
   - first:
-      213: 8420271200830858176
-    second: SpeedyQuick_18
+      213: 1766892415392915603
+    second: GokuMan_HeavyLow2
   - first:
-      213: 3260259838110462852
-    second: SpeedyQuick_19
+      213: 9201670303679715471
+    second: GokuMan_HeavyLow6
   - first:
-      213: 2575207627550253601
-    second: SpeedyQuick_20
+      213: -2754529300981261553
+    second: GokuMan_HeavyLow7
   - first:
-      213: 6204895563665462359
-    second: SpeedyQuick_21
+      213: 8796206266371887254
+    second: GokuMan_HeavyHigh1
   - first:
-      213: 6989088869298065255
-    second: SpeedyQuick_22
+      213: 5630222053219092311
+    second: GokuMan_HeavyHigh2
   - first:
-      213: 6476445716958786344
-    second: SpeedyQuick_23
+      213: 7042239069675908031
+    second: GokuMan_HeavyHigh3
   - first:
-      213: -3114353800202655577
-    second: SpeedyQuick_24
+      213: -1126127647341851048
+    second: GokuMan_HeavyLow3
   - first:
-      213: -6225901550750766903
-    second: SpeedyQuick_25
+      213: 8558774434139267434
+    second: GokuMan_Hit
   - first:
-      213: 3461377842858260569
-    second: SpeedyQuick_26
+      213: -7647149344926927495
+    second: GokuMan_HeavyJump1
   - first:
-      213: 998038425681420454
-    second: SpeedyQuick_27
+      213: -7530362089966081422
+    second: GokuMan_HeavyJump2
   - first:
-      213: 5197276057690556895
-    second: SpeedyQuick_28
+      213: 8161713020916432713
+    second: GokuMan_HeavyJump3
   - first:
-      213: -7128659189460315149
-    second: SpeedyQuick_29
+      213: 325853474943351841
+    second: GokuMan_HeavyJump4
   - first:
-      213: -684641569720217123
-    second: SpeedyQuick_30
+      213: -8482268321264013184
+    second: GokuMan_HeavyJump5
   - first:
-      213: -1015108659291035921
-    second: SpeedyQuick_31
+      213: 5010455313774471385
+    second: GokuMan_HeavyJump6
   - first:
-      213: -7124942311394472370
-    second: SpeedyQuick_32
+      213: 7591709917500669625
+    second: GokuMan_32
   - first:
-      213: -7089852761378616289
-    second: SpeedyQuick_33
+      213: -2511160183833340368
+    second: GokuMan_HeavyJump7
   - first:
-      213: 559666586879479356
-    second: SpeedyQuick_34
+      213: -6488106452855962734
+    second: GokuMan_HeavyJump8
   - first:
-      213: -1118474161946006261
-    second: SpeedyQuick_35
+      213: -4180474078238142671
+    second: GokuMan_Projectile1
   - first:
-      213: 8609185830355681275
-    second: SpeedyQuick_36
+      213: -2080759873177977037
+    second: GokuMan_36
   - first:
-      213: 6673514046360105175
-    second: SpeedyQuick_37
+      213: 8694938285870623859
+    second: GokuMan_Projectile2
   - first:
-      213: 6720314464887181005
-    second: SpeedyQuick_8
+      213: 2058002661972047273
+    second: GokuMan_Grab1
   - first:
-      213: 7702973650405583883
-    second: SpeedyQuick_17
+      213: -8429487262912989741
+    second: GokuMan_Grab2
   - first:
-      213: 3596726294112137746
-    second: SpeedyQuick_20
+      213: 8497835411904923653
+    second: GokuMan_40
   - first:
-      213: -8769446620028547622
-    second: SpeedyQuick_38
+      213: -8379749475400386939
+    second: GokuMan_41
   - first:
-      213: -2076080748922630245
-    second: SpeedyQuick_39
+      213: 1461980362738288711
+    second: GokuMan_Throw1
   - first:
-      213: -6883552501229584029
-    second: SpeedyQuick_40
+      213: -8580291709012650762
+    second: GokuMan_Throw2
   - first:
-      213: -8925214711567346287
-    second: SpeedyQuick_41
+      213: 471641565138152615
+    second: GokuMan_Throw3
   - first:
-      213: -6195020527130383390
-    second: SpeedyQuick_42
+      213: 6649215366916002455
+    second: GokuMan_Block
   - first:
-      213: 6144266350117398135
-    second: SpeedyQuick_43
+      213: -736783814907100442
+    second: GokuMan_46
   - first:
-      213: -3078192414843446078
-    second: SpeedyQuick_44
+      213: 1547255698182477975
+    second: GokuMan_Run
   - first:
-      213: 7800998471170698764
-    second: SpeedyQuick_45
+      213: 5910893415398710897
+    second: GokuMan_48
   - first:
-      213: -6255853850662361460
-    second: SpeedyQuick_46
+      213: -3341094643492931227
+    second: GokuMan_49
+  - first:
+      213: 6930049190981345755
+    second: GokuMan_50
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -233,17 +236,89 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpeedyQuick_0
+      name: GokuMan_Idle
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1902
-        width: 43
-        height: 98
+        x: 23
+        y: 1900
+        width: 49
+        height: 100
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,41 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59ab04a9f3ee6ae00800000000000000
-      internalID: 1055793119603243669
+      spriteID: 606bf7a016347e320800000000000000
+      internalID: 2587110595014669830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_1
+      name: GokuMan_LightNeutral1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1703
-        width: 43
-        height: 98
-      alignment: 9
-      pivot: {x: 0.5193282, y: 0.014887596}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 440246429350e7930800000000000000
-      internalID: 4142754450209251396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_2
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 1703
-        width: 72
-        height: 98
+        x: 21
+        y: 1701
+        width: 55
+        height: 100
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d50025c23b629750800000000000000
-      internalID: 6310223893699233235
+      spriteID: fe6aa42f8cbe99640800000000000000
+      internalID: 5087356502382651119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_3
+      name: GokuMan_LightNeutral2
       rect:
         serializedVersion: 2
-        x: 215
-        y: 1703
-        width: 43
-        height: 98
+        x: 121
+        y: 1701
+        width: 55
+        height: 100
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b0d9a3ccf805b0e0800000000000000
-      internalID: -2254886156721598279
+      spriteID: 26b18b5fc2608f920800000000000000
+      internalID: 3024173939950099298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_4
+      name: GokuMan_LightLow3
       rect:
         serializedVersion: 2
-        x: 2141
-        y: 1760
-        width: 5
-        height: 4
+        x: 223
+        y: 1600
+        width: 52
+        height: 103
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb799f462c6052d20800000000000000
-      internalID: 3253013737832552382
+      spriteID: cf9cd39353b69c4e0800000000000000
+      internalID: -1960918286405350916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_5
+      name: GokuMan_LightNeutral3
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1603
-        width: 44
-        height: 98
+        x: 223
+        y: 1701
+        width: 68
+        height: 100
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,18 +410,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee5885746b6820a00800000000000000
-      internalID: 721287007771854318
+      spriteID: a4228b980885e8a80800000000000000
+      internalID: -8462729340692979126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_6
+      name: GokuMan_LightLow1
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1603
+        x: 21
+        y: 1602
+        width: 55
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8672463ec4b3ac080800000000000000
+      internalID: -9166448890140678296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_LightLow2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1602
+        width: 53
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196ad297fc4529300800000000000000
+      internalID: 257361378781537937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_LightLow4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1600
+        width: 55
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae31b1b42745d360800000000000000
+      internalID: 7193734202719813291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_LightHigh1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1502
+        width: 63
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b908a5e17d8e9a520800000000000000
+      internalID: 2713956261092294811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_LightHigh2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1500
+        width: 57
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debd9bb6adffff90800000000000000
+      internalID: -6917531610063716649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyNeutral2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1302
         width: 61
         height: 98
       alignment: 7
@@ -377,83 +536,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fedfc5a27cf3c8f0800000000000000
-      internalID: -521295562506510607
+      spriteID: 28e3add0a803d7d10800000000000000
+      internalID: 2124907968684768898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_7
+      name: GokuMan_HeavyNeutral3
       rect:
         serializedVersion: 2
-        x: 215
-        y: 1602
-        width: 43
-        height: 99
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bf137ac538b3e6e0800000000000000
-      internalID: -1809400084103487559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_9
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 1303
-        width: 43
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48e34084a9d642f50800000000000000
-      internalID: 6855725042165366404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_10
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 1303
-        width: 72
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d077b59dae6e6640800000000000000
-      internalID: 5075115521913352402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_11
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 1303
+        x: 223
+        y: 1301
         width: 64
-        height: 97
+        height: 99
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,61 +557,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41b7fc92feedd8890800000000000000
-      internalID: -7454056689448289516
+      spriteID: 783965bc44f0522e0800000000000000
+      internalID: -2151296458855902329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_12
+      name: GokuMan_HeavyNeutral4
       rect:
         serializedVersion: 2
-        x: 314
+        x: 307
         y: 1303
-        width: 73
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f69eb36214b4fd70800000000000000
-      internalID: 9076077140134237939
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_13
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 1303
-        width: 64
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f31d7209d4463f3b0800000000000000
-      internalID: -5479926037285973697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_14
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 1203
-        width: 43
+        width: 89
         height: 98
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -524,680 +578,638 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1ef0b59423bffea0800000000000000
-      internalID: -5836749622337274337
+      spriteID: 0f603f4a799da61c0800000000000000
+      internalID: -4509552831527450896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_15
+      name: GokuMan_HeavyLow4
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1203
-        width: 55
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7527e3e3098c28f40800000000000000
-      internalID: 5729362197813817943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_16
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 1203
-        width: 47
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59afab7011a84e8a0800000000000000
-      internalID: -6276740174898857323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_18
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 1203
-        width: 57
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c3a9fd6b00dad470800000000000000
-      internalID: 8420271200830858176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_19
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 1202
-        width: 49
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 483fb069c05ce3d20800000000000000
-      internalID: 3260259838110462852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_21
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 1203
-        width: 43
-        height: 98
-      alignment: 9
-      pivot: {x: 0.56308764, y: 0.9952692}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7545da4e3a73c1650800000000000000
-      internalID: 6204895563665462359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_22
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 1103
-        width: 43
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76fc52efb4b3ef060800000000000000
-      internalID: 6989088869298065255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_23
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 1103
-        width: 47
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 823bd6ed015f0e950800000000000000
-      internalID: 6476445716958786344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_24
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 1102
-        width: 47
-        height: 99
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a8680228b797c4d0800000000000000
-      internalID: -3114353800202655577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_25
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 1103
-        width: 53
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c862fc96872999a0800000000000000
-      internalID: -6225901550750766903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_26
-      rect:
-        serializedVersion: 2
-        x: 414
-        y: 1103
-        width: 53
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95879f41fc8490030800000000000000
-      internalID: 3461377842858260569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_27
-      rect:
-        serializedVersion: 2
-        x: 514
-        y: 1102
-        width: 43
-        height: 99
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a06eea09aeb9dd00800000000000000
-      internalID: 998038425681420454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_28
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 902
-        width: 62
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd9c942c90f602840800000000000000
-      internalID: 5197276057690556895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_29
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 803
-        width: 43
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f3d4678c3ae11d90800000000000000
-      internalID: -7128659189460315149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_30
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 803
-        width: 62
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd15c56ae1aaf76f0800000000000000
-      internalID: -684641569720217123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_31
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 803
-        width: 65
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe6e88a7d0c99e1f0800000000000000
-      internalID: -1015108659291035921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_32
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 803
-        width: 65
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4e8e24a7be1f1d90800000000000000
-      internalID: -7124942311394472370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_33
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 701
-        width: 43
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1c84382a78cb9d90800000000000000
-      internalID: -7089852761378616289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_34
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 701
-        width: 60
-        height: 100
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3e4b97abc554c700800000000000000
-      internalID: 559666586879479356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_35
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 604
-        width: 43
-        height: 97
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0d61c6fca16a70f0800000000000000
-      internalID: -1118474161946006261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_36
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 101
-        width: 46
-        height: 98
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bff3da736e8f97770800000000000000
-      internalID: 8609185830355681275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_37
-      rect:
-        serializedVersion: 2
-        x: 121
-        y: 102
-        width: 45
-        height: 93
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d0bfd8daa51d9c50800000000000000
-      internalID: 6673514046360105175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_8
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 1503
-        width: 60
-        height: 99
-      alignment: 9
-      pivot: {x: 0.5145775, y: 0.018491803}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dce058a666a534d50800000000000000
-      internalID: 6720314464887181005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_17
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 1406
+        x: 322
+        y: 1201
         width: 63
-        height: 94
-      alignment: 9
-      pivot: {x: 0.49894544, y: 0.008746208}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0c6e9219b576ea60800000000000000
-      internalID: 7702973650405583883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpeedyQuick_20
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 1502
-        width: 45
         height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2127cda12832ae130800000000000000
-      internalID: 3596726294112137746
+      spriteID: 475c548212d029200800000000000000
+      internalID: 185224970736354676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_38
+      name: GokuMan_HeavyLow1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1403
-        width: 44
+        x: 21
+        y: 1201
+        width: 55
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360dc869edc04f90800000000000000
+      internalID: -6971345820800186831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyLow5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1199
+        width: 72
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b056a8923ab2c5280800000000000000
+      internalID: -9053313171144940277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyLow6
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1199
+        width: 67
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88171f7366e2bf70800000000000000
+      internalID: 9201670303679715471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyLow7
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1199
+        width: 68
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b5b93e132f5c9d0800000000000000
+      internalID: -2754529300981261553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyHigh1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1102
+        width: 55
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6905926bef6621a70800000000000000
+      internalID: 8796206266371887254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyHigh2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1102
+        width: 61
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c1b09021922e40800000000000000
+      internalID: 5630222053219092311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyHigh3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1102
+        width: 66
         height: 97
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: addc278f2caac4680800000000000000
-      internalID: -8769446620028547622
+      spriteID: fbbe86b5f1f0bb160800000000000000
+      internalID: 7042239069675908031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_39
+      name: GokuMan_HeavyJump1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1003
-        width: 40
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 21
+        y: 1002
+        width: 57
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f8073fe874033e0800000000000000
-      internalID: -2076080748922630245
+      spriteID: 975f447ef2edfd590800000000000000
+      internalID: -7647149344926927495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_40
+      name: GokuMan_HeavyJump2
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1003
-        width: 49
-        height: 98
-      alignment: 9
-      pivot: {x: 0.50508803, y: 0.011622215}
+        x: 113
+        y: 1002
+        width: 65
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36185738875b870a0800000000000000
-      internalID: -6883552501229584029
+      spriteID: 27ae085a397ce7790800000000000000
+      internalID: -7530362089966081422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_41
+      name: GokuMan_HeavyJump3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 1000
-        width: 52
-        height: 99
-      alignment: 9
-      pivot: {x: 0.49780157, y: 0.011429603}
+        x: 205
+        y: 1002
+        width: 72
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19510f4f184432480800000000000000
-      internalID: -8925214711567346287
+      spriteID: 94f776affba344170800000000000000
+      internalID: 8161713020916432713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_42
+      name: GokuMan_HeavyJump4
       rect:
         serializedVersion: 2
         x: 314
-        y: 1001
-        width: 49
+        y: 1002
+        width: 63
         height: 100
-      alignment: 9
-      pivot: {x: 0.5042824, y: 0.011141968}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ebe32837add60aa0800000000000000
-      internalID: -6195020527130383390
+      spriteID: 12c33de420aa58400800000000000000
+      internalID: 325853474943351841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_43
+      name: GokuMan_HeavyJump5
       rect:
         serializedVersion: 2
         x: 414
+        y: 1002
+        width: 65
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080728d17ede84a80800000000000000
+      internalID: -8482268321264013184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyJump6
+      rect:
+        serializedVersion: 2
+        x: 516
         y: 1000
+        width: 76
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8ee74bf86b88540800000000000000
+      internalID: 5010455313774471385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyJump7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1002
+        width: 55
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03652841e11962dd0800000000000000
+      internalID: -2511160183833340368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyJump8
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1002
+        width: 62
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293c99c7e8d95f5a0800000000000000
+      internalID: -6488106452855962734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Projectile1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 902
+        width: 55
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f03e599f8fbf5c0800000000000000
+      internalID: -4180474078238142671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Projectile2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 900
+        width: 59
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c2341ad40aaa870800000000000000
+      internalID: 8694938285870623859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Grab1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 801
+        width: 67
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f6ad648e7f8c10800000000000000
+      internalID: 2058002661972047273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Grab2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 801
         width: 47
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d53467eef1740b80800000000000000
+      internalID: -8429487262912989741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Throw1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 701
+        width: 55
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748cc9dd46ff94410800000000000000
+      internalID: 1461980362738288711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Throw2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 699
+        width: 59
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f45217a62eace880800000000000000
+      internalID: -8580291709012650762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Throw3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 699
+        width: 60
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac6e5f218b9b8600800000000000000
+      internalID: 471641565138152615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Block
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 600
+        width: 49
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792d81ca522c64c50800000000000000
+      internalID: 6649215366916002455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_Run
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 202
+        width: 82
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7989dda1cd4f87510800000000000000
+      internalID: 1547255698182477975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_LightJump
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1402
+        width: 63
+        height: 98
+      alignment: 9
+      pivot: {x: 0.4966821, y: 0.028615523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eaf5fe0c78ee6d40800000000000000
+      internalID: 5579652607883213536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyNeutral1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1302
+        width: 55
+        height: 99
+      alignment: 9
+      pivot: {x: 0.48830476, y: 0.0419367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a136278f2fa3c260800000000000000
+      internalID: 7116724454841266592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GokuMan_HeavyLow2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1202
+        width: 61
         height: 100
       alignment: 9
-      pivot: {x: 0.5020492, y: 0.0120483395}
+      pivot: {x: 0.52965957, y: 0.047697753}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 776222411b1d44550800000000000000
-      internalID: 6144266350117398135
+      spriteID: 390a3d75a43458810800000000000000
+      internalID: 1766892415392915603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_44
+      name: GokuMan_HeavyLow3
       rect:
         serializedVersion: 2
-        x: 514
-        y: 1002
-        width: 46
+        x: 223
+        y: 1201
+        width: 61
         height: 99
       alignment: 9
-      pivot: {x: 0.5020938, y: 0.010035659}
+      pivot: {x: 0.47034118, y: 0.061403833}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cc54f2ce401845d0800000000000000
-      internalID: -3078192414843446078
+      spriteID: 85e41780fd03f50f0800000000000000
+      internalID: -1126127647341851048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuick_45
+      name: GokuMan_Hit
       rect:
         serializedVersion: 2
-        x: 15
-        y: 902
-        width: 43
-        height: 99
+        x: 5
+        y: 2
+        width: 50
+        height: 98
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0eae7f27c6b24c60800000000000000
-      internalID: 7800998471170698764
+      spriteID: a61e0936000e6c670800000000000000
+      internalID: 8558774434139267434
       vertices: []
       indices: 
       edges: []
