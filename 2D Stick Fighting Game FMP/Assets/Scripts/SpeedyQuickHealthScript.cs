@@ -22,6 +22,8 @@ public class SpeedyQuickHealthScript : MonoBehaviour
     public float roundThreeFill = 0;
     public float roundsWon = 0;
 
+   
+
     /*[SerializeField]
     GameObject attackHitboxSpecial;
 
@@ -108,7 +110,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
-                Newanimator.Play("SpeedyQuick_LightHigh");
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "LightLow")
             {
@@ -220,6 +222,15 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         //isAttacking = false;
     }*/
 
+
+    IEnumerator Stunned()
+    {
+        Newanimator.Play("SpeedyQuick_Hit");
+        GetComponent<SpeedyQuickController2D>().isAttackLocked = true;
+        yield return new WaitForSeconds(0.5f);
+        Newanimator.Play("SpeedyQuick_Idle");
+        GetComponent<SpeedyQuickController2D>().isAttackLocked = false;
+    }
 
 }
 

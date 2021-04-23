@@ -1056,6 +1056,7 @@ MonoBehaviour:
   shootDelay: 0.5
   speed: 1
   player1: {fileID: 970562239}
+  isAttackLocked: 0
 --- !u!50 &367057620
 Rigidbody2D:
   serializedVersion: 4
@@ -4821,7 +4822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &1771049686
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4973,7 +4974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771049685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 706.955, y: 39.533, z: 0}
+  m_LocalPosition: {x: 706.786, y: 39.553, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 173717797}

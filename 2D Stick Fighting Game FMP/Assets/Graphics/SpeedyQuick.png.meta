@@ -241,7 +241,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 1902
+        y: 2002
         width: 43
         height: 98
       alignment: 7
@@ -261,8 +261,8 @@ TextureImporter:
       name: SpeedyQuick_1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1703
+        x: 16
+        y: 1801
         width: 43
         height: 98
       alignment: 9
@@ -282,8 +282,8 @@ TextureImporter:
       name: SpeedyQuick_2
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1703
+        x: 107
+        y: 1804
         width: 72
         height: 98
       alignment: 7
@@ -304,7 +304,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 215
-        y: 1703
+        y: 1806
         width: 43
         height: 98
       alignment: 7
@@ -345,8 +345,8 @@ TextureImporter:
       name: SpeedyQuick_5
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1603
+        x: 16
+        y: 1703
         width: 44
         height: 98
       alignment: 7
@@ -367,7 +367,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 115
-        y: 1603
+        y: 1704
         width: 61
         height: 98
       alignment: 7
@@ -388,7 +388,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 215
-        y: 1602
+        y: 1705
         width: 43
         height: 99
       alignment: 7
@@ -408,8 +408,8 @@ TextureImporter:
       name: SpeedyQuick_9
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1303
+        x: 16
+        y: 1408
         width: 43
         height: 97
       alignment: 7
@@ -429,8 +429,8 @@ TextureImporter:
       name: SpeedyQuick_10
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1303
+        x: 113
+        y: 1409
         width: 72
         height: 97
       alignment: 7
@@ -450,8 +450,8 @@ TextureImporter:
       name: SpeedyQuick_11
       rect:
         serializedVersion: 2
-        x: 215
-        y: 1303
+        x: 216
+        y: 1408
         width: 64
         height: 97
       alignment: 7
@@ -471,8 +471,8 @@ TextureImporter:
       name: SpeedyQuick_12
       rect:
         serializedVersion: 2
-        x: 314
-        y: 1303
+        x: 313
+        y: 1405
         width: 73
         height: 97
       alignment: 7
@@ -492,8 +492,8 @@ TextureImporter:
       name: SpeedyQuick_13
       rect:
         serializedVersion: 2
-        x: 416
-        y: 1303
+        x: 414
+        y: 1406
         width: 64
         height: 97
       alignment: 7
@@ -513,8 +513,8 @@ TextureImporter:
       name: SpeedyQuick_14
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1203
+        x: 15
+        y: 1307
         width: 43
         height: 98
       alignment: 7
@@ -534,8 +534,8 @@ TextureImporter:
       name: SpeedyQuick_15
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1203
+        x: 116
+        y: 1303
         width: 55
         height: 98
       alignment: 7
@@ -555,8 +555,8 @@ TextureImporter:
       name: SpeedyQuick_16
       rect:
         serializedVersion: 2
-        x: 215
-        y: 1203
+        x: 218
+        y: 1304
         width: 47
         height: 98
       alignment: 7
@@ -576,8 +576,8 @@ TextureImporter:
       name: SpeedyQuick_18
       rect:
         serializedVersion: 2
-        x: 314
-        y: 1203
+        x: 313
+        y: 1305
         width: 57
         height: 98
       alignment: 7
@@ -597,8 +597,8 @@ TextureImporter:
       name: SpeedyQuick_19
       rect:
         serializedVersion: 2
-        x: 414
-        y: 1202
+        x: 415
+        y: 1302
         width: 49
         height: 98
       alignment: 7
@@ -618,8 +618,8 @@ TextureImporter:
       name: SpeedyQuick_21
       rect:
         serializedVersion: 2
-        x: 514
-        y: 1203
+        x: 516
+        y: 1301
         width: 43
         height: 98
       alignment: 9
@@ -639,8 +639,8 @@ TextureImporter:
       name: SpeedyQuick_22
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1103
+        x: 17
+        y: 1202
         width: 43
         height: 98
       alignment: 7
@@ -660,8 +660,8 @@ TextureImporter:
       name: SpeedyQuick_23
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1103
+        x: 117
+        y: 1204
         width: 47
         height: 98
       alignment: 7
@@ -682,7 +682,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 215
-        y: 1102
+        y: 1205
         width: 47
         height: 99
       alignment: 7
@@ -702,8 +702,8 @@ TextureImporter:
       name: SpeedyQuick_25
       rect:
         serializedVersion: 2
-        x: 314
-        y: 1103
+        x: 315
+        y: 1204
         width: 53
         height: 98
       alignment: 7
@@ -723,8 +723,8 @@ TextureImporter:
       name: SpeedyQuick_26
       rect:
         serializedVersion: 2
-        x: 414
-        y: 1103
+        x: 413
+        y: 1204
         width: 53
         height: 98
       alignment: 7
@@ -744,8 +744,8 @@ TextureImporter:
       name: SpeedyQuick_27
       rect:
         serializedVersion: 2
-        x: 514
-        y: 1102
+        x: 515
+        y: 1202
         width: 43
         height: 99
       alignment: 7
@@ -765,8 +765,8 @@ TextureImporter:
       name: SpeedyQuick_28
       rect:
         serializedVersion: 2
-        x: 129
-        y: 902
+        x: 126
+        y: 1002
         width: 62
         height: 100
       alignment: 7
@@ -786,8 +786,8 @@ TextureImporter:
       name: SpeedyQuick_29
       rect:
         serializedVersion: 2
-        x: 14
-        y: 803
+        x: 15
+        y: 906
         width: 43
         height: 97
       alignment: 7
@@ -807,8 +807,8 @@ TextureImporter:
       name: SpeedyQuick_30
       rect:
         serializedVersion: 2
-        x: 129
-        y: 803
+        x: 125
+        y: 904
         width: 62
         height: 97
       alignment: 7
@@ -828,8 +828,8 @@ TextureImporter:
       name: SpeedyQuick_31
       rect:
         serializedVersion: 2
-        x: 230
-        y: 803
+        x: 228
+        y: 905
         width: 65
         height: 97
       alignment: 7
@@ -849,8 +849,8 @@ TextureImporter:
       name: SpeedyQuick_32
       rect:
         serializedVersion: 2
-        x: 330
-        y: 803
+        x: 325
+        y: 908
         width: 65
         height: 97
       alignment: 7
@@ -870,8 +870,8 @@ TextureImporter:
       name: SpeedyQuick_33
       rect:
         serializedVersion: 2
-        x: 14
-        y: 701
+        x: 15
+        y: 803
         width: 43
         height: 100
       alignment: 7
@@ -891,8 +891,8 @@ TextureImporter:
       name: SpeedyQuick_34
       rect:
         serializedVersion: 2
-        x: 131
-        y: 701
+        x: 132
+        y: 800
         width: 60
         height: 100
       alignment: 7
@@ -913,7 +913,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 18
-        y: 604
+        y: 705
         width: 43
         height: 97
       alignment: 7
@@ -933,8 +933,8 @@ TextureImporter:
       name: SpeedyQuick_36
       rect:
         serializedVersion: 2
-        x: 20
-        y: 101
+        x: 21
+        y: 204
         width: 46
         height: 98
       alignment: 7
@@ -955,7 +955,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 121
-        y: 102
+        y: 202
         width: 45
         height: 93
       alignment: 7
@@ -975,8 +975,8 @@ TextureImporter:
       name: SpeedyQuick_8
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1503
+        x: 116
+        y: 1604
         width: 60
         height: 99
       alignment: 9
@@ -997,9 +997,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 114
-        y: 1406
+        y: 1506
         width: 63
-        height: 94
+        height: 97
       alignment: 9
       pivot: {x: 0.49894544, y: 0.008746208}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1018,7 +1018,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 1502
+        y: 1603
         width: 45
         height: 100
       alignment: 0
@@ -1038,8 +1038,8 @@ TextureImporter:
       name: SpeedyQuick_38
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1403
+        x: 15
+        y: 1505
         width: 44
         height: 97
       alignment: 0
@@ -1059,8 +1059,8 @@ TextureImporter:
       name: SpeedyQuick_39
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1003
+        x: 16
+        y: 1102
         width: 40
         height: 99
       alignment: 0
@@ -1081,7 +1081,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 115
-        y: 1003
+        y: 1104
         width: 49
         height: 98
       alignment: 9
@@ -1101,8 +1101,8 @@ TextureImporter:
       name: SpeedyQuick_41
       rect:
         serializedVersion: 2
-        x: 214
-        y: 1000
+        x: 213
+        y: 1105
         width: 52
         height: 99
       alignment: 9
@@ -1122,8 +1122,8 @@ TextureImporter:
       name: SpeedyQuick_42
       rect:
         serializedVersion: 2
-        x: 314
-        y: 1001
+        x: 316
+        y: 1100
         width: 49
         height: 100
       alignment: 9
@@ -1143,8 +1143,8 @@ TextureImporter:
       name: SpeedyQuick_43
       rect:
         serializedVersion: 2
-        x: 414
-        y: 1000
+        x: 416
+        y: 1101
         width: 47
         height: 100
       alignment: 9
@@ -1165,7 +1165,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 514
-        y: 1002
+        y: 1103
         width: 46
         height: 99
       alignment: 9
@@ -1186,7 +1186,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 902
+        y: 1002
         width: 43
         height: 99
       alignment: 0
@@ -1198,6 +1198,27 @@ TextureImporter:
       bones: []
       spriteID: c0eae7f27c6b24c60800000000000000
       internalID: 7800998471170698764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuick_46
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 98
+        width: 51
+        height: 104
+      alignment: 9
+      pivot: {x: 0.50918794, y: 0.04952482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86a288511ebe29a0800000000000000
+      internalID: -6255853850662361460
       vertices: []
       indices: 
       edges: []

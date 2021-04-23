@@ -79,7 +79,7 @@ public class SpeedyQuickController2D : MonoBehaviour
 
     bool isFacingLeft;
 
-    bool isAttackLocked = false;
+   public bool isAttackLocked = false;
 
     // Start is called before the first frame update
     void Start()

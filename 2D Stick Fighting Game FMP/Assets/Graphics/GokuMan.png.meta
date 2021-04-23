@@ -315,8 +315,8 @@ TextureImporter:
       name: GokuMan_Idle
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1900
+        x: 22
+        y: 2000
         width: 49
         height: 100
       alignment: 7
@@ -336,8 +336,8 @@ TextureImporter:
       name: GokuMan_LightNeutral1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1701
+        x: 23
+        y: 1800
         width: 55
         height: 100
       alignment: 7
@@ -357,8 +357,8 @@ TextureImporter:
       name: GokuMan_LightNeutral2
       rect:
         serializedVersion: 2
-        x: 121
-        y: 1701
+        x: 122
+        y: 1802
         width: 55
         height: 100
       alignment: 7
@@ -378,8 +378,8 @@ TextureImporter:
       name: GokuMan_LightLow3
       rect:
         serializedVersion: 2
-        x: 223
-        y: 1600
+        x: 224
+        y: 1698
         width: 52
         height: 103
       alignment: 7
@@ -399,8 +399,8 @@ TextureImporter:
       name: GokuMan_LightNeutral3
       rect:
         serializedVersion: 2
-        x: 223
-        y: 1701
+        x: 222
+        y: 1801
         width: 68
         height: 100
       alignment: 7
@@ -420,8 +420,8 @@ TextureImporter:
       name: GokuMan_LightLow1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1602
+        x: 22
+        y: 1701
         width: 55
         height: 99
       alignment: 7
@@ -442,9 +442,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 123
-        y: 1602
+        y: 1701
         width: 53
-        height: 99
+        height: 101
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,8 +462,8 @@ TextureImporter:
       name: GokuMan_LightLow4
       rect:
         serializedVersion: 2
-        x: 322
-        y: 1600
+        x: 321
+        y: 1700
         width: 55
         height: 101
       alignment: 7
@@ -483,8 +483,8 @@ TextureImporter:
       name: GokuMan_LightHigh1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1502
+        x: 18
+        y: 1599
         width: 63
         height: 102
       alignment: 7
@@ -504,8 +504,8 @@ TextureImporter:
       name: GokuMan_LightHigh2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1500
+        x: 122
+        y: 1599
         width: 57
         height: 102
       alignment: 7
@@ -525,8 +525,8 @@ TextureImporter:
       name: GokuMan_HeavyNeutral2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1302
+        x: 122
+        y: 1402
         width: 61
         height: 98
       alignment: 7
@@ -547,7 +547,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 223
-        y: 1301
+        y: 1401
         width: 64
         height: 99
       alignment: 7
@@ -568,7 +568,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 307
-        y: 1303
+        y: 1402
         width: 89
         height: 98
       alignment: 7
@@ -589,7 +589,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 322
-        y: 1201
+        y: 1301
         width: 63
         height: 100
       alignment: 7
@@ -610,7 +610,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 1201
+        y: 1300
         width: 55
         height: 100
       alignment: 7
@@ -630,9 +630,9 @@ TextureImporter:
       name: GokuMan_HeavyLow5
       rect:
         serializedVersion: 2
-        x: 424
-        y: 1199
-        width: 72
+        x: 423
+        y: 1301
+        width: 73
         height: 102
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -651,8 +651,8 @@ TextureImporter:
       name: GokuMan_HeavyLow6
       rect:
         serializedVersion: 2
-        x: 531
-        y: 1199
+        x: 529
+        y: 1301
         width: 67
         height: 102
       alignment: 7
@@ -672,8 +672,8 @@ TextureImporter:
       name: GokuMan_HeavyLow7
       rect:
         serializedVersion: 2
-        x: 631
-        y: 1199
+        x: 627
+        y: 1301
         width: 68
         height: 84
       alignment: 7
@@ -694,7 +694,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 1102
+        y: 1200
         width: 55
         height: 99
       alignment: 7
@@ -714,8 +714,8 @@ TextureImporter:
       name: GokuMan_HeavyHigh2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 1102
+        x: 124
+        y: 1203
         width: 61
         height: 99
       alignment: 7
@@ -736,7 +736,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 223
-        y: 1102
+        y: 1204
         width: 66
         height: 97
       alignment: 7
@@ -756,8 +756,8 @@ TextureImporter:
       name: GokuMan_HeavyJump1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1002
+        x: 19
+        y: 1099
         width: 57
         height: 100
       alignment: 7
@@ -777,8 +777,8 @@ TextureImporter:
       name: GokuMan_HeavyJump2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 1002
+        x: 112
+        y: 1102
         width: 65
         height: 100
       alignment: 7
@@ -799,7 +799,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 205
-        y: 1002
+        y: 1099
         width: 72
         height: 102
       alignment: 7
@@ -819,8 +819,8 @@ TextureImporter:
       name: GokuMan_HeavyJump4
       rect:
         serializedVersion: 2
-        x: 314
-        y: 1002
+        x: 316
+        y: 1101
         width: 63
         height: 100
       alignment: 7
@@ -840,8 +840,8 @@ TextureImporter:
       name: GokuMan_HeavyJump5
       rect:
         serializedVersion: 2
-        x: 414
-        y: 1002
+        x: 415
+        y: 1101
         width: 65
         height: 100
       alignment: 7
@@ -861,8 +861,8 @@ TextureImporter:
       name: GokuMan_HeavyJump6
       rect:
         serializedVersion: 2
-        x: 516
-        y: 1000
+        x: 521
+        y: 1102
         width: 76
         height: 102
       alignment: 7
@@ -882,8 +882,8 @@ TextureImporter:
       name: GokuMan_HeavyJump7
       rect:
         serializedVersion: 2
-        x: 623
-        y: 1002
+        x: 625
+        y: 1100
         width: 55
         height: 100
       alignment: 7
@@ -903,8 +903,8 @@ TextureImporter:
       name: GokuMan_HeavyJump8
       rect:
         serializedVersion: 2
-        x: 715
-        y: 1002
+        x: 720
+        y: 1101
         width: 62
         height: 100
       alignment: 7
@@ -925,7 +925,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 21
-        y: 902
+        y: 998
         width: 55
         height: 102
       alignment: 7
@@ -945,8 +945,8 @@ TextureImporter:
       name: GokuMan_Projectile2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 900
+        x: 122
+        y: 1000
         width: 59
         height: 102
       alignment: 7
@@ -966,8 +966,8 @@ TextureImporter:
       name: GokuMan_Grab1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 801
+        x: 19
+        y: 899
         width: 67
         height: 99
       alignment: 7
@@ -987,8 +987,8 @@ TextureImporter:
       name: GokuMan_Grab2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 801
+        x: 122
+        y: 900
         width: 47
         height: 99
       alignment: 7
@@ -1008,8 +1008,8 @@ TextureImporter:
       name: GokuMan_Throw1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 701
+        x: 20
+        y: 799
         width: 55
         height: 100
       alignment: 7
@@ -1029,8 +1029,8 @@ TextureImporter:
       name: GokuMan_Throw2
       rect:
         serializedVersion: 2
-        x: 123
-        y: 699
+        x: 122
+        y: 797
         width: 59
         height: 102
       alignment: 7
@@ -1050,9 +1050,9 @@ TextureImporter:
       name: GokuMan_Throw3
       rect:
         serializedVersion: 2
-        x: 223
-        y: 699
-        width: 60
+        x: 221
+        y: 801
+        width: 66
         height: 102
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -1071,8 +1071,8 @@ TextureImporter:
       name: GokuMan_Block
       rect:
         serializedVersion: 2
-        x: 23
-        y: 600
+        x: 24
+        y: 698
         width: 49
         height: 101
       alignment: 7
@@ -1113,8 +1113,8 @@ TextureImporter:
       name: GokuMan_LightJump
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1402
+        x: 18
+        y: 1501
         width: 63
         height: 98
       alignment: 9
@@ -1134,8 +1134,8 @@ TextureImporter:
       name: GokuMan_HeavyNeutral1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1302
+        x: 22
+        y: 1400
         width: 55
         height: 99
       alignment: 9
@@ -1156,7 +1156,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 123
-        y: 1202
+        y: 1302
         width: 61
         height: 100
       alignment: 9
@@ -1177,7 +1177,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 223
-        y: 1201
+        y: 1302
         width: 61
         height: 99
       alignment: 9
@@ -1202,7 +1202,7 @@ TextureImporter:
         width: 50
         height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
