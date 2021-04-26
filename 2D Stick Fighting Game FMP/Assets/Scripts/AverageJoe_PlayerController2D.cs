@@ -8,7 +8,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     Rigidbody2D Newrb2d;
     SpriteRenderer NewspriteRenderer;
 
-    bool isGrounded;
+    public bool isGrounded;
 
     [SerializeField]
     GameObject bouncyBall;
@@ -83,6 +83,8 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     bool isAttacking = false;
 
     bool isFacingLeft;
+
+    public bool isAttackLocked = false;
 
     float maximumThrowDistance = 1.5f;
 
@@ -377,6 +379,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
     IEnumerator DoAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitbox.SetActive(true);
         attackHitboxLightNeutralStart.SetActive(true);
         attackHitboxLightNeutralEnd.SetActive(true);
@@ -384,21 +387,29 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         attackHitbox.SetActive(false);
         attackHitboxLightNeutralStart.SetActive(false);
         attackHitboxLightNeutralEnd.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false; 
         isAttacking = false;
     }
 
     IEnumerator DoLightHighAttack(float wpdelay)
     {
+        isAttackLocked = true;
         attackHitboxLightHigh.SetActive(true);
         attackHitboxLHEnd.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxLightHigh.SetActive(true);
         attackHitboxLHEnd.SetActive(true);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoLightLowAttack(float spdelay)
     {
+        isAttackLocked = true; 
         attackHitboxLightLowStart.SetActive(true);
         attackHitboxLightLowMiddle.SetActive(true);
         attackHitboxLightLowEnd.SetActive(true);
@@ -406,55 +417,82 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
         attackHitboxLightLowStart.SetActive(false);
         attackHitboxLightLowMiddle.SetActive(false);
         attackHitboxLightLowEnd.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoLightJumpAttack(float delay)
     {
+        isAttackLocked = true;
         attackHitboxLightJump.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxLightJump.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyNeutralAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitboxHeavyNeutral.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxHeavyNeutral.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyHighAttack(float wodelay)
     {
+        isAttackLocked = true; 
         attackHitboxHeavyHigh.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxHeavyHigh.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyLowAttack(float sodelay)
     {
+        isAttackLocked = true; 
         attackHitboxHeavyLow.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxHeavyLow.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyJumpAttack(float delay)
     {
+        isAttackLocked = true;
         attackHitboxHeavyJump.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxHeavyJump.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
 
     IEnumerator DoGrabAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitbox.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitbox.SetActive(false);
+        Newanimator.Play("AverageJoe_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 

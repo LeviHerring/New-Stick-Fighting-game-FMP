@@ -1035,6 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea577e260c40e74086e0a3a040613fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGrounded: 0
   LightningBolt: {fileID: 7227922796271598725, guid: aec132f0d287c414693fae185db51475,
     type: 3}
   bulletSpawnPos: {fileID: 1695964917}
@@ -2764,6 +2765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d96d45893f276e148ab0ba9cb84e1467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGrounded: 0
   bouncyBall: {fileID: 1338223607955441269, guid: 894231bb743e5b049b84c2688b82e92b,
     type: 3}
   bulletSpawnPos: {fileID: 922869890}
@@ -2787,6 +2789,7 @@ MonoBehaviour:
   jumpSpeed: 3
   shootDelay: 5
   player2: {fileID: 367057615}
+  isAttackLocked: 0
 --- !u!114 &970562246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6034,7 +6037,7 @@ PrefabInstance:
     - target: {fileID: 2145336567589480486, guid: 7c3e8c212273c3d4d976ca551592ab92,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2145336567589480926, guid: 7c3e8c212273c3d4d976ca551592ab92,
         type: 3}

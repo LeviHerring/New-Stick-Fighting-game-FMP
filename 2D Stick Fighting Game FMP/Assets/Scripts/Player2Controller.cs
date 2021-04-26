@@ -87,6 +87,10 @@ public class Player2Controller : MonoBehaviour
 
     bool isFacingLeft;
 
+    public bool isAttackLocked = false; 
+
+    public float maximumThrowDistance = 1.5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -320,14 +324,28 @@ public class Player2Controller : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.K) && isGrounded == true)
+        if (Input.GetKey(KeyCode.K) && GetComponent<AverageJoe_PlayerController2D>().isGrounded == true)
         {
-            
-          
-            Vector3 difference = player1.transform.position - this.transform.position; 
-            if (difference.sqrMagnitude <= 1)
+
+
+            Vector3 difference = player1.transform.position - this.transform.position;
+            if (difference.sqrMagnitude <= maximumThrowDistance)
             {
-                Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+                if (player1.transform.localScale.x > 0)
+                {
+                    if (player1.transform.position.x < this.transform.position.x)
+                    {
+                        Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+                    }
+                }
+                else
+                {
+                    if (player1.transform.position.x > this.transform.position.x)
+                    {
+                        Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+
+                    }
+                }
             }
         }
 
@@ -355,6 +373,7 @@ public class Player2Controller : MonoBehaviour
 
     IEnumerator DoAttack(float delay)
     {
+        isAttackLocked = true; 
         //attackHitbox.SetActive(true);
         attackHitboxLightNeutralStart.SetActive(true);
         attackHitboxLightNeutralEnd.SetActive(true);
@@ -362,21 +381,29 @@ public class Player2Controller : MonoBehaviour
         attackHitbox.SetActive(false);
         attackHitboxLightNeutralStart.SetActive(false);
         attackHitboxLightNeutralEnd.SetActive(false);
-        isAttacking = false;
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
+        isAttacking = false; 
     }
 
     IEnumerator DoLightHighAttack(float delay)
     {
+        isAttackLocked = true;
         attackHitboxLightHigh.SetActive(true);
         attackHitboxLHEnd.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxLightHigh.SetActive(true);
         attackHitboxLHEnd.SetActive(true);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoLightLowAttack(float delay)
     {
+        isAttackLocked = true;
         attackHitboxLightLowStart.SetActive(true);
         attackHitboxLightLowMiddle.SetActive(true);
         attackHitboxLightLowEnd.SetActive(true);
@@ -384,55 +411,82 @@ public class Player2Controller : MonoBehaviour
         attackHitboxLightLowStart.SetActive(false);
         attackHitboxLightLowMiddle.SetActive(false);
         attackHitboxLightLowEnd.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoLightJumpAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitboxLightJump.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxLightJump.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyNeutralAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitboxHeavyNeutral.SetActive(true);
         yield return new WaitForSeconds(1.4f);
         attackHitboxHeavyNeutral.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyHighAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitboxHeavyHigh.SetActive(true);
         yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyHigh.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyLowAttack(float delay)
     {
+        isAttackLocked = true;   
         attackHitboxHeavyLow.SetActive(true);
         yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyLow.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
     IEnumerator DoHeavyJumpAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitboxHeavyJump.SetActive(true);
         yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyJump.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
 
 
     IEnumerator DoGrabAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitbox.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitbox.SetActive(false);
+        Newanimator.Play("Player2_Idle");
+        yield return new WaitForSeconds(.1f);
+        isAttackLocked = false;
         isAttacking = false;
     }
     void ResetAttack()

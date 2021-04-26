@@ -8,7 +8,7 @@ public class SpeedyQuickController2D : MonoBehaviour
     Rigidbody2D Newrb2d;
     SpriteRenderer NewspriteRenderer;
 
-    bool isGrounded;
+    public bool isGrounded;
 
     [SerializeField]
     GameObject LightningBolt;
@@ -80,6 +80,8 @@ public class SpeedyQuickController2D : MonoBehaviour
     bool isFacingLeft;
 
    public bool isAttackLocked = false;
+
+    float maximumThrowDistance = 1.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -320,14 +322,28 @@ public class SpeedyQuickController2D : MonoBehaviour
             }
 
 
-            if (Input.GetKey(KeyCode.K) && isGrounded == true)
+            if (Input.GetKey(KeyCode.K) && GetComponent<AverageJoe_PlayerController2D>().isGrounded == true)
             {
 
 
                 Vector3 difference = player1.transform.position - this.transform.position;
-                if (difference.sqrMagnitude <= 1)
+                if (difference.sqrMagnitude <= maximumThrowDistance)
                 {
-                    Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+                    if (player1.transform.localScale.x > 0)
+                    {
+                        if (player1.transform.position.x < this.transform.position.x)
+                        {
+                            Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+                        }
+                    }
+                    else
+                    {
+                        if (player1.transform.position.x > this.transform.position.x)
+                        {
+                            Newrb2d.velocity = new Vector2(Newrb2d.velocity.x - 4, 7);
+
+                        }
+                    }
                 }
             }
 
@@ -384,6 +400,7 @@ public class SpeedyQuickController2D : MonoBehaviour
         attackHitboxLightHigh.SetActive(true);
         //isAttacking = false;
 
+        Newanimator.Play("SpeedyQuick_Idle");
         yield return new WaitForSeconds(.1f);
         
         isAttackLocked = false; 
@@ -399,9 +416,10 @@ public class SpeedyQuickController2D : MonoBehaviour
         attackHitboxLightLowStart.SetActive(false);
 
 
+        Newanimator.Play("SpeedyQuick_Idle");
         yield return new WaitForSeconds(.1f);
-  
-        isAttackLocked = false; 
+
+        isAttackLocked = false;
     }
 
     IEnumerator DoLightJumpAttack(float delay)
@@ -413,8 +431,10 @@ public class SpeedyQuickController2D : MonoBehaviour
         attackHitboxLightJump.SetActive(false);
         isAttacking = false;
 
+        Newanimator.Play("SpeedyQuick_Idle");
         yield return new WaitForSeconds(.1f);
-        isAttackLocked = false;         
+
+        isAttackLocked = false;
     }
 
     IEnumerator DoHeavyNeutralAttack(float delay)
@@ -425,18 +445,25 @@ public class SpeedyQuickController2D : MonoBehaviour
         yield return new WaitForSeconds(1.4f);
         attackHitboxHeavyNeutral.SetActive(false);
 
-        yield return new WaitForSeconds(1f);
-        isAttackLocked = false; 
+        Newanimator.Play("SpeedyQuick_Idle");
+        yield return new WaitForSeconds(.1f);
+
+        isAttackLocked = false;
 
         isAttacking = false;
     }
 
     IEnumerator DoHeavyHighAttack(float delay)
     {
-
+        isAttackLocked = true; 
         attackHitboxHeavyHigh.SetActive(true);
         yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyHigh.SetActive(false);
+        Newanimator.Play("SpeedyQuick_Idle");
+        yield return new WaitForSeconds(.1f);
+
+        isAttackLocked = false;
+
         isAttacking = false;
 
        
@@ -444,26 +471,42 @@ public class SpeedyQuickController2D : MonoBehaviour
 
     IEnumerator DoHeavyLowAttack(float delay)
     {
+        isAttackLocked = true;
         attackHitboxHeavyLow.SetActive(true);
         yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyLow.SetActive(false);
+        Newanimator.Play("SpeedyQuick_Idle");
+        yield return new WaitForSeconds(.1f);
+
+        isAttackLocked = false;
+
         isAttacking = false;
     }
 
     IEnumerator DoHeavyJumpAttack(float delay)
     {
+        isAttackLocked = true;
         attackHitboxHeavyJump.SetActive(true);
         yield return new WaitForSeconds(2.4f);
         attackHitboxHeavyJump.SetActive(false);
+        Newanimator.Play("SpeedyQuick_Idle");
+        yield return new WaitForSeconds(.1f);
+
+        isAttackLocked = false;
         isAttacking = false;
     }
 
 
     IEnumerator DoGrabAttack(float delay)
     {
+        isAttackLocked = true; 
         attackHitbox.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitbox.SetActive(false);
+        Newanimator.Play("SpeedyQuick_Idle");
+        yield return new WaitForSeconds(.1f);
+
+        isAttackLocked = false;
         isAttacking = false;
     }
     void ResetAttack()
