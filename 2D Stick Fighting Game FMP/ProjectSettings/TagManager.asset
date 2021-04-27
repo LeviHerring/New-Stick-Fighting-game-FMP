@@ -37,6 +37,14 @@ TagManager:
   - SpeedyQuick_HeavyLow
   - SpeedyQuick_HeavyHigh
   - SpeedyQuick_HeavyJump
+  - GokuMan_LightNeutral
+  - GokuMan_LightHigh
+  - GokuMan_LightLow
+  - GokuMan_LightJump
+  - GokuMan_HeavyHigh
+  - GokuMan_HeavyNeutral
+  - GokuMan_HeavyLow
+  - GokuMan_HeavyJump
   layers:
   - Default
   - TransparentFX

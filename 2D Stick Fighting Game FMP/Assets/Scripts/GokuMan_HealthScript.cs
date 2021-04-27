@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-public class SpeedyQuickHealthScript : MonoBehaviour
+using UnityEngine.SceneManagement; 
+
+public class GokuMan_HealthScript : MonoBehaviour
 {
     Animator Newanimator;
 
@@ -14,7 +15,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
     public Image roundTwo;
     public Image roundThree;
 
-    private SpeedyQuickShieldScript Shield;
+    private GokuMan_ShieldScript GokuManShield;
     public float health = 1f;
     public float superMetreCharge = 1f;
     public float roundOneFill = 0;
@@ -22,10 +23,8 @@ public class SpeedyQuickHealthScript : MonoBehaviour
     public float roundThreeFill = 0;
     public float roundsWon = 0;
 
-   
-
     /*[SerializeField]
-    GameObject attackHitboxSpecial;
+    [GameObject attackHitboxSpecial;
 
     [SerializeField]
     GameObject attackHitboxSpecial2;
@@ -62,7 +61,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         roundThreeFill = 0;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        Shield = GetComponent<SpeedyQuickShieldScript>();
+        GokuManShield = GetComponent<GokuMan_ShieldScript>();
 
     }
 
@@ -94,7 +93,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!Shield.ActiveShield)
+        if (!GokuManShield.ActiveShield)
         {
             if (collision.tag == "Spike")
             {
@@ -106,106 +105,113 @@ public class SpeedyQuickHealthScript : MonoBehaviour
                 TakeDamage(0.5f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "LightNeutral")
+            else if (collision.tag == "Player2 _LightNeutral")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
-                StartCoroutine(Stunned());
             }
-            else if (collision.tag == "LightLow")
+            else if (collision.tag == "Player2_LightLow")
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "LightHigh")
+            else if (collision.tag == "Player2 _LightHigh")
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "LightJump")
+            else if (collision.tag == "Player2 _LightJump")
             {
                 TakeDamage(0.03f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "HeavyNeutral")
+            else if (collision.tag == "Player2_HeavyNeutral")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "HeavyHigh")
+            else if (collision.tag == "Player2_HeavyHigh")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "HeavyLow")
+            else if (collision.tag == "Player2_HeavyLow")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "HeavyJump")
+            else if (collision.tag == "Player2_HeavyJump")
             {
                 TakeDamage(0.075f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_LightNeutral")
+            if (collision.tag == "Spike")
             {
-                TakeDamage(0.05f);
-                SuperMeter(0.1f);
-                StartCoroutine(Stunned());
-            }
-            else if (collision.tag == "GokuMan_LightLow")
-            {
-                TakeDamage(0.055f);
+                TakeDamage(0.1f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_LightHigh")
+            else if (collision.tag == "Flame")
             {
-                TakeDamage(0.055f);
+                TakeDamage(0.5f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_LightJump")
+            else if (collision.tag == "SpeedyQuick_LightNeutral")
+            {
+                TakeDamage(0.01f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightLow")
+            {
+                TakeDamage(0.015f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightHigh")
+            {
+                TakeDamage(0.015f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "SpeedyQuick_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_HeavyNeutral")
+            else if (collision.tag == "SpeedyQuick_HeavyNeutral")
             {
-                TakeDamage(0.15f);
+                TakeDamage(0.04f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_HeavyHigh")
+            else if (collision.tag == "SpeedyQuick_HeavyHigh")
             {
-                TakeDamage(0.07f);
+                TakeDamage(0.05f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_HeavyLow")
+            else if (collision.tag == "SpeedyQuick_HeavyLow")
             {
-                TakeDamage(0.07f);
+                TakeDamage(0.05f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "GokuMan_HeavyJump")
+            else if (collision.tag == "SpeedyQuick_HeavyJump")
             {
-                TakeDamage(0.045f);
+                TakeDamage(0.065f);
                 SuperMeter(0.1f);
             }
-            //else if (collision.tag == "Player2_Grab")
-            //{
-            //TakeDamage(0.07f);
-            //}
-
-            else if (collision.tag == "Bullet")
+            else if (collision.tag == "Player2 _Grab")
+            {
+                TakeDamage(0.06f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Bullet2")
             {
                 Destroy(collision.gameObject);
-                TakeDamage(0.05f);
+                TakeDamage(0.04f);
             }
 
             if (health <= 0)
             {
                 Time.timeScale = 0;
                 gameOver.SetActive(true);
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(4);
                 health = 1f;
-
             }
         }
 
@@ -223,22 +229,26 @@ public class SpeedyQuickHealthScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad6))
+        /*if (superMetreCharge == 0)
         {
-            float delay = .4f;
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                float delay = .4f;
 
-            if (superMetreCharge == 0)
-            {
-                Newanimator.Play("SpeedyQuick_Super");
-                delay = .7f;
-                //StartCoroutine(DoSpecialAttack(delay));
-                superMetreCharge = 1f;
+                if (superMetreCharge == 0)
+                {
+                    Newanimator.Play("AverageJoe_Super");
+                    delay = .7f;
+                    StartCoroutine(DoSpecialAttack(delay));
+                    superMetreCharge = 1f;
+                }
+                else
+                {
+                    return;
+                }
             }
-            else
-            {
-                return;
-            }
-        }
+        }*/
+        
     }
 
     /*IEnumerator DoSpecialAttack(float delay)
@@ -260,22 +270,7 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         attackHitboxSpecial5.SetActive(false);
         attackHitboxSpecial6.SetActive(false);
         attackHitboxSpecial7.SetActive(false);
-        //isAttacking = false;
-    }*/
-
-
-    IEnumerator Stunned()
-    {
-        Newanimator.Play("SpeedyQuick_Hit");
-        GetComponent<SpeedyQuickController2D>().isAttackLocked = true;
-        yield return new WaitForSeconds(0.5f);
-        Newanimator.Play("SpeedyQuick_Idle");
-        GetComponent<SpeedyQuickController2D>().isAttackLocked = false;
+        //isAttacking = false;*/
     }
-
-}
-
-
-
 
 

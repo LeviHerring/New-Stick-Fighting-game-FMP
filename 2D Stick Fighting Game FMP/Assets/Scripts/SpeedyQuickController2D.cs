@@ -322,7 +322,7 @@ public class SpeedyQuickController2D : MonoBehaviour
             }
 
 
-            if (Input.GetKey(KeyCode.K) && GetComponent<AverageJoe_PlayerController2D>().isGrounded == true)
+            if (Input.GetKey(KeyCode.K))
             {
 
 
