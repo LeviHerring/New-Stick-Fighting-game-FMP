@@ -1,0 +1,1727 @@
+fileFormatVersion: 2
+guid: 1dba43c7eb45bdd469c90fa7dc4ad218
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4660458252457589237
+    second: DaBaby_0
+  - first:
+      213: -8468953472478538160
+    second: DaBaby_1
+  - first:
+      213: -158228888327416751
+    second: DaBaby_2
+  - first:
+      213: 7772471846212857222
+    second: DaBaby_3
+  - first:
+      213: 4875037870490964787
+    second: DaBaby_4
+  - first:
+      213: -9150757797781856542
+    second: DaBaby_5
+  - first:
+      213: -677882112443984069
+    second: DaBaby_6
+  - first:
+      213: 8304804018801522629
+    second: DaBaby_7
+  - first:
+      213: 4593488643479803414
+    second: DaBaby_8
+  - first:
+      213: 3294211269011019919
+    second: DaBaby_9
+  - first:
+      213: -3373166678384103270
+    second: DaBaby_10
+  - first:
+      213: -2606286292581692286
+    second: DaBaby_11
+  - first:
+      213: -8179631292670369627
+    second: DaBaby_12
+  - first:
+      213: -1911083065701253299
+    second: DaBaby_13
+  - first:
+      213: -3882259656264005581
+    second: DaBaby_14
+  - first:
+      213: 345022777333562313
+    second: DaBaby_15
+  - first:
+      213: -6491001899185632818
+    second: DaBaby_16
+  - first:
+      213: 7038057969024011943
+    second: DaBaby_17
+  - first:
+      213: 2327954090044575205
+    second: DaBaby_18
+  - first:
+      213: 6746157046756263384
+    second: DaBaby_19
+  - first:
+      213: 8760609424408595922
+    second: DaBaby_20
+  - first:
+      213: -8151562556654883227
+    second: DaBaby_21
+  - first:
+      213: 3310033244150833251
+    second: DaBaby_22
+  - first:
+      213: 78772618238602337
+    second: DaBaby_23
+  - first:
+      213: -7755340223209066667
+    second: DaBaby_24
+  - first:
+      213: 5165373159794356704
+    second: DaBaby_25
+  - first:
+      213: 800565868339126
+    second: DaBaby_26
+  - first:
+      213: 2648648177151805649
+    second: DaBaby_27
+  - first:
+      213: -2842137998824076631
+    second: DaBaby_28
+  - first:
+      213: -59799295929099543
+    second: DaBaby_29
+  - first:
+      213: -3678190811656524171
+    second: DaBaby_30
+  - first:
+      213: -2914120064996627648
+    second: DaBaby_31
+  - first:
+      213: -3892740892672026146
+    second: DaBaby_32
+  - first:
+      213: 1302748067638083169
+    second: DaBaby_33
+  - first:
+      213: -3760688183367297851
+    second: DaBaby_34
+  - first:
+      213: -8689374997330443430
+    second: DaBaby_35
+  - first:
+      213: 150843805277275431
+    second: DaBaby_36
+  - first:
+      213: 848461522892639655
+    second: DaBaby_37
+  - first:
+      213: -7495896766665143927
+    second: DaBaby_38
+  - first:
+      213: 5360837707619203501
+    second: DaBaby_39
+  - first:
+      213: 3877399800382472394
+    second: DaBaby_40
+  - first:
+      213: -2431492883099085727
+    second: DaBaby_41
+  - first:
+      213: -1712727393437970489
+    second: DaBaby_42
+  - first:
+      213: -7546401080252826220
+    second: DaBaby_43
+  - first:
+      213: -4314751170151887281
+    second: DaBaby_44
+  - first:
+      213: -3051031847237940914
+    second: DaBaby_45
+  - first:
+      213: 6659642840801627218
+    second: DaBaby_46
+  - first:
+      213: 9051512800813666225
+    second: DaBaby_47
+  - first:
+      213: 8205731977291119232
+    second: DaBaby_48
+  - first:
+      213: 5496175947234635790
+    second: DaBaby_49
+  - first:
+      213: -6274544157037783592
+    second: DaBaby_50
+  - first:
+      213: -1199828680401110664
+    second: DaBaby_51
+  - first:
+      213: 6163918555139009426
+    second: DaBaby_52
+  - first:
+      213: -5245545980532963063
+    second: DaBaby_53
+  - first:
+      213: -4398223953051728552
+    second: DaBaby_54
+  - first:
+      213: 1732998488957367663
+    second: DaBaby_55
+  - first:
+      213: -8040299908579132404
+    second: DaBaby_56
+  - first:
+      213: -2164882812465941654
+    second: DaBaby_57
+  - first:
+      213: 3825540275138617476
+    second: DaBaby_58
+  - first:
+      213: -2017800602337643964
+    second: DaBaby_59
+  - first:
+      213: 3972756568193149708
+    second: DaBaby_60
+  - first:
+      213: 4663033044940462037
+    second: DaBaby_61
+  - first:
+      213: -5222367317542761263
+    second: DaBaby_62
+  - first:
+      213: 5095373765721062643
+    second: DaBaby_63
+  - first:
+      213: 4076904684592047053
+    second: DaBaby_64
+  - first:
+      213: -6955829357071328621
+    second: DaBaby_65
+  - first:
+      213: -2496297395036485753
+    second: DaBaby_66
+  - first:
+      213: 5566759225073787771
+    second: DaBaby_67
+  - first:
+      213: -5525519098837894079
+    second: DaBaby_68
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DaBaby_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2002
+        width: 37
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9b544a6164da040800000000000000
+      internalID: 4660458252457589237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2002
+        width: 47
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0561b9defab387a80800000000000000
+      internalID: -8468953472478538160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_2
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2002
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1541a061aabddcdf0800000000000000
+      internalID: -158228888327416751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1903
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ded3cb6fd5ddb60800000000000000
+      internalID: 7772471846212857222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1803
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333d0393d1d97a340800000000000000
+      internalID: 4875037870490964787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1803
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee9395044af10180800000000000000
+      internalID: -9150757797781856542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1803
+        width: 50
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375f207fcda796f0800000000000000
+      internalID: -677882112443984069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1803
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7b6ed1147904370800000000000000
+      internalID: 8304804018801522629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_8
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1869
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616976a75995fbf30800000000000000
+      internalID: 4593488643479803414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1703
+        width: 41
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f889d7812b367bd20800000000000000
+      internalID: 3294211269011019919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1703
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a903bbe17ca1031d0800000000000000
+      internalID: -3373166678384103270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1703
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cc2b3fc6c94dbd0800000000000000
+      internalID: -2606286292581692286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_12
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1601
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a6b64dac1c7e80800000000000000
+      internalID: -8179631292670369627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1602
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fbc9cb3187a75e0800000000000000
+      internalID: -1911083065701253299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1602
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338cd8669617f1ac0800000000000000
+      internalID: -3882259656264005581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1602
+        width: 88
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbb2625364c9c400800000000000000
+      internalID: 345022777333562313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_16
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1606
+        width: 97
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec987aad9245be5a0800000000000000
+      internalID: -6491001899185632818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1506
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae88400f643ca160800000000000000
+      internalID: 7038057969024011943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_18
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1506
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed468e29ed8e4020800000000000000
+      internalID: 2327954090044575205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1506
+        width: 101
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5c7e2671a2f9d50800000000000000
+      internalID: 6746157046756263384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1502
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd40d51bdfe39970800000000000000
+      internalID: 8760609424408595922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1506
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ee5362b05dfde80800000000000000
+      internalID: -8151562556654883227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_22
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1506
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3602850c2b99fed20800000000000000
+      internalID: 3310033244150833251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_23
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1506
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ca328674bd71100800000000000000
+      internalID: 78772618238602337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_24
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1403
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f2353182f7f5490800000000000000
+      internalID: -7755340223209066667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1403
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e131e185871fa740800000000000000
+      internalID: 5165373159794356704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_26
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1403
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf93344c18d20000800000000000000
+      internalID: 800565868339126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_27
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1433
+        width: 101
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d88e16eb73e1c420800000000000000
+      internalID: 2648648177151805649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1446
+        width: 94
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa83716c82be88d0800000000000000
+      internalID: -2842137998824076631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1428
+        width: 94
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ead3507bdc8b2ff0800000000000000
+      internalID: -59799295929099543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_30
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1408
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e6b17d1f074fcc0800000000000000
+      internalID: -3678190811656524171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_31
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1395
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ba9059d37fe87d0800000000000000
+      internalID: -2914120064996627648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_34
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1399
+        width: 94
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4126fa50a5fcbc0800000000000000
+      internalID: -3760688183367297851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_37
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1303
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad4a9d724756cb00800000000000000
+      internalID: 848461522892639655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1303
+        width: 47
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989cced0b9939f790800000000000000
+      internalID: -7495896766665143927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1303
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9792dfd75856a40800000000000000
+      internalID: 5360837707619203501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_40
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1303
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0c7f9339a4fc530800000000000000
+      internalID: 3877399800382472394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_41
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1303
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1641dfcfa1a914ed0800000000000000
+      internalID: -2431492883099085727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_42
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1303
+        width: 69
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf8c05928b2b38e0800000000000000
+      internalID: -1712727393437970489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1203
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e45e8dbacee14c0800000000000000
+      internalID: -4314751170151887281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1203
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e498af233be88a5d0800000000000000
+      internalID: -3051031847237940914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_46
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1203
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c44f021edcb6c50800000000000000
+      internalID: 6659642840801627218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_47
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1204
+        width: 101
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf46647fee6d9d70800000000000000
+      internalID: 9051512800813666225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_48
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1203
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a308ce1cd90e170800000000000000
+      internalID: 8205731977291119232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_50
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1203
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5924845575ce8a0800000000000000
+      internalID: -6274544157037783592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_51
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1102
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879bd511c2a595fe0800000000000000
+      internalID: -1199828680401110664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1102
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bef7f9443aa8550800000000000000
+      internalID: 6163918555139009426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_53
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1102
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909ca5909b31437b0800000000000000
+      internalID: -5245545980532963063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_54
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1002
+        width: 41
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855ccb31e9e56f2c0800000000000000
+      internalID: -4398223953051728552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_55
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1002
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65b792a1f8dc0810800000000000000
+      internalID: 1732998488957367663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1002
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cf88d15dd1b6090800000000000000
+      internalID: -8040299908579132404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_57
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 903
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a637e965d8ac4f1e0800000000000000
+      internalID: -2164882812465941654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_58
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 903
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48066959c9c071530800000000000000
+      internalID: 3825540275138617476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_59
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 903
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442781efa055ff3e0800000000000000
+      internalID: -2017800602337643964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_60
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 903
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ba04adc01122730800000000000000
+      internalID: 3972756568193149708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 803
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7959b39db66b040800000000000000
+      internalID: 4663033044940462037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_62
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 799
+        width: 88
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc014f089c6687b0800000000000000
+      internalID: -5222367317542761263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 199
+        width: 96
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcf5a7817766b640800000000000000
+      internalID: 5095373765721062643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_64
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 199
+        width: 95
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc32c34d533149830800000000000000
+      internalID: 4076904684592047053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_65
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 199
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a9785ad0ee77f90800000000000000
+      internalID: -6955829357071328621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_66
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 90
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7870e13cebe5b5dd0800000000000000
+      internalID: -2496297395036485753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_49
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1505
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0077fd67e6564c40800000000000000
+      internalID: 5496175947234635790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_67
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1599
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e6a0750a114d40800000000000000
+      internalID: 5566759225073787771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_68
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1599
+        width: 100
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c7122b7a96153b0800000000000000
+      internalID: -5525519098837894079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

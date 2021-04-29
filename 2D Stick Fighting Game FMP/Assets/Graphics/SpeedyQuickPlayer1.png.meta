@@ -1,0 +1,1304 @@
+fileFormatVersion: 2
+guid: 7f2a6deb9e60cce45b5829c1f4350995
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4605808078331310193
+    second: FastLightning_Idle1
+  - first:
+      213: 5186153884870468041
+    second: FastLightning_LightNeutral2
+  - first:
+      213: -8039248228424621328
+    second: FastLightning_LightNeutral3
+  - first:
+      213: -6923287390574673809
+    second: FastLightning_HeavyNeutral2
+  - first:
+      213: -852555319851921962
+    second: FastLightning_HeavyNeutral3
+  - first:
+      213: -9031306688851078042
+    second: FastLightning_HeavyNeutral4
+  - first:
+      213: 521774639268963028
+    second: FastLightning_HeavyNeural5
+  - first:
+      213: -3963167985790293005
+    second: SpeedyQuickPlayer1_7
+  - first:
+      213: 2139295840413031399
+    second: SpeedyQuickPlayer1_8
+  - first:
+      213: -7447102345863286304
+    second: SpeedyQuickPlayer1_9
+  - first:
+      213: -7946092121677350365
+    second: SpeedyQuickPlayer1_10
+  - first:
+      213: -7211228806368389813
+    second: SpeedyQuickPlayer1_11
+  - first:
+      213: -8206504580220295167
+    second: SpeedyQuickPlayer1_12
+  - first:
+      213: 5842199773946718104
+    second: SpeedyQuickPlayer1_13
+  - first:
+      213: 3695090211634906913
+    second: SpeedyQuickPlayer1_14
+  - first:
+      213: -4569591030238959287
+    second: FastLightning_Idle2
+  - first:
+      213: -7033523038771599320
+    second: FastLightning_LightNeutral1
+  - first:
+      213: -8445010968349985983
+    second: FastLightning_LightLow1
+  - first:
+      213: 5378011711468158399
+    second: FastLightning_LightHigh1
+  - first:
+      213: 4162413533344184348
+    second: FastLightning_LightJump1
+  - first:
+      213: -7122903116925492610
+    second: FastLightning_HeavyNeutral1
+  - first:
+      213: 9394218060155457
+    second: SpeedyQuickPlayer1_21
+  - first:
+      213: -3611449215001573158
+    second: SpeedyQuickPlayer1_22
+  - first:
+      213: 4826033544864540390
+    second: SpeedyQuickPlayer1_23
+  - first:
+      213: -3817611489879348141
+    second: SpeedyQuickPlayer1_24
+  - first:
+      213: -8292470230806982986
+    second: SpeedyQuickPlayer1_25
+  - first:
+      213: 1995204806841282704
+    second: SpeedyQuickPlayer1_26
+  - first:
+      213: 9023420322328301996
+    second: SpeedyQuickPlayer1_27
+  - first:
+      213: 1739416368543257283
+    second: SpeedyQuickPlayer1_28
+  - first:
+      213: -7367074214247911458
+    second: SpeedyQuickPlayer1_29
+  - first:
+      213: -6169012440781194575
+    second: SpeedyQuickPlayer1_30
+  - first:
+      213: 8444500234792848985
+    second: SpeedyQuickPlayer1_31
+  - first:
+      213: 8614768615343586867
+    second: SpeedyQuickPlayer1_32
+  - first:
+      213: 3410914867629088234
+    second: SpeedyQuickPlayer1_33
+  - first:
+      213: 5941843724345662208
+    second: SpeedyQuickPlayer1_34
+  - first:
+      213: -3170293464027546858
+    second: SpeedyQuickPlayer1_35
+  - first:
+      213: 3438635954126367877
+    second: SpeedyQuickPlayer1_36
+  - first:
+      213: 6798855664156340373
+    second: SpeedyQuickPlayer1_37
+  - first:
+      213: 2539342119642449720
+    second: SpeedyQuickPlayer1_38
+  - first:
+      213: 1838181910995973062
+    second: SpeedyQuickPlayer1_39
+  - first:
+      213: -6017544905199408232
+    second: SpeedyQuickPlayer1_40
+  - first:
+      213: 6336570050522620109
+    second: SpeedyQuickPlayer1_41
+  - first:
+      213: 7178154938469763744
+    second: SpeedyQuickPlayer1_42
+  - first:
+      213: -8370520395865054107
+    second: FastLightning_LightLow2
+  - first:
+      213: -5266978680733287854
+    second: FastLightning_LightLow3
+  - first:
+      213: -3566515525792573820
+    second: FastLightning_LightHigh2
+  - first:
+      213: 8968774254207716709
+    second: FastLightning_LightJump2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FastLightning_Idle1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2005
+        width: 47
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f007394f1e410c0800000000000000
+      internalID: -4605808078331310193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightNeutral2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1804
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1673a1b7be8f740800000000000000
+      internalID: 5186153884870468041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightNeutral3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1807
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2ef8b745ade6090800000000000000
+      internalID: -8039248228424621328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_HeavyNeutral2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1405
+        width: 74
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f600bd6acca8bef90800000000000000
+      internalID: -6923287390574673809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_HeavyNeutral3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1404
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd4bd0247d1b24f0800000000000000
+      internalID: -852555319851921962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_HeavyNeutral4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1404
+        width: 75
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6641c699a6a5aa280800000000000000
+      internalID: -9031306688851078042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_HeavyNeural5
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1404
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d22f6a1547bd3700800000000000000
+      internalID: 521774639268963028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_7
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1303
+        width: 45
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbe4c5f6bffff8c0800000000000000
+      internalID: -3963167985790293005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1002
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb1a4d7b3e40bd10800000000000000
+      internalID: 2139295840413031399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 903
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e137d47fd396a890800000000000000
+      internalID: -7447102345863286304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 903
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a34e6c05fc9b190800000000000000
+      internalID: -7946092121677350365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 901
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45195a7b919ceb90800000000000000
+      internalID: -7211228806368389813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_12
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 203
+        width: 46
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1086a507093ac1e80800000000000000
+      internalID: -8206504580220295167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 201
+        width: 45
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89726f8bdb9a31150800000000000000
+      internalID: 5842199773946718104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 100
+        width: 47
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127858558f8974330800000000000000
+      internalID: 3695090211634906913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_Idle2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1904
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949abc13b2d8590c0800000000000000
+      internalID: -4569591030238959287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightNeutral1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1803
+        width: 57
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8282e7abf08e36e90800000000000000
+      internalID: -7033523038771599320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightLow1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1704
+        width: 47
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143b833944b4dca80800000000000000
+      internalID: -8445010968349985983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightHigh1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1602
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd33fb582982aa40800000000000000
+      internalID: 5378011711468158399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightJump1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1502
+        width: 50
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18324f1e0dd3c930800000000000000
+      internalID: 4162413533344184348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_HeavyNeutral1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1403
+        width: 45
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72222a9a5d562d90800000000000000
+      internalID: -7122903116925492610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1303
+        width: 54
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a0b66ddff512000800000000000000
+      internalID: 9394218060155457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1203
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8c77fb21e81edc0800000000000000
+      internalID: -3611449215001573158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1103
+        width: 43
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e625cb80f389f240800000000000000
+      internalID: 4826033544864540390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1003
+        width: 43
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35caa47939e150bc0800000000000000
+      internalID: -3817611489879348141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 902
+        width: 53
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be8f3ea24a3bec80800000000000000
+      internalID: -8292470230806982986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 802
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0903de5633460bb10800000000000000
+      internalID: 1995204806841282704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 703
+        width: 45
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca15b6b99f0a93d70800000000000000
+      internalID: 9023420322328301996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_28
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 802
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2558ba8f5a32810800000000000000
+      internalID: 1739416368543257283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1302
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf20d9d805e2c990800000000000000
+      internalID: -7367074214247911458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1304
+        width: 53
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba7544bed3436aa0800000000000000
+      internalID: -6169012440781194575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_31
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1303
+        width: 66
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec7800934e03570800000000000000
+      internalID: 8444500234792848985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_32
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1304
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33efcb3a96ecd8770800000000000000
+      internalID: 8614768615343586867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1204
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed51241001065f20800000000000000
+      internalID: 3410914867629088234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1203
+        width: 63
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd184d26ba57250800000000000000
+      internalID: 5941843724345662208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1204
+        width: 59
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b35e234ead004d0800000000000000
+      internalID: -3170293464027546858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_36
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1202
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ca69d7e2d78bf20800000000000000
+      internalID: 3438635954126367877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_37
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1202
+        width: 48
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590f03564336a5e50800000000000000
+      internalID: 6798855664156340373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1102
+        width: 71
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837c97c243e8d3320800000000000000
+      internalID: 2539342119642449720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1099
+        width: 63
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3b67d75b8828910800000000000000
+      internalID: 1838181910995973062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_40
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1100
+        width: 66
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ba0a18ac26d7ca0800000000000000
+      internalID: -6017544905199408232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1100
+        width: 62
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a7cb63e400f750800000000000000
+      internalID: 6336570050522620109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpeedyQuickPlayer1_42
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1101
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aac43292eded9360800000000000000
+      internalID: 7178154938469763744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightLow2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1703
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5642d438c00f5db80800000000000000
+      internalID: -8370520395865054107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightLow3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1701
+        width: 49
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a3657abcee7e6b0800000000000000
+      internalID: -5266978680733287854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightHigh2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1603
+        width: 67
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486d7378601318ec0800000000000000
+      internalID: -3566515525792573820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FastLightning_LightJump2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1506
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d48b46aac777c70800000000000000
+      internalID: 8968774254207716709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
