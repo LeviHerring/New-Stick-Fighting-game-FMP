@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; 
-
-public class GokuMan_HealthScript : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class VegetaMan_HealthScript : MonoBehaviour
 {
     Animator Newanimator;
 
@@ -15,7 +14,7 @@ public class GokuMan_HealthScript : MonoBehaviour
     public Image roundTwo;
     public Image roundThree;
 
-    private GokuMan_ShieldScript GokuManShield;
+    private VegetaMan_ShieldScript vegetaManShield;
     public float health = 1f;
     public float superMetreCharge = 1f;
     public float roundOneFill = 0;
@@ -23,8 +22,8 @@ public class GokuMan_HealthScript : MonoBehaviour
     public float roundThreeFill = 0;
     public float roundsWon = 0;
 
-    /*[SerializeField]
-    [GameObject attackHitboxSpecial;
+   /*[SerializeField]
+    GameObject attackHitboxSpecial;
 
     [SerializeField]
     GameObject attackHitboxSpecial2;
@@ -61,7 +60,7 @@ public class GokuMan_HealthScript : MonoBehaviour
         roundThreeFill = 0;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        GokuManShield = GetComponent<GokuMan_ShieldScript>();
+        vegetaManShield = GetComponent<VegetaMan_ShieldScript>();
 
     }
 
@@ -93,7 +92,7 @@ public class GokuMan_HealthScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!GokuManShield.ActiveShield)
+        if (!vegetaManShield.ActiveShield)
         {
             if (collision.tag == "Spike")
             {
@@ -103,6 +102,47 @@ public class GokuMan_HealthScript : MonoBehaviour
             else if (collision.tag == "Flame")
             {
                 TakeDamage(0.5f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LightNeutral")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "LightLow")
+            {
+                TakeDamage(0.025f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LightHigh")
+            {
+                TakeDamage(0.025f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LightJump")
+            {
+                TakeDamage(0.03f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "HeavyNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "HeavyHigh")
+            {
+                TakeDamage(0.06f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "HeavyLow")
+            {
+                TakeDamage(0.06f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "HeavyJump")
+            {
+                TakeDamage(0.075f);
                 SuperMeter(0.1f);
             }
             else if (collision.tag == "Player2 _LightNeutral")
@@ -200,43 +240,43 @@ public class GokuMan_HealthScript : MonoBehaviour
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_LightNeutral")
+            else if (collision.tag == "GokuMan_LightNeutral")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
                 StartCoroutine(Stunned());
             }
-            else if (collision.tag == "VegetaMan_LightLow")
+            else if (collision.tag == "GokuMan_LightLow")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_LightHIGH")
+            else if (collision.tag == "GokuMan_LightHigh")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_LightJump")
+            else if (collision.tag == "GokuMan_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_HeavyNeutral")
+            else if (collision.tag == "GokuMan_HeavyNeutral")
             {
                 TakeDamage(0.15f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_HeavyHigh")
+            else if (collision.tag == "GokuMan_HeavyHigh")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_HeavyLow")
+            else if (collision.tag == "GokuMan_HeavyLow")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "VegetaMan_HeavyJump")
+            else if (collision.tag == "GokuMan_HeavyJump")
             {
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
@@ -246,6 +286,7 @@ public class GokuMan_HealthScript : MonoBehaviour
                 Destroy(collision.gameObject);
                 TakeDamage(0.04f);
             }
+
 
             if (health <= 0)
             {
@@ -270,34 +311,22 @@ public class GokuMan_HealthScript : MonoBehaviour
 
     void Update()
     {
-        /*if (superMetreCharge == 0)
+        /*if (Input.GetKeyDown(KeyCode.J))
         {
-            if (Input.GetKeyDown(KeyCode.J))
-            {
-                float delay = .4f;
+            float delay = .4f;
 
-                if (superMetreCharge == 0)
-                {
-                    Newanimator.Play("AverageJoe_Super");
-                    delay = .7f;
-                    StartCoroutine(DoSpecialAttack(delay));
-                    superMetreCharge = 1f;
-                }
-                else
-                {
-                    return;
-                }
+            if (superMetreCharge == 0)
+            {
+                Newanimator.Play("AverageJoe_Super");
+                delay = .7f;
+                StartCoroutine(DoSpecialAttack(delay));
+                superMetreCharge = 1f;
+            }
+            else
+            {
+                return;
             }
         }*/
-        
-    }
-    IEnumerator Stunned()
-    {
-        Newanimator.Play("GokuMan_Hit");
-        GetComponent<GokuMan_PlayerController2D>().isAttackLocked = true;
-        yield return new WaitForSeconds(0.5f);
-        Newanimator.Play("GokuMan_Idle");
-        GetComponent<GokuMan_PlayerController2D>().isAttackLocked = false;
     }
 
     /*IEnumerator DoSpecialAttack(float delay)
@@ -319,7 +348,16 @@ public class GokuMan_HealthScript : MonoBehaviour
         attackHitboxSpecial5.SetActive(false);
         attackHitboxSpecial6.SetActive(false);
         attackHitboxSpecial7.SetActive(false);
-        //isAttacking = false;*/
+        //isAttacking = false;
+    }*/
+
+    IEnumerator Stunned()
+    {
+        Newanimator.Play("VegetaMan_Hit");
+        GetComponent<VegetaManPlayerController2D>().isAttackLocked = true;
+        yield return new WaitForSeconds(0.5f);
+        Newanimator.Play("VegetaMan_Idle");
+        GetComponent<VegetaManPlayerController2D>().isAttackLocked = false;
+    }
+
 }
-
-

@@ -188,6 +188,47 @@ public class SpeedyQuickHealthScript : MonoBehaviour
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
             }
+            else if (collision.tag == "VegetaMan_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "VegetaMan_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightHIGH")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
             //else if (collision.tag == "Player2_Grab")
             //{
             //TakeDamage(0.07f);

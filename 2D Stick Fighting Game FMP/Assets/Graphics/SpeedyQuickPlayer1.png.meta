@@ -25,28 +25,28 @@ TextureImporter:
     second: FastLightning_HeavyNeural5
   - first:
       213: -3963167985790293005
-    second: SpeedyQuickPlayer1_7
+    second: FastLightning_HeavyLow6
   - first:
       213: 2139295840413031399
-    second: SpeedyQuickPlayer1_8
+    second: FastLightning_Projectile2
   - first:
       213: -7447102345863286304
-    second: SpeedyQuickPlayer1_9
+    second: FastLightning_Grab2
   - first:
       213: -7946092121677350365
-    second: SpeedyQuickPlayer1_10
+    second: FastLightning_Grab3
   - first:
       213: -7211228806368389813
-    second: SpeedyQuickPlayer1_11
+    second: FastLightning_Grab4
   - first:
       213: -8206504580220295167
-    second: SpeedyQuickPlayer1_12
+    second: FastLightning_Run1
   - first:
       213: 5842199773946718104
-    second: SpeedyQuickPlayer1_13
+    second: FastLightning_Run2
   - first:
       213: 3695090211634906913
-    second: SpeedyQuickPlayer1_14
+    second: FastLightning_Hit
   - first:
       213: -4569591030238959287
     second: FastLightning_Idle2
@@ -67,70 +67,70 @@ TextureImporter:
     second: FastLightning_HeavyNeutral1
   - first:
       213: 9394218060155457
-    second: SpeedyQuickPlayer1_21
+    second: FastLightning_HeavyLow1
   - first:
       213: -3611449215001573158
-    second: SpeedyQuickPlayer1_22
+    second: FastLightning_HeavyHigh1
   - first:
       213: 4826033544864540390
-    second: SpeedyQuickPlayer1_23
+    second: FastLightning_HeavyJump1
   - first:
       213: -3817611489879348141
-    second: SpeedyQuickPlayer1_24
+    second: FastLightning_Projectile1
   - first:
       213: -8292470230806982986
-    second: SpeedyQuickPlayer1_25
+    second: FastLightning_Grab1
   - first:
       213: 1995204806841282704
-    second: SpeedyQuickPlayer1_26
+    second: FastLightning_Throw1
   - first:
       213: 9023420322328301996
-    second: SpeedyQuickPlayer1_27
+    second: FastLightning_Shield1
   - first:
       213: 1739416368543257283
-    second: SpeedyQuickPlayer1_28
+    second: FastLightning_Throw2
   - first:
       213: -7367074214247911458
-    second: SpeedyQuickPlayer1_29
+    second: FastLightning_HeavyLow2
   - first:
       213: -6169012440781194575
-    second: SpeedyQuickPlayer1_30
+    second: FastLightning_HeavyLow3
   - first:
       213: 8444500234792848985
-    second: SpeedyQuickPlayer1_31
+    second: FastLightning_HeavyLow4
   - first:
       213: 8614768615343586867
-    second: SpeedyQuickPlayer1_32
+    second: FastLightning_HeavyLow5
   - first:
       213: 3410914867629088234
-    second: SpeedyQuickPlayer1_33
+    second: FastLightning_HeavyHigh2
   - first:
       213: 5941843724345662208
-    second: SpeedyQuickPlayer1_34
+    second: FastLightning_HeavyHigh3
   - first:
       213: -3170293464027546858
-    second: SpeedyQuickPlayer1_35
+    second: FastLightning_HeavyHigh4
   - first:
       213: 3438635954126367877
-    second: SpeedyQuickPlayer1_36
+    second: FastLightning_HeavyHigh5
   - first:
       213: 6798855664156340373
-    second: SpeedyQuickPlayer1_37
+    second: FastLightning_HeavyHigh6
   - first:
       213: 2539342119642449720
-    second: SpeedyQuickPlayer1_38
+    second: FastLightning_HeavyJump2
   - first:
       213: 1838181910995973062
-    second: SpeedyQuickPlayer1_39
+    second: FastLightning_HeavyJump3
   - first:
       213: -6017544905199408232
-    second: SpeedyQuickPlayer1_40
+    second: FastLightning_HeavyJump4
   - first:
       213: 6336570050522620109
-    second: SpeedyQuickPlayer1_41
+    second: FastLightning_HeavyJump5
   - first:
       213: 7178154938469763744
-    second: SpeedyQuickPlayer1_42
+    second: FastLightning_HeavyJump6
   - first:
       213: -8370520395865054107
     second: FastLightning_LightLow2
@@ -447,7 +447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_7
+      name: FastLightning_HeavyLow6
       rect:
         serializedVersion: 2
         x: 514
@@ -468,7 +468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_8
+      name: FastLightning_Projectile2
       rect:
         serializedVersion: 2
         x: 129
@@ -489,7 +489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_9
+      name: FastLightning_Grab2
       rect:
         serializedVersion: 2
         x: 129
@@ -510,7 +510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_10
+      name: FastLightning_Grab3
       rect:
         serializedVersion: 2
         x: 229
@@ -531,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_11
+      name: FastLightning_Grab4
       rect:
         serializedVersion: 2
         x: 330
@@ -552,7 +552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_12
+      name: FastLightning_Run1
       rect:
         serializedVersion: 2
         x: 20
@@ -573,7 +573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_13
+      name: FastLightning_Run2
       rect:
         serializedVersion: 2
         x: 121
@@ -594,7 +594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_14
+      name: FastLightning_Hit
       rect:
         serializedVersion: 2
         x: 21
@@ -741,7 +741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_21
+      name: FastLightning_HeavyLow1
       rect:
         serializedVersion: 2
         x: 14
@@ -762,7 +762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_22
+      name: FastLightning_HeavyHigh1
       rect:
         serializedVersion: 2
         x: 14
@@ -783,7 +783,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_23
+      name: FastLightning_HeavyJump1
       rect:
         serializedVersion: 2
         x: 14
@@ -804,7 +804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_24
+      name: FastLightning_Projectile1
       rect:
         serializedVersion: 2
         x: 14
@@ -825,7 +825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_25
+      name: FastLightning_Grab1
       rect:
         serializedVersion: 2
         x: 13
@@ -846,7 +846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_26
+      name: FastLightning_Throw1
       rect:
         serializedVersion: 2
         x: 14
@@ -867,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_27
+      name: FastLightning_Shield1
       rect:
         serializedVersion: 2
         x: 16
@@ -888,7 +888,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_28
+      name: FastLightning_Throw2
       rect:
         serializedVersion: 2
         x: 126
@@ -909,7 +909,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_29
+      name: FastLightning_HeavyLow2
       rect:
         serializedVersion: 2
         x: 112
@@ -930,7 +930,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_30
+      name: FastLightning_HeavyLow3
       rect:
         serializedVersion: 2
         x: 211
@@ -951,7 +951,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_31
+      name: FastLightning_HeavyLow4
       rect:
         serializedVersion: 2
         x: 311
@@ -972,7 +972,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_32
+      name: FastLightning_HeavyLow5
       rect:
         serializedVersion: 2
         x: 412
@@ -993,7 +993,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_33
+      name: FastLightning_HeavyHigh2
       rect:
         serializedVersion: 2
         x: 113
@@ -1014,7 +1014,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_34
+      name: FastLightning_HeavyHigh3
       rect:
         serializedVersion: 2
         x: 209
@@ -1035,7 +1035,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_35
+      name: FastLightning_HeavyHigh4
       rect:
         serializedVersion: 2
         x: 310
@@ -1056,7 +1056,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_36
+      name: FastLightning_HeavyHigh5
       rect:
         serializedVersion: 2
         x: 410
@@ -1077,7 +1077,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_37
+      name: FastLightning_HeavyHigh6
       rect:
         serializedVersion: 2
         x: 513
@@ -1098,7 +1098,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_38
+      name: FastLightning_HeavyJump2
       rect:
         serializedVersion: 2
         x: 112
@@ -1119,7 +1119,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_39
+      name: FastLightning_HeavyJump3
       rect:
         serializedVersion: 2
         x: 213
@@ -1140,7 +1140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_40
+      name: FastLightning_HeavyJump4
       rect:
         serializedVersion: 2
         x: 310
@@ -1161,7 +1161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_41
+      name: FastLightning_HeavyJump5
       rect:
         serializedVersion: 2
         x: 414
@@ -1182,7 +1182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpeedyQuickPlayer1_42
+      name: FastLightning_HeavyJump6
       rect:
         serializedVersion: 2
         x: 514

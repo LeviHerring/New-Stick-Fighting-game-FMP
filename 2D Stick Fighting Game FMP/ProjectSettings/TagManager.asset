@@ -45,6 +45,14 @@ TagManager:
   - GokuMan_HeavyNeutral
   - GokuMan_HeavyLow
   - GokuMan_HeavyJump
+  - VegetaMan_LightNeutral
+  - VegetaMan_LightHIGH
+  - VegetaMan_LightLow
+  - VegetaMan_LightJump
+  - VegetaMan_HeavyHigh
+  - VegetaMan_HeavyNeutral
+  - VegetaMan_HeavyLow
+  - VegetaMan_HeavyJump
   layers:
   - Default
   - TransparentFX
