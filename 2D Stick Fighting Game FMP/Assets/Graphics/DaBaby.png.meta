@@ -16,196 +16,196 @@ TextureImporter:
     second: DaBaby_3
   - first:
       213: 4875037870490964787
-    second: DaBaby_4
+    second: DaBaby_LightLow1
   - first:
       213: -9150757797781856542
-    second: DaBaby_5
+    second: DaBaby_LightLow2
   - first:
       213: -677882112443984069
-    second: DaBaby_6
+    second: DaBaby_LightLow3
   - first:
       213: 8304804018801522629
     second: DaBaby_7
   - first:
       213: 4593488643479803414
-    second: DaBaby_8
+    second: DaBaby_LightLow4
   - first:
       213: 3294211269011019919
-    second: DaBaby_9
+    second: DaBaby_LightLow1
   - first:
       213: -3373166678384103270
-    second: DaBaby_10
+    second: DaBaby_LightLow2
   - first:
       213: -2606286292581692286
-    second: DaBaby_11
+    second: DaBaby_LightLow3
   - first:
       213: -8179631292670369627
-    second: DaBaby_12
+    second: DaBaby_HeavyLow7
   - first:
       213: -1911083065701253299
-    second: DaBaby_13
+    second: DaBaby_LightHigh1
   - first:
       213: -3882259656264005581
-    second: DaBaby_14
+    second: DaBaby_LightHigh2
   - first:
       213: 345022777333562313
-    second: DaBaby_15
+    second: DaBaby_LightHigh3
   - first:
       213: -6491001899185632818
-    second: DaBaby_16
+    second: DaBaby_HeavyLow8
   - first:
       213: 7038057969024011943
-    second: DaBaby_17
+    second: DaBaby_LightJump5
   - first:
       213: 2327954090044575205
-    second: DaBaby_18
+    second: DaBaby_LightJump6
   - first:
       213: 6746157046756263384
-    second: DaBaby_19
+    second: DaBaby_LightJump7
   - first:
       213: 8760609424408595922
-    second: DaBaby_20
+    second: DaBaby_LightJump1
   - first:
       213: -8151562556654883227
-    second: DaBaby_21
+    second: DaBaby_LightJump2
   - first:
       213: 3310033244150833251
-    second: DaBaby_22
+    second: DaBaby_LightJump3
   - first:
       213: 78772618238602337
     second: DaBaby_23
   - first:
       213: -7755340223209066667
-    second: DaBaby_24
+    second: DaBaby_HeavyNeutral1
   - first:
       213: 5165373159794356704
-    second: DaBaby_25
+    second: DaBaby_HeavyNeutral2
   - first:
       213: 800565868339126
-    second: DaBaby_26
+    second: DaBaby_HeavyNeutral3
   - first:
       213: 2648648177151805649
-    second: DaBaby_27
+    second: DaBaby_HeavyNeutral4
   - first:
       213: -2842137998824076631
-    second: DaBaby_28
+    second: DaBaby_HeavyNeutral5
   - first:
       213: -59799295929099543
-    second: DaBaby_29
+    second: DaBaby_HeavyNeutral6
   - first:
       213: -3678190811656524171
-    second: DaBaby_30
+    second: DaBaby_HeavyNeutral7
   - first:
       213: -2914120064996627648
-    second: DaBaby_31
+    second: DaBaby_HeavyLow9
   - first:
       213: -3892740892672026146
-    second: DaBaby_32
+    second: DaBaby_HeavyHigh1
   - first:
       213: 1302748067638083169
-    second: DaBaby_33
+    second: DaBaby_HeavyHigh2
   - first:
       213: -3760688183367297851
-    second: DaBaby_34
+    second: DaBaby_HeavyNeutral8
   - first:
       213: -8689374997330443430
-    second: DaBaby_35
+    second: DaBaby_HeavyHigh3
   - first:
       213: 150843805277275431
-    second: DaBaby_36
+    second: DaBaby_HeavyHigh4
   - first:
       213: 848461522892639655
-    second: DaBaby_37
+    second: DaBaby_HeavyLow1
   - first:
       213: -7495896766665143927
-    second: DaBaby_38
+    second: DaBaby_HeavyLow2
   - first:
       213: 5360837707619203501
-    second: DaBaby_39
+    second: DaBaby_HeavyLow3
   - first:
       213: 3877399800382472394
-    second: DaBaby_40
+    second: DaBaby_HeavyLow4
   - first:
       213: -2431492883099085727
-    second: DaBaby_41
+    second: DaBaby_HeavyLow5
   - first:
       213: -1712727393437970489
-    second: DaBaby_42
+    second: DaBaby_HeavyLow6
   - first:
       213: -7546401080252826220
-    second: DaBaby_43
+    second: DaBaby_HeavyHigh5
   - first:
       213: -4314751170151887281
-    second: DaBaby_44
+    second: DaBaby_HeavyJump1
   - first:
       213: -3051031847237940914
-    second: DaBaby_45
+    second: DaBaby_HeavyJump2
   - first:
       213: 6659642840801627218
-    second: DaBaby_46
+    second: DaBaby_HeavyJump3
   - first:
       213: 9051512800813666225
-    second: DaBaby_47
+    second: DaBaby_HeavyJump4
   - first:
       213: 8205731977291119232
-    second: DaBaby_48
+    second: DaBaby_HeavyJump5
   - first:
       213: 5496175947234635790
-    second: DaBaby_49
+    second: DaBaby_LightJump4
   - first:
       213: -6274544157037783592
-    second: DaBaby_50
+    second: DaBaby_HeavyJump6
   - first:
       213: -1199828680401110664
-    second: DaBaby_51
+    second: DaBaby_Projectile1
   - first:
       213: 6163918555139009426
-    second: DaBaby_52
+    second: DaBaby_Projectile2
   - first:
       213: -5245545980532963063
-    second: DaBaby_53
+    second: DaBaby_Projectile3
   - first:
       213: -4398223953051728552
-    second: DaBaby_54
+    second: DaBaby_Grab1
   - first:
       213: 1732998488957367663
-    second: DaBaby_55
+    second: DaBaby_Grab2
   - first:
       213: -8040299908579132404
-    second: DaBaby_56
+    second: DaBaby_Grab3
   - first:
       213: -2164882812465941654
-    second: DaBaby_57
+    second: DaBaby_Thow1
   - first:
       213: 3825540275138617476
-    second: DaBaby_58
+    second: DaBaby_Throw2
   - first:
       213: -2017800602337643964
-    second: DaBaby_59
+    second: DaBaby_Thow3
   - first:
       213: 3972756568193149708
-    second: DaBaby_60
+    second: DaBaby_Thow4
   - first:
       213: 4663033044940462037
-    second: DaBaby_61
+    second: DaBaby_Shield1
   - first:
       213: -5222367317542761263
-    second: DaBaby_62
+    second: DaBaby_Shield2
   - first:
       213: 5095373765721062643
-    second: DaBaby_63
+    second: DaBaby_Run1
   - first:
       213: 4076904684592047053
-    second: DaBaby_64
+    second: DaBaby_Run2
   - first:
       213: -6955829357071328621
-    second: DaBaby_65
+    second: DaBaby_Run3
   - first:
       213: -2496297395036485753
-    second: DaBaby_66
+    second: DaBaby_Hit
   - first:
       213: 5566759225073787771
-    second: DaBaby_67
+    second: DaBaby_HeavyHigh6
   - first:
       213: -5525519098837894079
     second: DaBaby_68
@@ -450,7 +450,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_4
+      name: DaBaby_LightNeutral1
       rect:
         serializedVersion: 2
         x: 27
@@ -471,12 +471,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_5
+      name: DaBaby_LightNeutral2
       rect:
         serializedVersion: 2
         x: 127
         y: 1803
-        width: 43
+        width: 54
         height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -492,12 +492,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_6
+      name: DaBaby_LightNeutral3
       rect:
         serializedVersion: 2
         x: 227
         y: 1803
-        width: 50
+        width: 73
         height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -513,28 +513,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_7
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 1803
-        width: 75
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c7b6ed1147904370800000000000000
-      internalID: 8304804018801522629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaBaby_9
+      name: DaBaby_LightLow1
       rect:
         serializedVersion: 2
         x: 27
@@ -555,7 +534,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_10
+      name: DaBaby_LightLow2
       rect:
         serializedVersion: 2
         x: 127
@@ -576,7 +555,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_11
+      name: DaBaby_LightLow3
       rect:
         serializedVersion: 2
         x: 203
@@ -597,28 +576,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_12
-      rect:
-        serializedVersion: 2
-        x: 401
-        y: 1601
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a0a6b64dac1c7e80800000000000000
-      internalID: -8179631292670369627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaBaby_13
+      name: DaBaby_LightHigh1
       rect:
         serializedVersion: 2
         x: 27
@@ -639,7 +597,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_14
+      name: DaBaby_LightHigh2
       rect:
         serializedVersion: 2
         x: 127
@@ -660,7 +618,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_15
+      name: DaBaby_LightHigh3
       rect:
         serializedVersion: 2
         x: 201
@@ -681,28 +639,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_16
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 1606
-        width: 97
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec987aad9245be5a0800000000000000
-      internalID: -6491001899185632818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaBaby_17
+      name: DaBaby_LightJump5
       rect:
         serializedVersion: 2
         x: 400
@@ -723,7 +660,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_18
+      name: DaBaby_LightJump6
       rect:
         serializedVersion: 2
         x: 500
@@ -744,7 +681,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_19
+      name: DaBaby_LightJump7
       rect:
         serializedVersion: 2
         x: 600
@@ -765,7 +702,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_20
+      name: DaBaby_LightJump1
       rect:
         serializedVersion: 2
         x: 27
@@ -786,7 +723,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_21
+      name: DaBaby_LightJump2
       rect:
         serializedVersion: 2
         x: 100
@@ -807,7 +744,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_22
+      name: DaBaby_LightJump3
       rect:
         serializedVersion: 2
         x: 201
@@ -828,28 +765,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_23
-      rect:
-        serializedVersion: 2
-        x: 701
-        y: 1506
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16ca328674bd71100800000000000000
-      internalID: 78772618238602337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaBaby_24
+      name: DaBaby_HeavyNeutral1
       rect:
         serializedVersion: 2
         x: 27
@@ -870,13 +786,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_25
+      name: DaBaby_HeavyNeutral2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 1403
-        width: 43
-        height: 93
+        x: 100
+        y: 1407
+        width: 98
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -891,13 +807,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_26
+      name: DaBaby_HeavyNeutral3
       rect:
         serializedVersion: 2
-        x: 221
-        y: 1403
-        width: 56
-        height: 89
+        x: 202
+        y: 1406
+        width: 95
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -912,13 +828,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_27
+      name: DaBaby_HeavyNeutral4
       rect:
         serializedVersion: 2
         x: 304
-        y: 1433
-        width: 101
-        height: 51
+        y: 1408
+        width: 92
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -933,13 +849,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_28
+      name: DaBaby_HeavyNeutral5
       rect:
         serializedVersion: 2
         x: 402
-        y: 1446
+        y: 1408
         width: 94
-        height: 37
+        height: 91
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,13 +870,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_29
+      name: DaBaby_HeavyNeutral6
       rect:
         serializedVersion: 2
         x: 502
-        y: 1428
+        y: 1408
         width: 94
-        height: 39
+        height: 90
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -975,13 +891,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_30
+      name: DaBaby_HeavyNeutral7
       rect:
         serializedVersion: 2
         x: 604
         y: 1408
         width: 93
-        height: 40
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,11 +912,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_31
+      name: DaBaby_HeavyLow9
       rect:
         serializedVersion: 2
-        x: 797
-        y: 1395
+        x: 798
+        y: 1296
         width: 105
         height: 105
       alignment: 0
@@ -1017,13 +933,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_34
+      name: DaBaby_HeavyNeutral8
       rect:
         serializedVersion: 2
         x: 703
         y: 1399
         width: 94
-        height: 39
+        height: 101
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1038,7 +954,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_37
+      name: DaBaby_HeavyLow1
       rect:
         serializedVersion: 2
         x: 27
@@ -1059,7 +975,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_38
+      name: DaBaby_HeavyLow2
       rect:
         serializedVersion: 2
         x: 127
@@ -1080,7 +996,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_39
+      name: DaBaby_HeavyLow3
       rect:
         serializedVersion: 2
         x: 227
@@ -1101,13 +1017,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_40
+      name: DaBaby_HeavyLow4
       rect:
         serializedVersion: 2
-        x: 326
-        y: 1303
-        width: 65
-        height: 94
+        x: 302
+        y: 1341
+        width: 96
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1122,13 +1038,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_41
+      name: DaBaby_HeavyLow5
       rect:
         serializedVersion: 2
-        x: 428
-        y: 1303
-        width: 64
-        height: 94
+        x: 402
+        y: 1343
+        width: 94
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1143,13 +1059,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_42
+      name: DaBaby_HeavyLow6
       rect:
         serializedVersion: 2
-        x: 527
-        y: 1303
-        width: 69
-        height: 94
+        x: 502
+        y: 1327
+        width: 94
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1164,11 +1080,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_44
+      name: DaBaby_HeavyJump1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1203
+        y: 1104
         width: 68
         height: 92
       alignment: 0
@@ -1185,11 +1101,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_45
+      name: DaBaby_HeavyJump2
       rect:
         serializedVersion: 2
         x: 100
-        y: 1203
+        y: 1102
         width: 70
         height: 92
       alignment: 0
@@ -1206,11 +1122,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_46
+      name: DaBaby_HeavyJump3
       rect:
         serializedVersion: 2
-        x: 201
-        y: 1203
+        x: 202
+        y: 1103
         width: 70
         height: 92
       alignment: 0
@@ -1227,11 +1143,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_47
+      name: DaBaby_HeavyJump4
       rect:
         serializedVersion: 2
         x: 299
-        y: 1204
+        y: 1104
         width: 101
         height: 94
       alignment: 0
@@ -1248,11 +1164,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_48
+      name: DaBaby_HeavyJump5
       rect:
         serializedVersion: 2
-        x: 402
-        y: 1203
+        x: 401
+        y: 1106
         width: 98
         height: 92
       alignment: 0
@@ -1269,11 +1185,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_50
+      name: DaBaby_HeavyJump6
       rect:
         serializedVersion: 2
-        x: 502
-        y: 1203
+        x: 501
+        y: 1106
         width: 98
         height: 92
       alignment: 0
@@ -1290,11 +1206,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_51
+      name: DaBaby_Projectile1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1102
+        x: 30
+        y: 1004
         width: 41
         height: 94
       alignment: 0
@@ -1311,11 +1227,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_52
+      name: DaBaby_Projectile2
       rect:
         serializedVersion: 2
         x: 127
-        y: 1102
+        y: 1002
         width: 70
         height: 94
       alignment: 0
@@ -1332,11 +1248,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_53
+      name: DaBaby_Projectile3
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1102
+        x: 228
+        y: 1002
         width: 74
         height: 94
       alignment: 0
@@ -1353,11 +1269,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_54
+      name: DaBaby_Grab1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1002
+        x: 30
+        y: 905
         width: 41
         height: 94
       alignment: 0
@@ -1374,11 +1290,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_55
+      name: DaBaby_Grab2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 1002
+        x: 128
+        y: 903
         width: 60
         height: 94
       alignment: 0
@@ -1395,11 +1311,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_56
+      name: DaBaby_Grab3
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1002
+        x: 222
+        y: 902
         width: 60
         height: 94
       alignment: 0
@@ -1416,11 +1332,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_57
+      name: DaBaby_Thow1
       rect:
         serializedVersion: 2
         x: 27
-        y: 903
+        y: 803
         width: 41
         height: 93
       alignment: 0
@@ -1437,11 +1353,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_58
+      name: DaBaby_Throw2
       rect:
         serializedVersion: 2
-        x: 127
-        y: 903
+        x: 126
+        y: 803
         width: 55
         height: 93
       alignment: 0
@@ -1458,11 +1374,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_59
+      name: DaBaby_Thow3
       rect:
         serializedVersion: 2
-        x: 223
-        y: 903
+        x: 220
+        y: 803
         width: 70
         height: 93
       alignment: 0
@@ -1479,11 +1395,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_60
+      name: DaBaby_Thow4
       rect:
         serializedVersion: 2
         x: 322
-        y: 903
+        y: 802
         width: 78
         height: 93
       alignment: 0
@@ -1500,11 +1416,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_61
+      name: DaBaby_Shield1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 803
+        x: 7
+        y: 705
         width: 43
         height: 94
       alignment: 0
@@ -1521,11 +1437,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_62
+      name: DaBaby_Shield2
       rect:
         serializedVersion: 2
-        x: 98
-        y: 799
+        x: 97
+        y: 699
         width: 88
         height: 98
       alignment: 0
@@ -1542,7 +1458,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_63
+      name: DaBaby_Run1
       rect:
         serializedVersion: 2
         x: 2
@@ -1563,7 +1479,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_64
+      name: DaBaby_Run2
       rect:
         serializedVersion: 2
         x: 102
@@ -1584,7 +1500,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_65
+      name: DaBaby_Run3
       rect:
         serializedVersion: 2
         x: 199
@@ -1605,7 +1521,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_66
+      name: DaBaby_Hit
       rect:
         serializedVersion: 2
         x: 4
@@ -1626,7 +1542,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_49
+      name: DaBaby_LightJump4
       rect:
         serializedVersion: 2
         x: 299
@@ -1647,15 +1563,183 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DaBaby_67
+      name: DaBaby_LightLow4
       rect:
         serializedVersion: 2
-        x: 502
-        y: 1599
-        width: 97
-        height: 103
+        x: 327
+        y: 1702
+        width: 72
+        height: 97
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616976a75995fbf30800000000000000
+      internalID: 4593488643479803414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyLow7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1302
+        width: 94
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0a6b64dac1c7e80800000000000000
+      internalID: -8179631292670369627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyLow8
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1299
+        width: 99
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec987aad9245be5a0800000000000000
+      internalID: -6491001899185632818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyHigh1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1203
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed995a168c43af9c0800000000000000
+      internalID: -3892740892672026146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyHigh2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1203
+        width: 47
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ef46b177a441210800000000000000
+      internalID: 1302748067638083169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyHigh3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1203
+        width: 68
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5345fb6a73296780800000000000000
+      internalID: -8689374997330443430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyHigh4
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1202
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725ce1644a7e71200800000000000000
+      internalID: 150843805277275431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyHigh5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1202
+        width: 69
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49df7e6333cc54790800000000000000
+      internalID: -7546401080252826220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaBaby_HeavyHigh6
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1201
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1663,27 +1747,6 @@ TextureImporter:
       bones: []
       spriteID: b73e6a0750a114d40800000000000000
       internalID: 5566759225073787771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaBaby_68
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 1599
-        width: 100
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14c7122b7a96153b0800000000000000
-      internalID: -5525519098837894079
       vertices: []
       indices: 
       edges: []
