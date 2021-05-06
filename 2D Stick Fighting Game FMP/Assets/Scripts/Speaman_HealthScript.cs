@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class VegetaMan_HealthScript : MonoBehaviour
+
+public class Speaman_HealthScript : MonoBehaviour
 {
     Animator Newanimator;
 
@@ -14,7 +15,7 @@ public class VegetaMan_HealthScript : MonoBehaviour
     public Image roundTwo;
     public Image roundThree;
 
-    private VegetaMan_ShieldScript vegetaManShield;
+    private Speaman_ShieldScript speamanShield;
     public float health = 1f;
     public float superMetreCharge = 1f;
     public float roundOneFill = 0;
@@ -22,29 +23,29 @@ public class VegetaMan_HealthScript : MonoBehaviour
     public float roundThreeFill = 0;
     public float roundsWon = 0;
 
-   /*[SerializeField]
-    GameObject attackHitboxSpecial;
+    /*[SerializeField]
+     GameObject attackHitboxSpecial;
 
-    [SerializeField]
-    GameObject attackHitboxSpecial2;
+     [SerializeField]
+     GameObject attackHitboxSpecial2;
 
-    [SerializeField]
-    GameObject attackHitboxSpecial3;
+     [SerializeField]
+     GameObject attackHitboxSpecial3;
 
-    [SerializeField]
-    GameObject attackHitboxSpecial4;
+     [SerializeField]
+     GameObject attackHitboxSpecial4;
 
-    [SerializeField]
-    GameObject attackHitboxSpecial5;
+     [SerializeField]
+     GameObject attackHitboxSpecial5;
 
-    [SerializeField]
-    GameObject attackHitboxSpecial6;
+     [SerializeField]
+     GameObject attackHitboxSpecial6;
 
-    [SerializeField]
-    GameObject attackHitboxSpecial7;
+     [SerializeField]
+     GameObject attackHitboxSpecial7;
 
-    [SerializeField]
-    Collider2D BigHitbox;*/
+     [SerializeField]
+     Collider2D BigHitbox;*/
 
 
     // Start is called before the first frame update
@@ -60,7 +61,7 @@ public class VegetaMan_HealthScript : MonoBehaviour
         roundThreeFill = 0;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        vegetaManShield = GetComponent<VegetaMan_ShieldScript>();
+        speamanShield = GetComponent<Speaman_ShieldScript>();
 
     }
 
@@ -92,7 +93,7 @@ public class VegetaMan_HealthScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!vegetaManShield.ActiveShield)
+        if (!speamanShield.ActiveShield)
         {
             if (collision.tag == "Spike")
             {
@@ -281,43 +282,43 @@ public class VegetaMan_HealthScript : MonoBehaviour
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_LightNeutral")
+            else if (collision.tag == "VegetaMan_LightNeutral")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
                 StartCoroutine(Stunned());
             }
-            else if (collision.tag == "Speaman_LightLow")
+            else if (collision.tag == "VegetaMan_LightLow")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_LightHigh")
+            else if (collision.tag == "VegetaMan_LightHIGH")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_LightJump")
+            else if (collision.tag == "VegetaMan_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_HeavyNeutral")
+            else if (collision.tag == "VegetaMan_HeavyNeutral")
             {
                 TakeDamage(0.15f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_HeavyHigh")
+            else if (collision.tag == "VegetaMan_HeavyHigh")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_HeavyLow")
+            else if (collision.tag == "VegetaMan_HeavyLow")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
             }
-            else if (collision.tag == "Speaman_HeavyJump")
+            else if (collision.tag == "VegetaMan_HeavyJump")
             {
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
@@ -327,6 +328,7 @@ public class VegetaMan_HealthScript : MonoBehaviour
                 Destroy(collision.gameObject);
                 TakeDamage(0.04f);
             }
+
 
 
             if (health <= 0)
@@ -395,10 +397,10 @@ public class VegetaMan_HealthScript : MonoBehaviour
     IEnumerator Stunned()
     {
         Newanimator.Play("VegetaMan_Hit");
-        GetComponent<VegetaManPlayerController2D>().isAttackLocked = true;
+        GetComponent<Speaman_PlayerController2D>().isAttackLocked = true;
         yield return new WaitForSeconds(0.5f);
         Newanimator.Play("VegetaMan_Idle");
-        GetComponent<VegetaManPlayerController2D>().isAttackLocked = false;
+        GetComponent<Speaman_PlayerController2D>().isAttackLocked = false;
     }
 
 }

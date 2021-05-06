@@ -1,0 +1,1754 @@
+fileFormatVersion: 2
+guid: 5791f8e7da5686149ab0ed99e7060407
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4105654301882860917
+    second: LeGranpa_Idle1
+  - first:
+      213: -3430808615630600563
+    second: LeGranpa_Idle2
+  - first:
+      213: 4251945671861891007
+    second: LeGranpa_Idle3
+  - first:
+      213: -6196574877569505142
+    second: LeGranpa_LightNeutral2
+  - first:
+      213: -5574988518197420801
+    second: LeGranpa_LightNeutral3
+  - first:
+      213: 5491248057026729028
+    second: LeGranpa_LightLow4
+  - first:
+      213: 8186314143413767745
+    second: LeGranpa_6
+  - first:
+      213: 4379303097010743906
+    second: LeGranpa_LightJump4
+  - first:
+      213: -5963627674082524347
+    second: LeGranpa_8
+  - first:
+      213: 8304552244450865588
+    second: LeGranpa_LightJump5
+  - first:
+      213: -7422882413624067708
+    second: LeGranpa_LightJump6
+  - first:
+      213: -3898664400734490704
+    second: LeGranpa_LightJump7
+  - first:
+      213: 4822571725845177494
+    second: LeGranpa_HeavyNeutral2
+  - first:
+      213: 1992355953385551754
+    second: LeGranpa_HeavyNeutral3
+  - first:
+      213: -8258806819667811613
+    second: LeGranpa_HeavyNeutral4
+  - first:
+      213: -5932518157871509877
+    second: LeGranpa_HeavyNeutral5
+  - first:
+      213: -7669422554230040772
+    second: LeGranpa_HeavyNeutral6
+  - first:
+      213: -8374153539170338085
+    second: LeGranpa_HeavyNeutral8
+  - first:
+      213: -5754352717799095365
+    second: LeGranpa_18
+  - first:
+      213: 2164813249914911804
+    second: LeGranpa_HeavyLow2
+  - first:
+      213: -3715365257455989249
+    second: LeGranpa_LightNeutral1
+  - first:
+      213: 892886701786915189
+    second: LeGranpa_LightLow1
+  - first:
+      213: -8099144807642788542
+    second: LeGranpa_HeavyLow1
+  - first:
+      213: 989779400607324575
+    second: LeGranpa_HeavyLow3
+  - first:
+      213: 4972789569067942521
+    second: LeGranpa_HeavyLow4
+  - first:
+      213: -3931374090613228137
+    second: LeGranpa_LightHigh1
+  - first:
+      213: -5931843631775538551
+    second: LeGranpa_HeavyLow5
+  - first:
+      213: 8803979234665244
+    second: LeGranpa_LightJump1
+  - first:
+      213: 5388438907941374460
+    second: LeGranpa_HeavyLow9
+  - first:
+      213: -6544868963615996210
+    second: LeGranpa_HeavyNeutral1
+  - first:
+      213: 8412148009082978646
+    second: LeGranpa_HeavyLow6
+  - first:
+      213: -6610266290243357061
+    second: LeGranpa_HeavyLow7
+  - first:
+      213: 4099029186652888975
+    second: LeGranpa_LightLow2
+  - first:
+      213: 5571904991552163344
+    second: LeGranpa_LightLow3
+  - first:
+      213: -8637179441808876133
+    second: LeGranpa_HeavyLow8
+  - first:
+      213: -990355482603252362
+    second: LeGranpa_LightHigh2
+  - first:
+      213: -3738000447144612533
+    second: LeGranpa_HeavyHigh3
+  - first:
+      213: 7763429102989537903
+    second: LeGranpa_HeavyHigh4
+  - first:
+      213: -8085290508891004791
+    second: LeGranpa_HeavyHigh6
+  - first:
+      213: -2455078050606951261
+    second: LeGranpa_LightHigh3
+  - first:
+      213: 2505366454307960034
+    second: LeGranpa_LightJump2
+  - first:
+      213: -5158320183826383406
+    second: LeGranpa_HeavyJump1
+  - first:
+      213: -6888853772746634389
+    second: LeGranpa_Throw2
+  - first:
+      213: -5734805340575839900
+    second: LeGranpa_Throw1
+  - first:
+      213: 1215549526428838260
+    second: LeGranpa_Projectile1
+  - first:
+      213: -7825805977114741072
+    second: LeGranpa_Throw4
+  - first:
+      213: -1482417870702929805
+    second: LeGranpa_Shield1
+  - first:
+      213: -7580691417076593909
+    second: LeGranpa_Shield2
+  - first:
+      213: -2654457299566669882
+    second: LeGranpa_Throw3
+  - first:
+      213: 4940564413355109861
+    second: LeGranpa_HeavyHigh5
+  - first:
+      213: -6961330457043971884
+    second: LeGranpa_HeavyHigh1
+  - first:
+      213: 6437695444479988022
+    second: LeGranpa_Run3
+  - first:
+      213: -8866048697018506259
+    second: LeGranpa_Run1
+  - first:
+      213: -2642459401821965160
+    second: LeGranpa_Run2
+  - first:
+      213: -6758678121381134555
+    second: LeGranpa_HeavyHigh2
+  - first:
+      213: 8944145266979196464
+    second: LeGranpa_Hit
+  - first:
+      213: 6953139155032504954
+    second: LeGranpa_LightHigh1
+  - first:
+      213: 2575969518765864615
+    second: LeGranpa_LightJump1
+  - first:
+      213: 8017660608096060735
+    second: LeGranpa_HeavyNeutral1
+  - first:
+      213: -217527883956887237
+    second: LeGranpa_LightLow2
+  - first:
+      213: -753050565606764161
+    second: LeGranpa_LightLow3
+  - first:
+      213: 6323707802252173882
+    second: LeGranpa_LightHigh2
+  - first:
+      213: 7255790521227992613
+    second: LeGranpa_LightHigh3
+  - first:
+      213: -4611821757026426888
+    second: LeGranpa_LightJump2
+  - first:
+      213: -8586707554508203296
+    second: LeGranpa_LightJump3
+  - first:
+      213: 230856613200633806
+    second: LeGranpa_Throw2
+  - first:
+      213: 6619845404760196731
+    second: LeGranpa_HeavyJump6
+  - first:
+      213: -7140778756542237799
+    second: LeGranpa_HeavyJump5
+  - first:
+      213: -805365078626148638
+    second: LeGranpa_HeavyJump4
+  - first:
+      213: 721713690799184279
+    second: LeGranpa_HeavyJump3
+  - first:
+      213: 1488608264258771212
+    second: LeGranpa_HeavyJump2
+  - first:
+      213: -2859545144605794896
+    second: LeGranpa_Projectile2
+  - first:
+      213: -1755460110110472310
+    second: LeGranpa_Projectile3
+  - first:
+      213: -2639902676701505355
+    second: LeGranpa_Grab1
+  - first:
+      213: 5138582818084989185
+    second: LeGranpa_Grab2
+  - first:
+      213: -8911016498065314138
+    second: LeGranpa_Grab3
+  - first:
+      213: 2053396640439360211
+    second: LeGranpa_HeavyHigh5
+  - first:
+      213: 6686061531580705633
+    second: LeGranpa_HeavyHigh1
+  - first:
+      213: -7733749042965693979
+    second: LeGranpa_HeavyHigh2
+  - first:
+      213: -8545028507899431963
+    second: LeGranpa_HeavyNeutral7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeGranpa_Idle1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2007
+        width: 41
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab7b54a29c507c0800000000000000
+      internalID: -4105654301882860917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Idle2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2002
+        width: 47
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d860df4cdb15360d0800000000000000
+      internalID: -3430808615630600563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Idle3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2002
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf669f8f02f10b30800000000000000
+      internalID: 4251945671861891007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightNeutral2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1809
+        width: 55
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a882c5ecaf7510aa0800000000000000
+      internalID: -6196574877569505142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightNeutral3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1812
+        width: 100
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc16f1fa79a1a2b0800000000000000
+      internalID: -5574988518197420801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightLow4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1703
+        width: 75
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444d1a49305d43c40800000000000000
+      internalID: 5491248057026729028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1502
+        width: 95
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ae715d6f866cc30800000000000000
+      internalID: 4379303097010743906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump5
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1502
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1ba255442bf3370800000000000000
+      internalID: 8304552244450865588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1500
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489717ed5cf9cf890800000000000000
+      internalID: -7422882413624067708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 101
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf62cf226925e9c0800000000000000
+      internalID: -3898664400734490704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1407
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69428defe673de240800000000000000
+      internalID: 4822571725845177494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1407
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a873ea30f2546ab10800000000000000
+      internalID: 1992355953385551754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1407
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2602d54f2d26d80800000000000000
+      internalID: -8258806819667811613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1407
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e8380da267bada0800000000000000
+      internalID: -5932518157871509877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral6
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1407
+        width: 98
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37dfbe32dcb09590800000000000000
+      internalID: -7669422554230040772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral8
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1407
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdafb2b69b709cb80800000000000000
+      internalID: -8374153539170338085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1304
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cbc3e5e26fa0e10800000000000000
+      internalID: 2164813249914911804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1306
+        width: 41
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d800465be0a9f80800000000000000
+      internalID: -8099144807642788542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1303
+        width: 56
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99d23bee176cbd00800000000000000
+      internalID: 989779400607324575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1332
+        width: 94
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972001f14c5e20540800000000000000
+      internalID: 4972789569067942521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow5
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1344
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9822bd825abddada0800000000000000
+      internalID: -5931843631775538551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow9
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1295
+        width: 103
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf94db933a497ca40800000000000000
+      internalID: 5388438907941374460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1328
+        width: 94
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65186677b04fdb470800000000000000
+      internalID: 8412148009082978646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1309
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b763e4be4dd9344a0800000000000000
+      internalID: -6610266290243357061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyLow8
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1299
+        width: 93
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ddca53f03922880800000000000000
+      internalID: -8637179441808876133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyHigh3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1205
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4da1b9e564ff1cc0800000000000000
+      internalID: -3738000447144612533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyHigh4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1206
+        width: 64
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62fe9203ad3dbb60800000000000000
+      internalID: 7763429102989537903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyHigh6
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1206
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980e6bfae174bcf80800000000000000
+      internalID: -8085290508891004791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyJump1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1106
+        width: 68
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddfc4d6f17f968b0800000000000000
+      internalID: -5158320183826383406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Throw1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 803
+        width: 41
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469c6f25de0e960b0800000000000000
+      internalID: -5734805340575839900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Projectile1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1003
+        width: 41
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4796fa1aadf7ed010800000000000000
+      internalID: 1215549526428838260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Throw4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 803
+        width: 78
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b672fc3de6256390800000000000000
+      internalID: -7825805977114741072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Shield1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 703
+        width: 43
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3789f000dc46d6be0800000000000000
+      internalID: -1482417870702929805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Shield2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 699
+        width: 88
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b0c450259fbc690800000000000000
+      internalID: -7580691417076593909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Throw3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 803
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfc2e36629792bd0800000000000000
+      internalID: -2654457299566669882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Run3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 199
+        width: 100
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631516cf5e9475950800000000000000
+      internalID: 6437695444479988022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Run1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 199
+        width: 96
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3a5e43fa775f480800000000000000
+      internalID: -8866048697018506259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Run2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 199
+        width: 97
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894b205ac29145bd0800000000000000
+      internalID: -2642459401821965160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Hit
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 94
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e49c17bbcff1c70800000000000000
+      internalID: 8944145266979196464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_18
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1907
+        width: 44
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb30847e0be6420b0800000000000000
+      internalID: -5754352717799095365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightNeutral1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1807
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd0282bbfe507cc0800000000000000
+      internalID: -3715365257455989249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightLow1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1706
+        width: 53
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571edac79bb246c00800000000000000
+      internalID: 892886701786915189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightHigh1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1605
+        width: 54
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a7291e8338e7060800000000000000
+      internalID: 6953139155032504954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1505
+        width: 62
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6f54611aeafb320800000000000000
+      internalID: 2575969518765864615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1406
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35453bf7d3744f60800000000000000
+      internalID: 8017660608096060735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightLow2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1706
+        width: 55
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31e104ca8f2bfcf0800000000000000
+      internalID: -217527883956887237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightLow3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1705
+        width: 66
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f711a1b1080ac85f0800000000000000
+      internalID: -753050565606764161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightHigh2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1606
+        width: 59
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a326b90edb252c750800000000000000
+      internalID: 6323707802252173882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightHigh3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1605
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ed076490fb1b460800000000000000
+      internalID: 7255790521227992613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1504
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9505eb848fffb0800000000000000
+      internalID: -4611821757026426888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_LightJump3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1504
+        width: 89
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea106739f2e5d880800000000000000
+      internalID: -8586707554508203296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Throw2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 808
+        width: 57
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf9fd7ddda243300800000000000000
+      internalID: 230856613200633806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyJump6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1102
+        width: 100
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76cbba725a6edb50800000000000000
+      internalID: 6619845404760196731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyJump5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1103
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993f4aced8bd6ec90800000000000000
+      internalID: -7140778756542237799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyJump4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1103
+        width: 101
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eedbfd5ab4c2d4f0800000000000000
+      internalID: -805365078626148638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyJump3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1103
+        width: 70
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7991f9927ca040a00800000000000000
+      internalID: 721713690799184279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyJump2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1104
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09dad0545998a410800000000000000
+      internalID: 1488608264258771212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Projectile2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1004
+        width: 68
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd149c67dad058d0800000000000000
+      internalID: -2859545144605794896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Projectile3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1004
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a874f77a45a53a7e0800000000000000
+      internalID: -1755460110110472310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Grab1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 905
+        width: 42
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b89a99908e2d5bd0800000000000000
+      internalID: -2639902676701505355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Grab2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 906
+        width: 60
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109a1e009d9ef4740800000000000000
+      internalID: 5138582818084989185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_Grab3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 904
+        width: 44
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeeb2525b5b55480800000000000000
+      internalID: -8911016498065314138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyHigh5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1205
+        width: 67
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da5e587d512f7c10800000000000000
+      internalID: 2053396640439360211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyHigh1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1205
+        width: 46
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba548e989a9cc50800000000000000
+      internalID: 6686061531580705633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyHigh2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1206
+        width: 53
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9330878343ca490800000000000000
+      internalID: -7733749042965693979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeGranpa_HeavyNeutral7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1406
+        width: 97
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3711778d5f96980800000000000000
+      internalID: -8545028507899431963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

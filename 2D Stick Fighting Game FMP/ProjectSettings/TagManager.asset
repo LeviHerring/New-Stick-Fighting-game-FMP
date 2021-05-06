@@ -53,6 +53,23 @@ TagManager:
   - VegetaMan_HeavyNeutral
   - VegetaMan_HeavyLow
   - VegetaMan_HeavyJump
+  - Speaman_LightNeutral
+  - Speaman_LightLow
+  - Speaman_LightHigh
+  - Speaman_LightJump
+  - Speaman_HeavyNeutral
+  - Speaman_HeavyLow
+  - Speaman_HeavyHigh
+  - Speaman_HeavyJump
+  - VegetaMan
+  - Dababy_LightNeutral
+  - Dababy_LightLow
+  - Dababy_LightHigh
+  - Dababy_LightJump
+  - Dababy_HeavyNeutral
+  - Dababy_HeavyHigh
+  - Dababy_HeavyLow
+  - Dababy_HeavyJump
   layers:
   - Default
   - TransparentFX
