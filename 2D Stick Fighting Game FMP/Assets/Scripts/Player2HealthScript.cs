@@ -116,9 +116,175 @@ public class Player2HealthScript : MonoBehaviour
                 TakeDamage(0.075f);
                 SuperMeter(0.1f);
             }
+            else if (collision.tag == "GokuMan_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "GokuMan_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "GokuMan_LightHigh")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "GokuMan_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "GokuMan_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "GokuMan_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "GokuMan_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "GokuMan_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "VegetaMan_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightHIGH")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "Speaman_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_LightHigh")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Speaman_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
+
+
+            else if (collision.tag == "Dababy_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "Dababy_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Dababy_LightHIGH")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Dababy_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Dababy_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Dababy_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Dababy_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "Dababy_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
             //else if (collision.tag == "Player2_Grab")
             //{
-                //TakeDamage(0.07f);
+            //TakeDamage(0.07f);
             //}
 
             else if (collision.tag == "Bullet")
@@ -183,5 +349,12 @@ public class Player2HealthScript : MonoBehaviour
         //isAttacking = false;
     }
 
-
+    IEnumerator Stunned()
+    {
+        Newanimator.Play("SpeedyQuick_Hit");
+        GetComponent<SpeedyQuickController2D>().isAttackLocked = true;
+        yield return new WaitForSeconds(0.5f);
+        Newanimator.Play("SpeedyQuick_Idle");
+        GetComponent<SpeedyQuickController2D>().isAttackLocked = false;
+    }
 }

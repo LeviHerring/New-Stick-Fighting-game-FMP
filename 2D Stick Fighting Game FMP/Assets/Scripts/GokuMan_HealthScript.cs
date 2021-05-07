@@ -241,6 +241,47 @@ public class GokuMan_HealthScript : MonoBehaviour
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
             }
+            else if (collision.tag == "LeGranpa_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "LeGranpa_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_LightHigh")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
             else if (collision.tag == "Bullet2")
             {
                 Destroy(collision.gameObject);

@@ -199,6 +199,88 @@ public class HealthScript : MonoBehaviour
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
             }
+            else if (collision.tag == "VegetaMan_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "VegetaMan_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightHIGH")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "VegetaMan_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_LightNeutral")
+            {
+                TakeDamage(0.05f);
+                SuperMeter(0.1f);
+                StartCoroutine(Stunned());
+            }
+            else if (collision.tag == "LeGranpa_LightLow")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_LightHigh")
+            {
+                TakeDamage(0.055f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_LightJump")
+            {
+                TakeDamage(0.02f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyNeutral")
+            {
+                TakeDamage(0.15f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyHigh")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyLow")
+            {
+                TakeDamage(0.07f);
+                SuperMeter(0.1f);
+            }
+            else if (collision.tag == "LeGranpa_HeavyJump")
+            {
+                TakeDamage(0.045f);
+                SuperMeter(0.1f);
+            }
             else if (collision.tag == "Bullet2")
             {
                 Destroy(collision.gameObject);
@@ -244,6 +326,14 @@ public class HealthScript : MonoBehaviour
                 return; 
             }
         }
+    }
+    IEnumerator Stunned()
+    {
+        Newanimator.Play("Dababy_Hit");
+        GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = true;
+        yield return new WaitForSeconds(0.5f);
+        Newanimator.Play("Dababy_Idle");
+        GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = false;
     }
 
     IEnumerator DoSpecialAttack(float delay)

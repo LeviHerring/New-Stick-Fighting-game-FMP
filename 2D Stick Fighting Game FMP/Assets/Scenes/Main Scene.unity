@@ -2170,7 +2170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &513687727
 Transform:
   m_ObjectHideFlags: 0
@@ -2595,7 +2595,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1
+  orthographic size: 1.4115769
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2619,7 +2619,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570352806}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 712, y: 40, z: -10}
+  m_LocalPosition: {x: 711.87, y: 40.11, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4261,7 +4261,7 @@ Transform:
   - {fileID: 995814422}
   - {fileID: 1150397600}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &970562243
 Rigidbody2D:
@@ -4521,6 +4521,7 @@ GameObject:
   - component: {fileID: 999464631}
   - component: {fileID: 999464635}
   - component: {fileID: 999464634}
+  - component: {fileID: 999464636}
   m_Layer: 0
   m_Name: Dababy
   m_TagString: Player
@@ -4686,7 +4687,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05154419, y: -0.0009816885}
+  m_Offset: {x: 0.036834717, y: -0.0009816885}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4697,7 +4698,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1819458, y: 0.9380367}
+  m_Size: {x: 0.31536865, y: 0.9380367}
   m_EdgeRadius: 0
 --- !u!114 &999464634
 MonoBehaviour:
@@ -4725,8 +4726,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isGrounded: 0
-  bouncyBall: {fileID: 0}
-  bulletSpawnPos: {fileID: 0}
+  bouncyBall: {fileID: 5360674227954568645, guid: b7ac3a2c9ee3af141beca53d09ac760a,
+    type: 3}
+  bulletSpawnPos: {fileID: 1341291476}
   attackHitbox: {fileID: 2103001184}
   attackHitboxLN: {fileID: 2068384978}
   attackHitboxLL: {fileID: 160854106}
@@ -4742,8 +4744,32 @@ MonoBehaviour:
   runSpeed: 1.5
   jumpSpeed: 3
   shootDelay: 0.5
-  player2: {fileID: 0}
+  player2: {fileID: 1358669022}
   isAttackLocked: 0
+--- !u!114 &999464636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999464627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc1ee1c24b8ae446bcd2f05723d7daf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthImage: {fileID: 1144644059}
+  gameOver: {fileID: 4663789}
+  superMetreImage: {fileID: 1927283130}
+  roundOne: {fileID: 1507563286}
+  roundTwo: {fileID: 1918489983}
+  roundThree: {fileID: 326765412}
+  health: 1
+  superMetreCharge: 1
+  roundOneFill: 0
+  roundTwoFill: 0
+  roundThreeFill: 0
+  roundsWon: 0
 --- !u!1 &1016896310
 GameObject:
   m_ObjectHideFlags: 0
@@ -6338,7 +6364,7 @@ MonoBehaviour:
   jumpSpeed: 5
   shootDelay: 0.5
   speed: 1
-  player1: {fileID: 0}
+  player1: {fileID: 999464627}
   isAttackLocked: 0
 --- !u!50 &1358669027
 Rigidbody2D:
@@ -7202,7 +7228,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576507279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.2730205, y: -0.056000352, z: -228.5852}
+  m_LocalPosition: {x: 0.2730205, y: -0.056000352, z: 0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1358669023}
@@ -8255,7 +8281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1853740629}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Dababy containe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8269,7 +8295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853740628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 713.6013, y: 40.389935, z: -0.22167969}
+  m_LocalPosition: {x: 708.358, y: 40.389935, z: -0.22167969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 999464628}
@@ -9505,7 +9531,7 @@ PrefabInstance:
     - target: {fileID: 2145336567589480926, guid: 7c3e8c212273c3d4d976ca551592ab92,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2145336567589480926, guid: 7c3e8c212273c3d4d976ca551592ab92,
         type: 3}
