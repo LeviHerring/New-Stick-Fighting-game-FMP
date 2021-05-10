@@ -70,6 +70,14 @@ TagManager:
   - Dababy_HeavyHigh
   - Dababy_HeavyLow
   - Dababy_HeavyJump
+  - LeGranpa_LightNeutral
+  - 'LeGranpa_LightLow '
+  - LeGranpa_LightHigh
+  - 'LeGranpa_LightJump '
+  - LeGranpa_HeavyNeutral
+  - LeGranpa_HeavyHigh
+  - LeGranpa_HeavyLow
+  - 'LeGranpa_HeavyJump '
   layers:
   - Default
   - TransparentFX
