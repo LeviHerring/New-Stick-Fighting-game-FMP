@@ -22,7 +22,7 @@ public class ShieldScript : MonoBehaviour
             if(!activeShield)
             {
                 Shield.SetActive(true);
-                activeShield = true; 
+                activeShield = true;
             }
             else
             {
