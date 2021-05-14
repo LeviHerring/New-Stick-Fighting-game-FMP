@@ -377,7 +377,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
         attackHitbox.SetActive(false);
         attackHitboxLN.SetActive(false);
         Newanimator.Play("Dababy_Idle");
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(1.1f);
         isAttackLocked = false;
         isAttacking = false;
     }
@@ -399,9 +399,10 @@ public class Dababy_PlayerController2D : MonoBehaviour
         isAttackLocked = true;
         attackHitboxLL.SetActive(true);
         yield return new WaitForSeconds(.4f);
+        Newanimator.Play("Dababy_Idle");
         attackHitboxLL.SetActive(false);
         Newanimator.Play("Dababy_Idle");
-        yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(1.1f);
         isAttackLocked = false;
         isAttacking = false;
     }
