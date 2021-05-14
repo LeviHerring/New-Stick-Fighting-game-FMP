@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShieldScript : MonoBehaviour
 {
-
+    
     public GameObject Shield;
     private bool activeShield;
     // Start is called before the first frame update
