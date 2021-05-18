@@ -374,7 +374,7 @@ public class VegetaMan_HealthScript : MonoBehaviour
             {
                 Time.timeScale = 0;
                 gameOver.SetActive(true);
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(3);
                 health = 1f;
             }
         }

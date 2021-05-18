@@ -153,46 +153,55 @@ public class HealthScript : MonoBehaviour
             {
                 TakeDamage(0.5f);
                 SuperMeter(0.1f);
+
             }
             else if (collision.tag == "SpeedyQuick_LightNeutral")
             {
                 TakeDamage(0.01f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "SpeedyQuick_LightLow")
             {
                 TakeDamage(0.015f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "SpeedyQuick_LightHigh")
             {
                 TakeDamage(0.015f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "SpeedyQuick_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "SpeedyQuick_HeavyNeutral")
             {
                 TakeDamage(0.04f);
                 SuperMeter(0.1f);
+                StartCoroutine(SpeedyQuickStunned());
             }
             else if (collision.tag == "SpeedyQuick_HeavyHigh")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
+                StartCoroutine(SpeedyQuickStunned());
             }
             else if (collision.tag == "SpeedyQuick_HeavyLow")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
+                StartCoroutine(SpeedyQuickStunned());
             }
             else if (collision.tag == "SpeedyQuick_HeavyJump")
             {
                 TakeDamage(0.065f);
                 SuperMeter(0.1f);
+                StartCoroutine(SpeedyQuickStunned());
             }
             else if (collision.tag == "Player2 _Grab")
             {
@@ -242,39 +251,39 @@ public class HealthScript : MonoBehaviour
             }
             else if (collision.tag == "LeGranpa_LightNeutral")
             {
-                TakeDamage(0.05f);
+                TakeDamage(0.0005f);
                 SuperMeter(0.1f);
                 StartCoroutine(Stunned());
             }
             else if (collision.tag == "LeGranpa_LightLow")
             {
-                TakeDamage(0.055f);
+                TakeDamage(0.0015f);
                 SuperMeter(0.1f);
             }
             else if (collision.tag == "LeGranpa_LightHigh")
             {
-                TakeDamage(0.055f);
+                TakeDamage(0.00015f);
                 SuperMeter(0.1f);
             }
             else if (collision.tag == "LeGranpa_LightJump")
             {
-                TakeDamage(0.02f);
+                TakeDamage(0.002f);
                 SuperMeter(0.1f);
             }
             else if (collision.tag == "LeGranpa_HeavyNeutral")
             {
-                TakeDamage(0.15f);
+                TakeDamage(0.0015f);
                 SuperMeter(0.1f);
             }
             else if (collision.tag == "LeGranpa_HeavyHigh")
             {
-                TakeDamage(0.07f);
-                SuperMeter(0.1f);
+                TakeDamage(0.004f);
+                SuperMeter(0.001f);
             }
             else if (collision.tag == "LeGranpa_HeavyLow")
             {
-                TakeDamage(0.07f);
-                SuperMeter(0.1f);
+                TakeDamage(0.004f);
+                SuperMeter(0.001f);
             }
             else if (collision.tag == "LeGranpa_HeavyJump")
             {
@@ -285,6 +294,7 @@ public class HealthScript : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 TakeDamage(0.04f);
+                StartCoroutine(Stunned());
             }
 
             if (health <= 0)
@@ -329,10 +339,18 @@ public class HealthScript : MonoBehaviour
     }
     IEnumerator Stunned()
     {
-        Newanimator.Play("Dababy_Hit");
+        Newanimator.Play("AverageJoe_Hit");
         GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = true;
-        yield return new WaitForSeconds(0.5f);
-        Newanimator.Play("Dababy_Idle");
+        yield return new WaitForSeconds(.5f);
+        Newanimator.Play("AverageJoe_Idle");
+        GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = false;
+    }
+    IEnumerator SpeedyQuickStunned()
+    {
+        Newanimator.Play("AverageJoe_Hit");
+        GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = true;
+        yield return new WaitForSeconds(1f);
+        Newanimator.Play("AverageJoe_Idle");
         GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = false;
     }
 
