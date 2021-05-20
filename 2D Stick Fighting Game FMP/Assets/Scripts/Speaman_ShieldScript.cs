@@ -22,11 +22,18 @@ public class Speaman_ShieldScript : MonoBehaviour
             {
                 speamanShield.SetActive(true);
                 activeShield = true;
+                GetComponent<Speaman_PlayerController2D>().isAttackLocked = true;
+                GetComponent<Speaman_PlayerController2D>().isDirectionalAttackLocked = true;
+                GetComponent<Speaman_PlayerController2D>().isMoving = true;
+
             }
             else
             {
                 speamanShield.SetActive(false);
                 activeShield = false;
+                GetComponent<Speaman_PlayerController2D>().isAttackLocked = false;
+                GetComponent<Speaman_PlayerController2D>().isDirectionalAttackLocked = false;
+                GetComponent<Speaman_PlayerController2D>().isMoving = false;
             }
         }
     }

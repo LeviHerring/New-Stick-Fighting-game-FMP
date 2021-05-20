@@ -25,7 +25,7 @@ public class BlueSelector : MonoBehaviour
             {
 
                 numberPosPlayerOne--;
-                transform.position += new Vector3(-260, 0, 0);
+                transform.position += new Vector3(-200, 0, 0);
             }
         }
         if (Input.GetKeyDown(KeyCode.D))
@@ -33,7 +33,7 @@ public class BlueSelector : MonoBehaviour
             if (!(numberPosPlayerOne >= boundsPlayerOne[1]))
             {
                 numberPosPlayerOne++;
-                transform.position += new Vector3(260, 0, 0);
+                transform.position += new Vector3(200, 0, 0);
             }
         }
     }

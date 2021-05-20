@@ -87,7 +87,11 @@ public class Player2Controller : MonoBehaviour
 
     bool isFacingLeft;
 
-    public bool isAttackLocked = false; 
+    public bool isAttackLocked = false;
+
+    public bool isDirectionalAttackLocked = false;
+
+    public bool isMoving = false; 
 
     public float maximumThrowDistance = 1.5f;
 
@@ -106,7 +110,7 @@ public class Player2Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad9) && !isAttacking)
+        if (Input.GetKeyDown(KeyCode.Keypad9) && !isAttacking && !isAttackLocked)
         {
             isAttacking = true;
             float delay = .4f;
@@ -163,7 +167,7 @@ public class Player2Controller : MonoBehaviour
 
             //StartCoroutine(DoAttack(delay));
         }
-        else if (Input.GetKeyDown(KeyCode.Keypad8) && !isAttacking)
+        else if (Input.GetKeyDown(KeyCode.Keypad8) && !isAttacking &!isAttackLocked)
         {
 
             isAttacking = true;
@@ -229,11 +233,11 @@ public class Player2Controller : MonoBehaviour
             //StartCoroutine(DoAttack(delay));
         }
 
-        if (Input.GetKey(KeyCode.UpArrow) && isGrounded)
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isDirectionalAttackLocked)
         {
             float wodelay = 3.4f;
             float wpdelay = 1.4f;
-            if (Input.GetKey(KeyCode.Keypad8))
+            if (Input.GetKey(KeyCode.Keypad8) && !isDirectionalAttackLocked)
             {
 
                 
@@ -248,7 +252,7 @@ public class Player2Controller : MonoBehaviour
 
                 StartCoroutine(DoHeavyHighAttack(wodelay));
             }
-            else if (Input.GetKey(KeyCode.Keypad9))
+            else if (Input.GetKey(KeyCode.Keypad9) && !isDirectionalAttackLocked)
             {
                
                 //chose a random attack to play
@@ -267,11 +271,11 @@ public class Player2Controller : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) && isGrounded)
+        if (Input.GetKey(KeyCode.DownArrow) && isGrounded && !isDirectionalAttackLocked)
         {
             float sodelay = 3.4f;
             float spdelay = 2.5f;
-            if (Input.GetKey(KeyCode.Keypad8))
+            if (Input.GetKey(KeyCode.Keypad8) && !isDirectionalAttackLocked)
             {
                 
                 //chose a random attack to play
@@ -284,7 +288,7 @@ public class Player2Controller : MonoBehaviour
 
                 StartCoroutine(DoHeavyLowAttack(sodelay));
             }
-            else if (Input.GetKey(KeyCode.Keypad9))
+            else if (Input.GetKey(KeyCode.Keypad9) && !isDirectionalAttackLocked)
             {
                
                 //chose a random attack to play
@@ -389,6 +393,7 @@ public class Player2Controller : MonoBehaviour
 
     IEnumerator DoLightHighAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true;
         attackHitboxLightHigh.SetActive(true);
         attackHitboxLHEnd.SetActive(true);
@@ -399,10 +404,12 @@ public class Player2Controller : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoLightLowAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true;
         attackHitboxLightLowStart.SetActive(true);
         attackHitboxLightLowMiddle.SetActive(true);
@@ -415,6 +422,7 @@ public class Player2Controller : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoLightJumpAttack(float delay)
@@ -443,6 +451,7 @@ public class Player2Controller : MonoBehaviour
 
     IEnumerator DoHeavyHighAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true; 
         attackHitboxHeavyHigh.SetActive(true);
         yield return new WaitForSeconds(2.4f);
@@ -451,10 +460,12 @@ public class Player2Controller : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoHeavyLowAttack(float delay)
     {
+        isDirectionalAttackLocked = true;
         isAttackLocked = true;   
         attackHitboxHeavyLow.SetActive(true);
         yield return new WaitForSeconds(2.4f);
@@ -463,6 +474,7 @@ public class Player2Controller : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoHeavyJumpAttack(float delay)
@@ -516,7 +528,7 @@ public class Player2Controller : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && !isMoving)
         {
             Newrb2d.velocity = new Vector2(runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
@@ -527,7 +539,7 @@ public class Player2Controller : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
             isFacingLeft = false;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow) && !isMoving)
         {
             Newrb2d.velocity = new Vector2(-runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)

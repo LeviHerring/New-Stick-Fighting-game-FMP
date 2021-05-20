@@ -25,7 +25,7 @@ public class RedSelector : MonoBehaviour
             {
 
                 numberPosPlayerTwo--;
-                transform.position += new Vector3(-260, 0, 0);
+                transform.position += new Vector3(-220, 0, 0);
             }
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -33,7 +33,7 @@ public class RedSelector : MonoBehaviour
             if (!(numberPosPlayerTwo >= boundsPlayerTwo[1]))
             {
                 numberPosPlayerTwo++;
-                transform.position += new Vector3(260, 0, 0);
+                transform.position += new Vector3(220, 0, 0);
             }
             
             

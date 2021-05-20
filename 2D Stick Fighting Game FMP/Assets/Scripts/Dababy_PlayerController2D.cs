@@ -77,6 +77,8 @@ public class Dababy_PlayerController2D : MonoBehaviour
 
     public bool isAttackLocked = false;
 
+    public bool isDirectionalAttackLocked = false;
+
     float maximumThrowDistance = 1.5f;
 
     // Start is called before the first frame update
@@ -229,11 +231,11 @@ public class Dababy_PlayerController2D : MonoBehaviour
             //StartCoroutine(DoAttack(delay));
         }
 
-        if (Input.GetKey(KeyCode.W) && isGrounded)
+        if (Input.GetKey(KeyCode.W) && isGrounded && !isDirectionalAttackLocked)
         {
             float wodelay = 3.4f;
             float wpdelay = 3.5f;
-            if (Input.GetKey(KeyCode.O))
+            if (Input.GetKey(KeyCode.O) && !isDirectionalAttackLocked)
             {
 
 
@@ -248,7 +250,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
 
                 StartCoroutine(DoHeavyHighAttack(wodelay));
             }
-            else if (Input.GetKey(KeyCode.P))
+            else if (Input.GetKey(KeyCode.P) && !isDirectionalAttackLocked)
             {
 
                 //chose a random attack to play
@@ -267,11 +269,11 @@ public class Dababy_PlayerController2D : MonoBehaviour
             }
         }
 
-        if (Input.GetKey(KeyCode.S) && isGrounded)
+        if (Input.GetKey(KeyCode.S) && isGrounded && !isDirectionalAttackLocked)
         {
             float sodelay = 4.5f;
             float spdelay = 5.6f;
-            if (Input.GetKey(KeyCode.O))
+            if (Input.GetKey(KeyCode.O) && !isDirectionalAttackLocked)
             {
 
                 //chose a random attack to play
@@ -284,7 +286,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
 
                 StartCoroutine(DoHeavyLowAttack(sodelay));
             }
-            else if (Input.GetKey(KeyCode.P))
+            else if (Input.GetKey(KeyCode.P) && !isDirectionalAttackLocked)
             {
 
                 //chose a random attack to play
@@ -384,6 +386,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
 
     IEnumerator DoLightHighAttack(float wpdelay)
     {
+        isDirectionalAttackLocked = true;
         isAttackLocked = true;
         attackHitboxLH.SetActive(true);
         yield return new WaitForSeconds(.4f);
@@ -392,10 +395,12 @@ public class Dababy_PlayerController2D : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false;
     }
 
     IEnumerator DoLightLowAttack(float spdelay)
     {
+        isDirectionalAttackLocked = true;
         isAttackLocked = true;
         attackHitboxLL.SetActive(true);
         yield return new WaitForSeconds(.4f);
@@ -405,6 +410,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
         yield return new WaitForSeconds(1.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false;
     }
 
     IEnumerator DoLightJumpAttack(float delay)
@@ -433,6 +439,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
 
     IEnumerator DoHeavyHighAttack(float wodelay)
     {
+        isDirectionalAttackLocked = true;
         isAttackLocked = true;
         attackHitboxHH.SetActive(true);
         yield return new WaitForSeconds(.4f);
@@ -441,11 +448,13 @@ public class Dababy_PlayerController2D : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoHeavyLowAttack(float sodelay)
     {
         isAttackLocked = true;
+        isDirectionalAttackLocked = true;
         attackHitboxHL.SetActive(true);
         yield return new WaitForSeconds(.4f);
         attackHitboxHL.SetActive(false);
@@ -453,6 +462,7 @@ public class Dababy_PlayerController2D : MonoBehaviour
         yield return new WaitForSeconds(.1f);
         isAttackLocked = false;
         isAttacking = false;
+        isDirectionalAttackLocked = false;
     }
 
     IEnumerator DoHeavyJumpAttack(float delay)

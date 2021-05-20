@@ -60,11 +60,16 @@ public class HealthScript : MonoBehaviour
          roundThreeFill = 0;
          healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        Shield = GetComponent<ShieldScript>();
+       
         
     }
 
-        void TakeDamage(float amount)
+    private void OnEnable()
+    {
+        Shield = GetComponent<ShieldScript>();
+    }
+
+    void TakeDamage(float amount)
     {
         health -= amount;
         healthImage.fillAmount = health;

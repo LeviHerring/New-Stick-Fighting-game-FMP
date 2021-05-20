@@ -22,11 +22,17 @@ public class Player2ShieldScript : MonoBehaviour
             {
                 Shield.SetActive(true);
                 activeShield = true;
+                GetComponent<Player2Controller>().isAttackLocked = true;
+                GetComponent<Player2Controller>().isDirectionalAttackLocked = true;
+                GetComponent<Player2Controller>().isMoving = true;
             }
             else
             {
                 Shield.SetActive(false);
                 activeShield = false;
+                GetComponent<Player2Controller>().isAttackLocked = false;
+                GetComponent<Player2Controller>().isDirectionalAttackLocked = false;
+                GetComponent<Player2Controller>().isMoving = false;
             }
         }
     }

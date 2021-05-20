@@ -62,8 +62,13 @@ public class SpeedyQuickHealthScript : MonoBehaviour
         roundThreeFill = 0;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        Shield = GetComponent<SpeedyQuickShieldScript>();
+       
 
+    }
+
+    private void OnEnable()
+    {
+        Shield = GetComponent<SpeedyQuickShieldScript>();
     }
 
     void TakeDamage(float amount)
@@ -116,36 +121,43 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "LightHigh")
             {
                 TakeDamage(0.025f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "LightJump")
             {
                 TakeDamage(0.03f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "HeavyNeutral")
             {
                 TakeDamage(0.05f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "HeavyHigh")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "HeavyLow")
             {
                 TakeDamage(0.06f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "HeavyJump")
             {
                 TakeDamage(0.075f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_LightNeutral")
             {
@@ -157,36 +169,43 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_LightHigh")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_HeavyNeutral")
             {
                 TakeDamage(0.15f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_HeavyHigh")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_HeavyLow")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "GokuMan_HeavyJump")
             {
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_LightNeutral")
             {
@@ -198,36 +217,43 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_LightHIGH")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_HeavyNeutral")
             {
                 TakeDamage(0.15f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_HeavyHigh")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_HeavyLow")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "VegetaMan_HeavyJump")
             {
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
 
             else if (collision.tag == "Dababy_LightNeutral")
@@ -240,36 +266,43 @@ public class SpeedyQuickHealthScript : MonoBehaviour
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "Dababy_LightHIGH")
             {
                 TakeDamage(0.055f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "Dababy_LightJump")
             {
                 TakeDamage(0.02f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "Dababy_HeavyNeutral")
             {
                 TakeDamage(0.15f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "Dababy_HeavyHigh")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "Dababy_HeavyLow")
             {
                 TakeDamage(0.07f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             else if (collision.tag == "Dababy_HeavyJump")
             {
                 TakeDamage(0.045f);
                 SuperMeter(0.1f);
+                StartCoroutine(Stunned());
             }
             //else if (collision.tag == "Player2_Grab")
             //{

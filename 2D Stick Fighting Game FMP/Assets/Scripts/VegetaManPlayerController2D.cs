@@ -81,6 +81,8 @@ public class VegetaManPlayerController2D : MonoBehaviour
 
     public bool isAttackLocked = false;
 
+    public bool isDirectionalAttackLocked = false; 
+
     float maximumThrowDistance = 1.5f;
 
     // Start is called before the first frame update
@@ -227,11 +229,11 @@ public class VegetaManPlayerController2D : MonoBehaviour
                 //StartCoroutine(DoAttack(delay));
             }
 
-            if (Input.GetKey(KeyCode.UpArrow) && isGrounded)
+            if (Input.GetKey(KeyCode.UpArrow) && isGrounded && !isDirectionalAttackLocked)
             {
                 float wodelay = 3.4f;
                 float wpdelay = 1.4f;
-                if (Input.GetKey(KeyCode.Keypad8))
+                if (Input.GetKey(KeyCode.Keypad8) && !isDirectionalAttackLocked)
                 {
 
 
@@ -246,7 +248,7 @@ public class VegetaManPlayerController2D : MonoBehaviour
 
                     StartCoroutine(DoHeavyHighAttack(wodelay));
                 }
-                else if (Input.GetKey(KeyCode.Keypad9))
+                else if (Input.GetKey(KeyCode.Keypad9) && !isDirectionalAttackLocked)
                 {
 
                     //chose a random attack to play
@@ -265,11 +267,11 @@ public class VegetaManPlayerController2D : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(KeyCode.DownArrow) && isGrounded)
+            if (Input.GetKey(KeyCode.DownArrow) && isGrounded && !isDirectionalAttackLocked)
             {
                 float sodelay = 3.4f;
                 float spdelay = 2.5f;
-                if (Input.GetKey(KeyCode.Keypad8))
+                if (Input.GetKey(KeyCode.Keypad8) && !isDirectionalAttackLocked)
                 {
 
                     //chose a random attack to play
@@ -282,7 +284,7 @@ public class VegetaManPlayerController2D : MonoBehaviour
 
                     StartCoroutine(DoHeavyLowAttack(sodelay));
                 }
-                else if (Input.GetKey(KeyCode.Keypad9))
+                else if (Input.GetKey(KeyCode.Keypad9) && !isDirectionalAttackLocked)
                 {
 
                     //chose a random attack to play
@@ -392,6 +394,7 @@ public class VegetaManPlayerController2D : MonoBehaviour
 
     IEnumerator DoLightHighAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true;
         //isAttacking = true; 
         attackHitboxLightHigh.SetActive(true);
@@ -404,10 +407,12 @@ public class VegetaManPlayerController2D : MonoBehaviour
         yield return new WaitForSeconds(.1f);
 
         isAttackLocked = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoLightLowAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true;
 
         attackHitboxLightLowStart.SetActive(true);
@@ -420,6 +425,7 @@ public class VegetaManPlayerController2D : MonoBehaviour
         yield return new WaitForSeconds(.1f);
 
         isAttackLocked = false;
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoLightJumpAttack(float delay)
@@ -455,6 +461,7 @@ public class VegetaManPlayerController2D : MonoBehaviour
 
     IEnumerator DoHeavyHighAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true;
         attackHitboxHeavyHigh.SetActive(true);
         yield return new WaitForSeconds(2.4f);
@@ -466,11 +473,14 @@ public class VegetaManPlayerController2D : MonoBehaviour
 
         isAttacking = false;
 
+        isDirectionalAttackLocked = false; 
+
 
     }
 
     IEnumerator DoHeavyLowAttack(float delay)
     {
+        isDirectionalAttackLocked = true; 
         isAttackLocked = true;
         attackHitboxHeavyLow.SetActive(true);
         yield return new WaitForSeconds(2.4f);
@@ -481,6 +491,8 @@ public class VegetaManPlayerController2D : MonoBehaviour
         isAttackLocked = false;
 
         isAttacking = false;
+
+        isDirectionalAttackLocked = false; 
     }
 
     IEnumerator DoHeavyJumpAttack(float delay)
