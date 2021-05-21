@@ -345,18 +345,22 @@ public class HealthScript : MonoBehaviour
     IEnumerator Stunned()
     {
         Newanimator.Play("AverageJoe_Hit");
+        GetComponent<AverageJoe_PlayerController2D>().isMoving = true; 
         GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = true;
         yield return new WaitForSeconds(.5f);
         Newanimator.Play("AverageJoe_Idle");
         GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = false;
+        GetComponent<AverageJoe_PlayerController2D>().isMoving = false; 
     }
     IEnumerator SpeedyQuickStunned()
     {
         Newanimator.Play("AverageJoe_Hit");
+        GetComponent<AverageJoe_PlayerController2D>().isMoving = true; 
         GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = true;
         yield return new WaitForSeconds(1f);
         Newanimator.Play("AverageJoe_Idle");
         GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = false;
+        GetComponent<AverageJoe_PlayerController2D>().isMoving = false; 
     }
 
     IEnumerator DoSpecialAttack(float delay)

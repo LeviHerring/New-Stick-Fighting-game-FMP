@@ -86,7 +86,9 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
     public bool isAttackLocked = false;
 
-    public bool isDirectionalAttackLocked = false; 
+    public bool isDirectionalAttackLocked = false;
+
+    public bool isMoving = false; 
 
     float maximumThrowDistance = 1.5f;
 
@@ -105,7 +107,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.P) && !isAttacking)
+        if (Input.GetKey(KeyCode.P) && !isAttacking && !isAttackLocked)
         {
             isAttacking = true;
             float delay = .4f;
@@ -162,7 +164,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
             //StartCoroutine(DoAttack(delay));
         }
-        else if (Input.GetKey(KeyCode.O) && !isAttacking)
+        else if (Input.GetKey(KeyCode.O) && !isAttacking && !isAttackLocked) 
         {
 
             isAttacking = true;
@@ -536,7 +538,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
 
         }
 
-        if (Input.GetKey("d"))
+        if (Input.GetKey("d") && !isMoving)
         {
             Newrb2d.velocity = new Vector2(runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
@@ -548,7 +550,7 @@ public class AverageJoe_PlayerController2D : MonoBehaviour
             isFacingLeft = false;
 
         }
-        else if (Input.GetKey("a"))
+        else if (Input.GetKey("a") && !isMoving)
         {
             Newrb2d.velocity = new Vector2(-runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)

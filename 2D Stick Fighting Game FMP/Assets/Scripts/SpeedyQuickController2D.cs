@@ -81,7 +81,9 @@ public class SpeedyQuickController2D : MonoBehaviour
 
    public bool isAttackLocked = false;
 
-    public bool isDirectionalAttackLocked = false; 
+    public bool isDirectionalAttackLocked = false;
+
+    public bool isMoving = false; 
 
     float maximumThrowDistance = 1.5f;
 
@@ -547,7 +549,7 @@ public class SpeedyQuickController2D : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) && !isMoving)
         {
             Newrb2d.velocity = new Vector2(runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
@@ -558,7 +560,7 @@ public class SpeedyQuickController2D : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
             isFacingLeft = false;
         }
-        else if (Input.GetKey(KeyCode.LeftArrow))
+        else if (Input.GetKey(KeyCode.LeftArrow) && !isMoving)
         {
             Newrb2d.velocity = new Vector2(-runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)

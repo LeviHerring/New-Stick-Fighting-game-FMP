@@ -23,11 +23,18 @@ public class ShieldScript : MonoBehaviour
             {
                 Shield.SetActive(true);
                 activeShield = true;
+                GetComponent<AverageJoe_PlayerController2D>().isMoving = true;
+                GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = true;
+                GetComponent<AverageJoe_PlayerController2D>().isMoving = true;
+                GetComponent<AverageJoe_PlayerController2D>().isDirectionalAttackLocked = true; 
             }
             else
             {
                 Shield.SetActive(false);
                 activeShield = false;
+                GetComponent<AverageJoe_PlayerController2D>().isMoving = false;
+                GetComponent<AverageJoe_PlayerController2D>().isAttackLocked = false;
+                GetComponent<AverageJoe_PlayerController2D>().isDirectionalAttackLocked = false; 
             }
         }
     }
