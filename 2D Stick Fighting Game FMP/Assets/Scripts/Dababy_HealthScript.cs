@@ -331,6 +331,144 @@ public class Dababy_HealthScript : MonoBehaviour
                 SceneManager.LoadScene(4);
                 health = 1f;
             }
+
+            else if (dababyShield.ActiveShield)
+            {
+                if (collision.tag == "Bullet2")
+                {
+                    Destroy(collision.gameObject);
+                    TakeDamage(0.004f);
+                }
+
+                else if (collision.tag == "Player2 _LightNeutral")
+                {
+                    TakeDamage(0.00002f);
+                }
+                else if (collision.tag == "Player2_LightLow")
+                {
+                    TakeDamage(0.00025f);
+                }
+                else if (collision.tag == "Player2 _LightHigh")
+                {
+                    TakeDamage(0.00025f);
+                }
+                else if (collision.tag == "Player2 _LightJump")
+                {
+                    TakeDamage(0.0003f);
+                }
+                else if (collision.tag == "Player2_HeavyNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Player2_HeavyHigh")
+                {
+                    TakeDamage(0.0006f);
+                }
+                else if (collision.tag == "Player2_HeavyLow")
+                {
+                    TakeDamage(0.0006f);
+                }
+                else if (collision.tag == "Player2_HeavyJump")
+                {
+                    TakeDamage(0.00075f);
+                }
+                else if (collision.tag == "SpeedyQuick_LightNeutral")
+                {
+                    TakeDamage(0.001f);
+                }
+                else if (collision.tag == "SpeedyQuick_LightLow")
+                {
+                    TakeDamage(0.0015f);
+                }
+                else if (collision.tag == "SpeedyQuick_LightHigh")
+                {
+                    TakeDamage(0.00015f);
+                }
+                else if (collision.tag == "SpeedyQuick_LightJump")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "SpeedyQuick_HeavyNeutral")
+                {
+                    TakeDamage(0.0004f);
+                }
+                else if (collision.tag == "SpeedyQuick_HeavyHigh")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "SpeedyQuick_HeavyLow")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "SpeedyQuick_HeavyJump")
+                {
+                    TakeDamage(0.00065f);
+                }
+                else if (collision.tag == "VegetaMan_LightNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "VegetaMan_LightLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "VegetaMan_LightHIGH")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "VegetaMan_LightJump")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "VegetaMan_HeavyNeutral")
+                {
+                    TakeDamage(0.00015f);
+                }
+                else if (collision.tag == "VegetaMan_HeavyHigh")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "VegetaMan_HeavyLow")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "VegetaMan_HeavyJump")
+                {
+                    TakeDamage(0.00045f);
+                }
+                else if (collision.tag == "LeGranpa_LightNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "LeGranpa_LightLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "LeGranpa_LightHigh")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "LeGranpa_LightJump")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "LeGranpa_HeavyNeutral")
+                {
+                    TakeDamage(0.00015f);
+                }
+                else if (collision.tag == "LeGranpa_HeavyHigh")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "LeGranpa_HeavyLow")
+                {
+                    TakeDamage(0.00007f);
+                }
+                else if (collision.tag == "LeGranpa_HeavyJump")
+                {
+                    TakeDamage(0.000045f);
+                }
+            }
         }
 
         //if (collision.CompareTag("Bullet)"))
@@ -372,9 +510,13 @@ public class Dababy_HealthScript : MonoBehaviour
     {
         Newanimator.Play("Dababy_Hit");
         GetComponent<Dababy_PlayerController2D>().isAttackLocked = true;
+        GetComponent<Dababy_PlayerController2D>().isDirectionalAttackLocked = true;
+        GetComponent<Dababy_PlayerController2D>().isMoving = true;
         yield return new WaitForSeconds(0.5f);
         Newanimator.Play("Dababy_Idle");
         GetComponent<Dababy_PlayerController2D>().isAttackLocked = false;
+        GetComponent<Dababy_PlayerController2D>().isDirectionalAttackLocked = false;
+        GetComponent<Dababy_PlayerController2D>().isMoving = false;
     }
 
     /*IEnumerator DoSpecialAttack(float delay)

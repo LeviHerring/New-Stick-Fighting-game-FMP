@@ -22,11 +22,17 @@ public class LeGranpa_ShieldScript : MonoBehaviour
             {
                 leGranpaShield.SetActive(true);
                 activeShield = true;
+                GetComponent<LeGranpa_PlayerController2D>().isAttackLocked = true;
+                GetComponent<LeGranpa_PlayerController2D>().isMoving = true;
+                GetComponent<LeGranpa_PlayerController2D>().isDirectionalAttackLocked = true;
             }
             else
             {
                 leGranpaShield.SetActive(false);
                 activeShield = false;
+                GetComponent<LeGranpa_PlayerController2D>().isAttackLocked = false;
+                GetComponent<LeGranpa_PlayerController2D>().isMoving = false;
+                GetComponent<LeGranpa_PlayerController2D>().isDirectionalAttackLocked = false;
             }
         }
     }

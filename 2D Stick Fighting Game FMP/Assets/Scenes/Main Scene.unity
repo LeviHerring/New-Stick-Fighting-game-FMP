@@ -4356,7 +4356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &970562240
 Animator:
   serializedVersion: 3
@@ -4954,6 +4954,7 @@ MonoBehaviour:
   player2: {fileID: 1358669022}
   isAttackLocked: 0
   isDirectionalAttackLocked: 0
+  isMoving: 0
 --- !u!114 &999464636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7003,6 +7004,7 @@ MonoBehaviour:
   player1: {fileID: 999464627}
   isAttackLocked: 0
   isDirectionalAttackLocked: 0
+  isMoving: 0
   maximumThrowDistance: 1.5
 --- !u!50 &1354431913
 Rigidbody2D:
@@ -7252,6 +7254,7 @@ MonoBehaviour:
   player1: {fileID: 999464627}
   isAttackLocked: 0
   isDirectionalAttackLocked: 0
+  isMoving: 0
 --- !u!50 &1358669027
 Rigidbody2D:
   serializedVersion: 4
@@ -9183,6 +9186,7 @@ MonoBehaviour:
   player2: {fileID: 367057615}
   isAttackLocked: 0
   isDirectionalAttackLocked: 0
+  isMoving: 0
 --- !u!114 &1771049693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10808,7 +10812,7 @@ PrefabInstance:
     - target: {fileID: 2145336567589480486, guid: 7c3e8c212273c3d4d976ca551592ab92,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2145336567589480926, guid: 7c3e8c212273c3d4d976ca551592ab92,
         type: 3}

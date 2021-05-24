@@ -427,6 +427,149 @@ public class VegetaMan_HealthScript : MonoBehaviour
                 SceneManager.LoadScene(3);
                 health = 1f;
             }
+
+
+            else if (vegetaManShield.ActiveShield)
+            {
+                if (collision.tag == "Bullet2")
+                {
+                    Destroy(collision.gameObject);
+                    TakeDamage(0.004f);
+                }
+
+                else if (collision.tag == "LightNeutral")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "LightLow")
+                {
+                    TakeDamage(0.00025f);
+                }
+                else if (collision.tag == "LightHigh")
+                {
+                    TakeDamage(0.00025f);
+                }
+                else if (collision.tag == "LightJump")
+                {
+                    TakeDamage(0.0003f);
+                }
+                else if (collision.tag == "HeavyNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "HeavyHigh")
+                {
+                    TakeDamage(0.0006f);
+                }
+                else if (collision.tag == "HeavyLow")
+                {
+                    TakeDamage(0.0006f);
+                }
+                else if (collision.tag == "HeavyJump")
+                {
+                    TakeDamage(0.00075f);
+                }
+
+                else if (collision.tag == "Speaman_LightNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_LightLow")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_LightHigh")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_LightJump")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyHigh")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyLow")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyJump")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "GokuMan_LightNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "GokuMan_LightLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "GokuMan_LightHigh")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "GokuMan_LightJump")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "GokuMan_HeavyNeutral")
+                {
+                    TakeDamage(0.00015f);
+                }
+                else if (collision.tag == "GokuMan_HeavyHigh")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "GokuMan_HeavyLow")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "GokuMan_HeavyJump")
+                {
+                    TakeDamage(0.00045f);
+                }
+
+
+                else if (collision.tag == "Dababy_LightNeutral")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_LightLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_LightHIGH")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_LightJump")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyNeutral")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyHigh")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyJump")
+                {
+                    TakeDamage(0.00055f);
+                }
+
+            }
         }
 
         //if (collision.CompareTag("Bullet)"))
@@ -487,9 +630,13 @@ public class VegetaMan_HealthScript : MonoBehaviour
     {
         Newanimator.Play("VegetaMan_Hit");
         GetComponent<VegetaManPlayerController2D>().isAttackLocked = true;
+        GetComponent<VegetaManPlayerController2D>().isDirectionalAttackLocked = true;
+        GetComponent<VegetaManPlayerController2D>().isMoving = true;
         yield return new WaitForSeconds(0.5f);
         Newanimator.Play("VegetaMan_Idle");
         GetComponent<VegetaManPlayerController2D>().isAttackLocked = false;
+        GetComponent<VegetaManPlayerController2D>().isDirectionalAttackLocked = false;
+        GetComponent<VegetaManPlayerController2D>().isMoving = false;
     }
 
 }

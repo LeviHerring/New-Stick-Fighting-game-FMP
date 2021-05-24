@@ -46,7 +46,7 @@ public class LeGranpa_HealthScript : MonoBehaviour
         superMetreCharge = 1f;
         healthImage.fillAmount = health;
         gameOver.SetActive(false);
-        
+
 
     }
 
@@ -342,60 +342,205 @@ public class LeGranpa_HealthScript : MonoBehaviour
                 health = 1f;
 
             }
+            else if (leGranpaShield.ActiveShield)
+            {
+                if (collision.tag == "Bullet2")
+                {
+                    Destroy(collision.gameObject);
+                    TakeDamage(0.004f);
+                }
+
+                else if (collision.tag == "LightNeutral")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "LightLow")
+                {
+                    TakeDamage(0.00025f);
+                }
+                else if (collision.tag == "LightHigh")
+                {
+                    TakeDamage(0.00025f);
+                }
+                else if (collision.tag == "LightJump")
+                {
+                    TakeDamage(0.0003f);
+                }
+                else if (collision.tag == "HeavyNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "HeavyHigh")
+                {
+                    TakeDamage(0.0006f);
+                }
+                else if (collision.tag == "HeavyLow")
+                {
+                    TakeDamage(0.0006f);
+                }
+                else if (collision.tag == "HeavyJump")
+                {
+                    TakeDamage(0.00075f);
+                }
+
+                else if (collision.tag == "Speaman_LightNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_LightLow")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_LightHigh")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_LightJump")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyHigh")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyLow")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "Speaman_HeavyJump")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "GokuMan_LightNeutral")
+                {
+                    TakeDamage(0.0005f);
+                }
+                else if (collision.tag == "GokuMan_LightLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "GokuMan_LightHigh")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "GokuMan_LightJump")
+                {
+                    TakeDamage(0.0002f);
+                }
+                else if (collision.tag == "GokuMan_HeavyNeutral")
+                {
+                    TakeDamage(0.00015f);
+                }
+                else if (collision.tag == "GokuMan_HeavyHigh")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "GokuMan_HeavyLow")
+                {
+                    TakeDamage(0.0007f);
+                }
+                else if (collision.tag == "GokuMan_HeavyJump")
+                {
+                    TakeDamage(0.00045f);
+                }
+
+
+                else if (collision.tag == "Dababy_LightNeutral")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_LightLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_LightHIGH")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_LightJump")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyNeutral")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyHigh")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyLow")
+                {
+                    TakeDamage(0.00055f);
+                }
+                else if (collision.tag == "Dababy_HeavyJump")
+                {
+                    TakeDamage(0.00055f);
+                }
+
+            }
+
+
         }
 
 
-    }
-
-
-    /*void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Keypad6))
+        /*void Update()
         {
-            float delay = .4f;
+            if (Input.GetKeyDown(KeyCode.Keypad6))
+            {
+                float delay = .4f;
 
-            if (superMetreCharge == 0)
-            {
-                Newanimator.Play("Player2_Super");
-                delay = .7f;
-                StartCoroutine(DoSpecialAttack(delay));
-                superMetreCharge = 1f;
+                if (superMetreCharge == 0)
+                {
+                    Newanimator.Play("Player2_Super");
+                    delay = .7f;
+                    StartCoroutine(DoSpecialAttack(delay));
+                    superMetreCharge = 1f;
+                }
+                else
+                {
+                    return;
+                }
             }
-            else
-            {
-                return;
-            }
+        }*/
+
+        /*IEnumerator DoSpecialAttack(float delay)
+        {
+            //attackHitbox.SetActive(true);
+            attackHitboxSpecial.SetActive(true);
+            attackHitboxSpecial2.SetActive(true);
+            attackHitboxSpecial3.SetActive(true);
+            attackHitboxSpecial4.SetActive(true);
+            attackHitboxSpecial5.SetActive(true);
+            attackHitboxSpecial6.SetActive(true);
+            attackHitboxSpecial7.SetActive(true);
+            yield return new WaitForSeconds(.4f);
+            //attackHitbox.SetActive(false);
+            attackHitboxSpecial.SetActive(false);
+            attackHitboxSpecial2.SetActive(false);
+            attackHitboxSpecial3.SetActive(false);
+            attackHitboxSpecial4.SetActive(false);
+            attackHitboxSpecial5.SetActive(false);
+            attackHitboxSpecial6.SetActive(false);
+            attackHitboxSpecial7.SetActive(false);
+            //isAttacking = false;
+        }*/
+
+        IEnumerator Stunned()
+        {
+            Newanimator.Play("LeGranpa_Hit");
+            GetComponent<LeGranpa_PlayerController2D>().isAttackLocked = true;
+            GetComponent<LeGranpa_PlayerController2D>().isDirectionalAttackLocked = true;
+            GetComponent<LeGranpa_PlayerController2D>().isMoving = true;
+            yield return new WaitForSeconds(0.5f);
+            Newanimator.Play("LeGranpa_Idle");
+            GetComponent<LeGranpa_PlayerController2D>().isAttackLocked = false;
+            GetComponent<LeGranpa_PlayerController2D>().isDirectionalAttackLocked = false;
+            GetComponent<LeGranpa_PlayerController2D>().isMoving = false;
         }
-    }*/
-
-    /*IEnumerator DoSpecialAttack(float delay)
-    {
-        //attackHitbox.SetActive(true);
-        attackHitboxSpecial.SetActive(true);
-        attackHitboxSpecial2.SetActive(true);
-        attackHitboxSpecial3.SetActive(true);
-        attackHitboxSpecial4.SetActive(true);
-        attackHitboxSpecial5.SetActive(true);
-        attackHitboxSpecial6.SetActive(true);
-        attackHitboxSpecial7.SetActive(true);
-        yield return new WaitForSeconds(.4f);
-        //attackHitbox.SetActive(false);
-        attackHitboxSpecial.SetActive(false);
-        attackHitboxSpecial2.SetActive(false);
-        attackHitboxSpecial3.SetActive(false);
-        attackHitboxSpecial4.SetActive(false);
-        attackHitboxSpecial5.SetActive(false);
-        attackHitboxSpecial6.SetActive(false);
-        attackHitboxSpecial7.SetActive(false);
-        //isAttacking = false;
-    }*/
-
-    IEnumerator Stunned()
-    {
-        Newanimator.Play("LeGranpa_Hit");
-        GetComponent<LeGranpa_PlayerController2D>().isAttackLocked = true;
-        yield return new WaitForSeconds(0.5f);
-        Newanimator.Play("LeGranpa_Idle");
-        GetComponent<LeGranpa_PlayerController2D>().isAttackLocked = false;
     }
 }

@@ -23,11 +23,19 @@ public class GokuMan_ShieldScript : MonoBehaviour
             {
                 GokuManShield.SetActive(true);
                 activeShield = true;
+                GetComponent<GokuMan_PlayerController2D>().isMoving = true;
+                GetComponent<GokuMan_PlayerController2D>().isAttackLocked = true;
+                GetComponent<GokuMan_PlayerController2D>().isMoving = true;
+                GetComponent<GokuMan_PlayerController2D>().isDirectionalAttackLocked = true;
             }
             else
             {
                 GokuManShield.SetActive(false);
                 activeShield = false;
+                GetComponent<GokuMan_PlayerController2D>().isMoving = false;
+                GetComponent<GokuMan_PlayerController2D>().isAttackLocked = false;
+                GetComponent<GokuMan_PlayerController2D>().isMoving = false;
+                GetComponent<GokuMan_PlayerController2D>().isDirectionalAttackLocked = false;
             }
         }
     }

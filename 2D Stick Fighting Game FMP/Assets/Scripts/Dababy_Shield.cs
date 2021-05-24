@@ -22,11 +22,17 @@ public class Dababy_Shield : MonoBehaviour
             {
                 dababyShield.SetActive(true);
                 activeShield = true;
+                GetComponent<Dababy_PlayerController2D>().isAttackLocked = true;
+                GetComponent<Dababy_PlayerController2D>().isMoving = true;
+                GetComponent<Dababy_PlayerController2D>().isDirectionalAttackLocked = true;
             }
             else
             {
                 dababyShield.SetActive(false);
                 activeShield = false;
+                GetComponent<Dababy_PlayerController2D>().isAttackLocked = false;
+                GetComponent<Dababy_PlayerController2D>().isMoving = false;
+                GetComponent<Dababy_PlayerController2D>().isDirectionalAttackLocked = false;
             }
         }
     }

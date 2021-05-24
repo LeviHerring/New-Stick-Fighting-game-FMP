@@ -22,11 +22,19 @@ public class SpeedyQuickShieldScript : MonoBehaviour
             {
                 Shield.SetActive(true);
                 activeShield = true;
+                GetComponent<SpeedyQuickController2D>().isMoving = true;
+                GetComponent<SpeedyQuickController2D>().isAttackLocked = true;
+                GetComponent<SpeedyQuickController2D>().isMoving = true;
+                GetComponent<SpeedyQuickController2D>().isDirectionalAttackLocked = true;
             }
             else
             {
                 Shield.SetActive(false);
                 activeShield = false;
+                GetComponent<SpeedyQuickController2D>().isMoving = false;
+                GetComponent<SpeedyQuickController2D>().isAttackLocked = false;
+                GetComponent<SpeedyQuickController2D>().isMoving = false;
+                GetComponent<SpeedyQuickController2D>().isDirectionalAttackLocked = false;
             }
         }
     }

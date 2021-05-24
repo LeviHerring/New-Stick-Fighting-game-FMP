@@ -78,6 +78,8 @@ public class GokuMan_PlayerController2D : MonoBehaviour
 
     public bool isDirectionalAttackLocked = false;
 
+    public bool isMoving = false; 
+
     float maximumThrowDistance = 1.5f;
 
     // Start is called before the first frame update
@@ -518,7 +520,7 @@ public class GokuMan_PlayerController2D : MonoBehaviour
 
         }
 
-        if (Input.GetKey("d"))
+        if (Input.GetKey("d") && !isMoving)
         {
             Newrb2d.velocity = new Vector2(runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
@@ -530,7 +532,7 @@ public class GokuMan_PlayerController2D : MonoBehaviour
             isFacingLeft = false;
 
         }
-        else if (Input.GetKey("a"))
+        else if (Input.GetKey("a") && !isMoving)
         {
             Newrb2d.velocity = new Vector2(-runSpeed, Newrb2d.velocity.y);
             if (isGrounded && !isAttacking)
